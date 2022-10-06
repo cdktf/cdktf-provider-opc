@@ -1,0 +1,183 @@
+// https://www.terraform.io/docs/providers/opc/r/compute_ip_reservation
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface ComputeIpReservationConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_reservation#id ComputeIpReservation#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_reservation#name ComputeIpReservation#name}
+  */
+  readonly name?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_reservation#parent_pool ComputeIpReservation#parent_pool}
+  */
+  readonly parentPool?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_reservation#permanent ComputeIpReservation#permanent}
+  */
+  readonly permanent: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_reservation#tags ComputeIpReservation#tags}
+  */
+  readonly tags?: string[];
+}
+
+/**
+* Represents a {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_reservation opc_compute_ip_reservation}
+*/
+export class ComputeIpReservation extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "opc_compute_ip_reservation";
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_reservation opc_compute_ip_reservation} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options ComputeIpReservationConfig
+  */
+  public constructor(scope: Construct, id: string, config: ComputeIpReservationConfig) {
+    super(scope, id, {
+      terraformResourceType: 'opc_compute_ip_reservation',
+      terraformGeneratorMetadata: {
+        providerName: 'opc',
+        providerVersion: '1.4.1',
+        providerVersionConstraint: '~> 1.4'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._id = config.id;
+    this._name = config.name;
+    this._parentPool = config.parentPool;
+    this._permanent = config.permanent;
+    this._tags = config.tags;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // ip - computed: true, optional: false, required: false
+  public get ip() {
+    return this.getStringAttribute('ip');
+  }
+
+  // name - computed: true, optional: true, required: false
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  public resetName() {
+    this._name = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // parent_pool - computed: false, optional: true, required: false
+  private _parentPool?: string; 
+  public get parentPool() {
+    return this.getStringAttribute('parent_pool');
+  }
+  public set parentPool(value: string) {
+    this._parentPool = value;
+  }
+  public resetParentPool() {
+    this._parentPool = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get parentPoolInput() {
+    return this._parentPool;
+  }
+
+  // permanent - computed: false, optional: false, required: true
+  private _permanent?: boolean | cdktf.IResolvable; 
+  public get permanent() {
+    return this.getBooleanAttribute('permanent');
+  }
+  public set permanent(value: boolean | cdktf.IResolvable) {
+    this._permanent = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get permanentInput() {
+    return this._permanent;
+  }
+
+  // tags - computed: false, optional: true, required: false
+  private _tags?: string[]; 
+  public get tags() {
+    return this.getListAttribute('tags');
+  }
+  public set tags(value: string[]) {
+    this._tags = value;
+  }
+  public resetTags() {
+    this._tags = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagsInput() {
+    return this._tags;
+  }
+
+  // used - computed: true, optional: false, required: false
+  public get used() {
+    return this.getBooleanAttribute('used');
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      id: cdktf.stringToTerraform(this._id),
+      name: cdktf.stringToTerraform(this._name),
+      parent_pool: cdktf.stringToTerraform(this._parentPool),
+      permanent: cdktf.booleanToTerraform(this._permanent),
+      tags: cdktf.listMapper(cdktf.stringToTerraform, false)(this._tags),
+    };
+  }
+}
