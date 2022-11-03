@@ -11,7 +11,7 @@ const actions = require("@actions/core");
 
 // set by the projen file that generates this script
 const CONSTRAINT = "~> 1.4";
-const FQ_PROVIDER_NAME = "opc";
+const FQ_PROVIDER_NAME = "hashicorp/opc";
 
 (async function main() {
   if (await newerMatchingProviderVersionExists()) {
