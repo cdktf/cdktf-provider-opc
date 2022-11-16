@@ -286,6 +286,8 @@ public resetTags(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeAcl.ComputeAcl.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.computeAcl.ComputeAcl.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeAcl.ComputeAcl.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -318,6 +320,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.computeAcl.ComputeAcl.isTerraformElement"></a>
+
+```typescript
+import { computeAcl } from '@cdktf/provider-opc'
+
+computeAcl.ComputeAcl.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeAcl.ComputeAcl.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.computeAcl.ComputeAcl.isTerraformResource"></a>
+
+```typescript
+import { computeAcl } from '@cdktf/provider-opc'
+
+computeAcl.ComputeAcl.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeAcl.ComputeAcl.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -893,6 +923,8 @@ public resetId(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeImageList.ComputeImageList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.computeImageList.ComputeImageList.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeImageList.ComputeImageList.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -925,6 +957,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.computeImageList.ComputeImageList.isTerraformElement"></a>
+
+```typescript
+import { computeImageList } from '@cdktf/provider-opc'
+
+computeImageList.ComputeImageList.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeImageList.ComputeImageList.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.computeImageList.ComputeImageList.isTerraformResource"></a>
+
+```typescript
+import { computeImageList } from '@cdktf/provider-opc'
+
+computeImageList.ComputeImageList.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeImageList.ComputeImageList.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -1467,6 +1527,8 @@ public resetId(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -1499,6 +1561,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.isTerraformElement"></a>
+
+```typescript
+import { computeImageListEntry } from '@cdktf/provider-opc'
+
+computeImageListEntry.ComputeImageListEntry.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.isTerraformResource"></a>
+
+```typescript
+import { computeImageListEntry } from '@cdktf/provider-opc'
+
+computeImageListEntry.ComputeImageListEntry.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -2190,6 +2280,8 @@ public resetTimeouts(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeInstance.ComputeInstance.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.computeInstance.ComputeInstance.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeInstance.ComputeInstance.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -2222,6 +2314,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.computeInstance.ComputeInstance.isTerraformElement"></a>
+
+```typescript
+import { computeInstance } from '@cdktf/provider-opc'
+
+computeInstance.ComputeInstance.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeInstance.ComputeInstance.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.computeInstance.ComputeInstance.isTerraformResource"></a>
+
+```typescript
+import { computeInstance } from '@cdktf/provider-opc'
+
+computeInstance.ComputeInstance.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeInstance.ComputeInstance.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -3247,6 +3367,8 @@ public resetVnic(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociation.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociation.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociation.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -3279,6 +3401,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociation.isTerraformElement"></a>
+
+```typescript
+import { computeIpAddressAssociation } from '@cdktf/provider-opc'
+
+computeIpAddressAssociation.ComputeIpAddressAssociation.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociation.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociation.isTerraformResource"></a>
+
+```typescript
+import { computeIpAddressAssociation } from '@cdktf/provider-opc'
+
+computeIpAddressAssociation.ComputeIpAddressAssociation.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociation.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -3890,6 +4040,8 @@ public resetTags(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -3922,6 +4074,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.isTerraformElement"></a>
+
+```typescript
+import { computeIpAddressPrefixSet } from '@cdktf/provider-opc'
+
+computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.isTerraformResource"></a>
+
+```typescript
+import { computeIpAddressPrefixSet } from '@cdktf/provider-opc'
+
+computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -4504,6 +4684,8 @@ public resetTags(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservation.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservation.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservation.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -4536,6 +4718,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservation.isTerraformElement"></a>
+
+```typescript
+import { computeIpAddressReservation } from '@cdktf/provider-opc'
+
+computeIpAddressReservation.ComputeIpAddressReservation.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservation.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservation.isTerraformResource"></a>
+
+```typescript
+import { computeIpAddressReservation } from '@cdktf/provider-opc'
+
+computeIpAddressReservation.ComputeIpAddressReservation.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservation.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -5122,6 +5332,8 @@ public resetName(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeIpAssociation.ComputeIpAssociation.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.computeIpAssociation.ComputeIpAssociation.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeIpAssociation.ComputeIpAssociation.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -5154,6 +5366,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.computeIpAssociation.ComputeIpAssociation.isTerraformElement"></a>
+
+```typescript
+import { computeIpAssociation } from '@cdktf/provider-opc'
+
+computeIpAssociation.ComputeIpAssociation.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeIpAssociation.ComputeIpAssociation.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.computeIpAssociation.ComputeIpAssociation.isTerraformResource"></a>
+
+```typescript
+import { computeIpAssociation } from '@cdktf/provider-opc'
+
+computeIpAssociation.ComputeIpAssociation.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeIpAssociation.ComputeIpAssociation.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -5717,6 +5957,8 @@ public resetTags(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeIpNetwork.ComputeIpNetwork.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.computeIpNetwork.ComputeIpNetwork.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeIpNetwork.ComputeIpNetwork.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -5749,6 +5991,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.computeIpNetwork.ComputeIpNetwork.isTerraformElement"></a>
+
+```typescript
+import { computeIpNetwork } from '@cdktf/provider-opc'
+
+computeIpNetwork.ComputeIpNetwork.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeIpNetwork.ComputeIpNetwork.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.computeIpNetwork.ComputeIpNetwork.isTerraformResource"></a>
+
+```typescript
+import { computeIpNetwork } from '@cdktf/provider-opc'
+
+computeIpNetwork.ComputeIpNetwork.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeIpNetwork.ComputeIpNetwork.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -6375,6 +6645,8 @@ public resetTags(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -6407,6 +6679,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.isTerraformElement"></a>
+
+```typescript
+import { computeIpNetworkExchange } from '@cdktf/provider-opc'
+
+computeIpNetworkExchange.ComputeIpNetworkExchange.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.isTerraformResource"></a>
+
+```typescript
+import { computeIpNetworkExchange } from '@cdktf/provider-opc'
+
+computeIpNetworkExchange.ComputeIpNetworkExchange.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -6974,6 +7274,8 @@ public resetTags(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeIpReservation.ComputeIpReservation.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.computeIpReservation.ComputeIpReservation.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeIpReservation.ComputeIpReservation.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -7006,6 +7308,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.computeIpReservation.ComputeIpReservation.isTerraformElement"></a>
+
+```typescript
+import { computeIpReservation } from '@cdktf/provider-opc'
+
+computeIpReservation.ComputeIpReservation.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeIpReservation.ComputeIpReservation.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.computeIpReservation.ComputeIpReservation.isTerraformResource"></a>
+
+```typescript
+import { computeIpReservation } from '@cdktf/provider-opc'
+
+computeIpReservation.ComputeIpReservation.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeIpReservation.ComputeIpReservation.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -7599,6 +7929,8 @@ public resetId(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeMachineImage.ComputeMachineImage.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.computeMachineImage.ComputeMachineImage.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeMachineImage.ComputeMachineImage.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -7631,6 +7963,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.computeMachineImage.ComputeMachineImage.isTerraformElement"></a>
+
+```typescript
+import { computeMachineImage } from '@cdktf/provider-opc'
+
+computeMachineImage.ComputeMachineImage.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeMachineImage.ComputeMachineImage.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.computeMachineImage.ComputeMachineImage.isTerraformResource"></a>
+
+```typescript
+import { computeMachineImage } from '@cdktf/provider-opc'
+
+computeMachineImage.ComputeMachineImage.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeMachineImage.ComputeMachineImage.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -8334,6 +8694,8 @@ public resetTimeouts(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeOrchestratedInstance.ComputeOrchestratedInstance.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.computeOrchestratedInstance.ComputeOrchestratedInstance.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeOrchestratedInstance.ComputeOrchestratedInstance.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -8366,6 +8728,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.computeOrchestratedInstance.ComputeOrchestratedInstance.isTerraformElement"></a>
+
+```typescript
+import { computeOrchestratedInstance } from '@cdktf/provider-opc'
+
+computeOrchestratedInstance.ComputeOrchestratedInstance.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeOrchestratedInstance.ComputeOrchestratedInstance.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.computeOrchestratedInstance.ComputeOrchestratedInstance.isTerraformResource"></a>
+
+```typescript
+import { computeOrchestratedInstance } from '@cdktf/provider-opc'
+
+computeOrchestratedInstance.ComputeOrchestratedInstance.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeOrchestratedInstance.ComputeOrchestratedInstance.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -8999,6 +9389,8 @@ public resetTags(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeRoute.ComputeRoute.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.computeRoute.ComputeRoute.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeRoute.ComputeRoute.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -9031,6 +9423,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.computeRoute.ComputeRoute.isTerraformElement"></a>
+
+```typescript
+import { computeRoute } from '@cdktf/provider-opc'
+
+computeRoute.ComputeRoute.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeRoute.ComputeRoute.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.computeRoute.ComputeRoute.isTerraformResource"></a>
+
+```typescript
+import { computeRoute } from '@cdktf/provider-opc'
+
+computeRoute.ComputeRoute.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeRoute.ComputeRoute.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -9646,6 +10066,8 @@ public resetId(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRule.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRule.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRule.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -9678,6 +10100,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.computeSecRule.ComputeSecRule.isTerraformElement"></a>
+
+```typescript
+import { computeSecRule } from '@cdktf/provider-opc'
+
+computeSecRule.ComputeSecRule.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeSecRule.ComputeSecRule.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.computeSecRule.ComputeSecRule.isTerraformResource"></a>
+
+```typescript
+import { computeSecRule } from '@cdktf/provider-opc'
+
+computeSecRule.ComputeSecRule.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeSecRule.ComputeSecRule.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -10329,6 +10779,8 @@ public resetId(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -10361,6 +10813,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.isTerraformElement"></a>
+
+```typescript
+import { computeSecurityApplication } from '@cdktf/provider-opc'
+
+computeSecurityApplication.ComputeSecurityApplication.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.isTerraformResource"></a>
+
+```typescript
+import { computeSecurityApplication } from '@cdktf/provider-opc'
+
+computeSecurityApplication.ComputeSecurityApplication.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -10969,6 +11449,8 @@ public resetName(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeSecurityAssociation.ComputeSecurityAssociation.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityAssociation.ComputeSecurityAssociation.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeSecurityAssociation.ComputeSecurityAssociation.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -11001,6 +11483,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.computeSecurityAssociation.ComputeSecurityAssociation.isTerraformElement"></a>
+
+```typescript
+import { computeSecurityAssociation } from '@cdktf/provider-opc'
+
+computeSecurityAssociation.ComputeSecurityAssociation.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeSecurityAssociation.ComputeSecurityAssociation.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.computeSecurityAssociation.ComputeSecurityAssociation.isTerraformResource"></a>
+
+```typescript
+import { computeSecurityAssociation } from '@cdktf/provider-opc'
+
+computeSecurityAssociation.ComputeSecurityAssociation.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeSecurityAssociation.ComputeSecurityAssociation.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -11543,6 +12053,8 @@ public resetId(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpList.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpList.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -11575,6 +12087,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpList.isTerraformElement"></a>
+
+```typescript
+import { computeSecurityIpList } from '@cdktf/provider-opc'
+
+computeSecurityIpList.ComputeSecurityIpList.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpList.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpList.isTerraformResource"></a>
+
+```typescript
+import { computeSecurityIpList } from '@cdktf/provider-opc'
+
+computeSecurityIpList.ComputeSecurityIpList.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpList.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -12131,6 +12671,8 @@ public resetPolicy(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -12163,6 +12705,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.isTerraformElement"></a>
+
+```typescript
+import { computeSecurityList } from '@cdktf/provider-opc'
+
+computeSecurityList.ComputeSecurityList.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.isTerraformResource"></a>
+
+```typescript
+import { computeSecurityList } from '@cdktf/provider-opc'
+
+computeSecurityList.ComputeSecurityList.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -12755,6 +13325,8 @@ public resetTags(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocol.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocol.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocol.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -12787,6 +13359,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocol.isTerraformElement"></a>
+
+```typescript
+import { computeSecurityProtocol } from '@cdktf/provider-opc'
+
+computeSecurityProtocol.ComputeSecurityProtocol.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocol.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocol.isTerraformResource"></a>
+
+```typescript
+import { computeSecurityProtocol } from '@cdktf/provider-opc'
+
+computeSecurityProtocol.ComputeSecurityProtocol.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocol.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -13462,6 +14062,8 @@ public resetTags(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeSecurityRule.ComputeSecurityRule.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityRule.ComputeSecurityRule.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeSecurityRule.ComputeSecurityRule.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -13494,6 +14096,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.computeSecurityRule.ComputeSecurityRule.isTerraformElement"></a>
+
+```typescript
+import { computeSecurityRule } from '@cdktf/provider-opc'
+
+computeSecurityRule.ComputeSecurityRule.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeSecurityRule.ComputeSecurityRule.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.computeSecurityRule.ComputeSecurityRule.isTerraformResource"></a>
+
+```typescript
+import { computeSecurityRule } from '@cdktf/provider-opc'
+
+computeSecurityRule.ComputeSecurityRule.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeSecurityRule.ComputeSecurityRule.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -14250,6 +14880,8 @@ public resetTimeouts(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeSnapshot.ComputeSnapshot.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.computeSnapshot.ComputeSnapshot.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeSnapshot.ComputeSnapshot.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -14282,6 +14914,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.computeSnapshot.ComputeSnapshot.isTerraformElement"></a>
+
+```typescript
+import { computeSnapshot } from '@cdktf/provider-opc'
+
+computeSnapshot.ComputeSnapshot.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeSnapshot.ComputeSnapshot.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.computeSnapshot.ComputeSnapshot.isTerraformResource"></a>
+
+```typescript
+import { computeSnapshot } from '@cdktf/provider-opc'
+
+computeSnapshot.ComputeSnapshot.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeSnapshot.ComputeSnapshot.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -14879,6 +15539,8 @@ public resetId(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeSshKey.ComputeSshKey.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.computeSshKey.ComputeSshKey.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeSshKey.ComputeSshKey.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -14911,6 +15573,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.computeSshKey.ComputeSshKey.isTerraformElement"></a>
+
+```typescript
+import { computeSshKey } from '@cdktf/provider-opc'
+
+computeSshKey.ComputeSshKey.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeSshKey.ComputeSshKey.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.computeSshKey.ComputeSshKey.isTerraformResource"></a>
+
+```typescript
+import { computeSshKey } from '@cdktf/provider-opc'
+
+computeSshKey.ComputeSshKey.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeSshKey.ComputeSshKey.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -15466,6 +16156,8 @@ public resetTimeouts(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeStorageAttachment.ComputeStorageAttachment.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.computeStorageAttachment.ComputeStorageAttachment.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeStorageAttachment.ComputeStorageAttachment.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -15498,6 +16190,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.computeStorageAttachment.ComputeStorageAttachment.isTerraformElement"></a>
+
+```typescript
+import { computeStorageAttachment } from '@cdktf/provider-opc'
+
+computeStorageAttachment.ComputeStorageAttachment.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeStorageAttachment.ComputeStorageAttachment.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.computeStorageAttachment.ComputeStorageAttachment.isTerraformResource"></a>
+
+```typescript
+import { computeStorageAttachment } from '@cdktf/provider-opc'
+
+computeStorageAttachment.ComputeStorageAttachment.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeStorageAttachment.ComputeStorageAttachment.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -16194,6 +16914,8 @@ public resetUri(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeStorageVolume.ComputeStorageVolume.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.computeStorageVolume.ComputeStorageVolume.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeStorageVolume.ComputeStorageVolume.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -16226,6 +16948,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.computeStorageVolume.ComputeStorageVolume.isTerraformElement"></a>
+
+```typescript
+import { computeStorageVolume } from '@cdktf/provider-opc'
+
+computeStorageVolume.ComputeStorageVolume.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeStorageVolume.ComputeStorageVolume.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.computeStorageVolume.ComputeStorageVolume.isTerraformResource"></a>
+
+```typescript
+import { computeStorageVolume } from '@cdktf/provider-opc'
+
+computeStorageVolume.ComputeStorageVolume.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeStorageVolume.ComputeStorageVolume.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -17190,6 +17940,8 @@ public resetTimeouts(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -17222,6 +17974,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.isTerraformElement"></a>
+
+```typescript
+import { computeStorageVolumeSnapshot } from '@cdktf/provider-opc'
+
+computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.isTerraformResource"></a>
+
+```typescript
+import { computeStorageVolumeSnapshot } from '@cdktf/provider-opc'
+
+computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -18005,6 +18785,8 @@ public resetVirtualNics(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -18037,6 +18819,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.isTerraformElement"></a>
+
+```typescript
+import { computeVnicSet } from '@cdktf/provider-opc'
+
+computeVnicSet.ComputeVnicSet.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.isTerraformResource"></a>
+
+```typescript
+import { computeVnicSet } from '@cdktf/provider-opc'
+
+computeVnicSet.ComputeVnicSet.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -18711,6 +19521,8 @@ public resetTimeouts(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeVpnEndpointV2.ComputeVpnEndpointV2.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.computeVpnEndpointV2.ComputeVpnEndpointV2.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeVpnEndpointV2.ComputeVpnEndpointV2.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -18743,6 +19555,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.computeVpnEndpointV2.ComputeVpnEndpointV2.isTerraformElement"></a>
+
+```typescript
+import { computeVpnEndpointV2 } from '@cdktf/provider-opc'
+
+computeVpnEndpointV2.ComputeVpnEndpointV2.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeVpnEndpointV2.ComputeVpnEndpointV2.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.computeVpnEndpointV2.ComputeVpnEndpointV2.isTerraformResource"></a>
+
+```typescript
+import { computeVpnEndpointV2 } from '@cdktf/provider-opc'
+
+computeVpnEndpointV2.ComputeVpnEndpointV2.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeVpnEndpointV2.ComputeVpnEndpointV2.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -19571,6 +20411,8 @@ public resetId(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.isTerraformDataSource">isTerraformDataSource</a></code> | *No description.* |
 
 ---
 
@@ -19603,6 +20445,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.isTerraformElement"></a>
+
+```typescript
+import { dataOpcComputeImageListEntry } from '@cdktf/provider-opc'
+
+dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformDataSource` <a name="isTerraformDataSource" id="@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.isTerraformDataSource"></a>
+
+```typescript
+import { dataOpcComputeImageListEntry } from '@cdktf/provider-opc'
+
+dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.isTerraformDataSource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.isTerraformDataSource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -20149,6 +21019,8 @@ public resetId(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservation.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservation.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservation.isTerraformDataSource">isTerraformDataSource</a></code> | *No description.* |
 
 ---
 
@@ -20181,6 +21053,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservation.isTerraformElement"></a>
+
+```typescript
+import { dataOpcComputeIpAddressReservation } from '@cdktf/provider-opc'
+
+dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservation.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservation.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformDataSource` <a name="isTerraformDataSource" id="@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservation.isTerraformDataSource"></a>
+
+```typescript
+import { dataOpcComputeIpAddressReservation } from '@cdktf/provider-opc'
+
+dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservation.isTerraformDataSource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservation.isTerraformDataSource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -20705,6 +21605,8 @@ public resetId(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservation.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservation.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservation.isTerraformDataSource">isTerraformDataSource</a></code> | *No description.* |
 
 ---
 
@@ -20737,6 +21639,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservation.isTerraformElement"></a>
+
+```typescript
+import { dataOpcComputeIpReservation } from '@cdktf/provider-opc'
+
+dataOpcComputeIpReservation.DataOpcComputeIpReservation.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservation.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformDataSource` <a name="isTerraformDataSource" id="@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservation.isTerraformDataSource"></a>
+
+```typescript
+import { dataOpcComputeIpReservation } from '@cdktf/provider-opc'
+
+dataOpcComputeIpReservation.DataOpcComputeIpReservation.isTerraformDataSource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservation.isTerraformDataSource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -21261,6 +22191,8 @@ public resetId(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeMachineImage.DataOpcComputeMachineImage.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeMachineImage.DataOpcComputeMachineImage.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeMachineImage.DataOpcComputeMachineImage.isTerraformDataSource">isTerraformDataSource</a></code> | *No description.* |
 
 ---
 
@@ -21293,6 +22225,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.dataOpcComputeMachineImage.DataOpcComputeMachineImage.isTerraformElement"></a>
+
+```typescript
+import { dataOpcComputeMachineImage } from '@cdktf/provider-opc'
+
+dataOpcComputeMachineImage.DataOpcComputeMachineImage.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.dataOpcComputeMachineImage.DataOpcComputeMachineImage.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformDataSource` <a name="isTerraformDataSource" id="@cdktf/provider-opc.dataOpcComputeMachineImage.DataOpcComputeMachineImage.isTerraformDataSource"></a>
+
+```typescript
+import { dataOpcComputeMachineImage } from '@cdktf/provider-opc'
+
+dataOpcComputeMachineImage.DataOpcComputeMachineImage.isTerraformDataSource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.dataOpcComputeMachineImage.DataOpcComputeMachineImage.isTerraformDataSource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -21905,6 +22865,8 @@ public resetId(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeNetworkInterface.DataOpcComputeNetworkInterface.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeNetworkInterface.DataOpcComputeNetworkInterface.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeNetworkInterface.DataOpcComputeNetworkInterface.isTerraformDataSource">isTerraformDataSource</a></code> | *No description.* |
 
 ---
 
@@ -21937,6 +22899,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.dataOpcComputeNetworkInterface.DataOpcComputeNetworkInterface.isTerraformElement"></a>
+
+```typescript
+import { dataOpcComputeNetworkInterface } from '@cdktf/provider-opc'
+
+dataOpcComputeNetworkInterface.DataOpcComputeNetworkInterface.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.dataOpcComputeNetworkInterface.DataOpcComputeNetworkInterface.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformDataSource` <a name="isTerraformDataSource" id="@cdktf/provider-opc.dataOpcComputeNetworkInterface.DataOpcComputeNetworkInterface.isTerraformDataSource"></a>
+
+```typescript
+import { dataOpcComputeNetworkInterface } from '@cdktf/provider-opc'
+
+dataOpcComputeNetworkInterface.DataOpcComputeNetworkInterface.isTerraformDataSource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.dataOpcComputeNetworkInterface.DataOpcComputeNetworkInterface.isTerraformDataSource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -22593,6 +23583,8 @@ public resetId(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeSshKey.DataOpcComputeSshKey.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeSshKey.DataOpcComputeSshKey.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeSshKey.DataOpcComputeSshKey.isTerraformDataSource">isTerraformDataSource</a></code> | *No description.* |
 
 ---
 
@@ -22625,6 +23617,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.dataOpcComputeSshKey.DataOpcComputeSshKey.isTerraformElement"></a>
+
+```typescript
+import { dataOpcComputeSshKey } from '@cdktf/provider-opc'
+
+dataOpcComputeSshKey.DataOpcComputeSshKey.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.dataOpcComputeSshKey.DataOpcComputeSshKey.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformDataSource` <a name="isTerraformDataSource" id="@cdktf/provider-opc.dataOpcComputeSshKey.DataOpcComputeSshKey.isTerraformDataSource"></a>
+
+```typescript
+import { dataOpcComputeSshKey } from '@cdktf/provider-opc'
+
+dataOpcComputeSshKey.DataOpcComputeSshKey.isTerraformDataSource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.dataOpcComputeSshKey.DataOpcComputeSshKey.isTerraformDataSource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -23116,6 +24136,8 @@ public resetId(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeStorageVolumeSnapshot.DataOpcComputeStorageVolumeSnapshot.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeStorageVolumeSnapshot.DataOpcComputeStorageVolumeSnapshot.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeStorageVolumeSnapshot.DataOpcComputeStorageVolumeSnapshot.isTerraformDataSource">isTerraformDataSource</a></code> | *No description.* |
 
 ---
 
@@ -23148,6 +24170,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.dataOpcComputeStorageVolumeSnapshot.DataOpcComputeStorageVolumeSnapshot.isTerraformElement"></a>
+
+```typescript
+import { dataOpcComputeStorageVolumeSnapshot } from '@cdktf/provider-opc'
+
+dataOpcComputeStorageVolumeSnapshot.DataOpcComputeStorageVolumeSnapshot.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.dataOpcComputeStorageVolumeSnapshot.DataOpcComputeStorageVolumeSnapshot.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformDataSource` <a name="isTerraformDataSource" id="@cdktf/provider-opc.dataOpcComputeStorageVolumeSnapshot.DataOpcComputeStorageVolumeSnapshot.isTerraformDataSource"></a>
+
+```typescript
+import { dataOpcComputeStorageVolumeSnapshot } from '@cdktf/provider-opc'
+
+dataOpcComputeStorageVolumeSnapshot.DataOpcComputeStorageVolumeSnapshot.isTerraformDataSource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.dataOpcComputeStorageVolumeSnapshot.DataOpcComputeStorageVolumeSnapshot.isTerraformDataSource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -23804,6 +24854,8 @@ public resetId(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.isTerraformDataSource">isTerraformDataSource</a></code> | *No description.* |
 
 ---
 
@@ -23836,6 +24888,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.isTerraformElement"></a>
+
+```typescript
+import { dataOpcComputeVnic } from '@cdktf/provider-opc'
+
+dataOpcComputeVnic.DataOpcComputeVnic.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformDataSource` <a name="isTerraformDataSource" id="@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.isTerraformDataSource"></a>
+
+```typescript
+import { dataOpcComputeVnic } from '@cdktf/provider-opc'
+
+dataOpcComputeVnic.DataOpcComputeVnic.isTerraformDataSource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.isTerraformDataSource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -24374,6 +25454,8 @@ public resetPrivateKey(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.lbaasCertificate.LbaasCertificate.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.lbaasCertificate.LbaasCertificate.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.lbaasCertificate.LbaasCertificate.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -24406,6 +25488,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.lbaasCertificate.LbaasCertificate.isTerraformElement"></a>
+
+```typescript
+import { lbaasCertificate } from '@cdktf/provider-opc'
+
+lbaasCertificate.LbaasCertificate.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.lbaasCertificate.LbaasCertificate.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.lbaasCertificate.LbaasCertificate.isTerraformResource"></a>
+
+```typescript
+import { lbaasCertificate } from '@cdktf/provider-opc'
+
+lbaasCertificate.LbaasCertificate.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.lbaasCertificate.LbaasCertificate.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -25056,6 +26166,8 @@ public resetVirtualHosts(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.lbaasListener.LbaasListener.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.lbaasListener.LbaasListener.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.lbaasListener.LbaasListener.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -25088,6 +26200,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.lbaasListener.LbaasListener.isTerraformElement"></a>
+
+```typescript
+import { lbaasListener } from '@cdktf/provider-opc'
+
+lbaasListener.LbaasListener.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.lbaasListener.LbaasListener.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.lbaasListener.LbaasListener.isTerraformResource"></a>
+
+```typescript
+import { lbaasListener } from '@cdktf/provider-opc'
+
+lbaasListener.LbaasListener.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.lbaasListener.LbaasListener.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -25928,6 +27068,8 @@ public resetTags(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.lbaasLoadBalancer.LbaasLoadBalancer.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.lbaasLoadBalancer.LbaasLoadBalancer.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.lbaasLoadBalancer.LbaasLoadBalancer.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -25960,6 +27102,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.lbaasLoadBalancer.LbaasLoadBalancer.isTerraformElement"></a>
+
+```typescript
+import { lbaasLoadBalancer } from '@cdktf/provider-opc'
+
+lbaasLoadBalancer.LbaasLoadBalancer.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.lbaasLoadBalancer.LbaasLoadBalancer.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.lbaasLoadBalancer.LbaasLoadBalancer.isTerraformResource"></a>
+
+```typescript
+import { lbaasLoadBalancer } from '@cdktf/provider-opc'
+
+lbaasLoadBalancer.LbaasLoadBalancer.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.lbaasLoadBalancer.LbaasLoadBalancer.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -26937,6 +28107,8 @@ public resetTrustedCertificatePolicy(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -26969,6 +28141,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.isTerraformElement"></a>
+
+```typescript
+import { lbaasPolicy } from '@cdktf/provider-opc'
+
+lbaasPolicy.LbaasPolicy.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.isTerraformResource"></a>
+
+```typescript
+import { lbaasPolicy } from '@cdktf/provider-opc'
+
+lbaasPolicy.LbaasPolicy.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -27776,6 +28976,8 @@ public resetVnicSet(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.lbaasServerPool.LbaasServerPool.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.lbaasServerPool.LbaasServerPool.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.lbaasServerPool.LbaasServerPool.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -27808,6 +29010,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.lbaasServerPool.LbaasServerPool.isTerraformElement"></a>
+
+```typescript
+import { lbaasServerPool } from '@cdktf/provider-opc'
+
+lbaasServerPool.LbaasServerPool.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.lbaasServerPool.LbaasServerPool.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.lbaasServerPool.LbaasServerPool.isTerraformResource"></a>
+
+```typescript
+import { lbaasServerPool } from '@cdktf/provider-opc'
+
+lbaasServerPool.LbaasServerPool.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.lbaasServerPool.LbaasServerPool.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -28398,6 +29628,8 @@ public resetStorageServiceId(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.provider.OpcProvider.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.provider.OpcProvider.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.provider.OpcProvider.isTerraformProvider">isTerraformProvider</a></code> | *No description.* |
 
 ---
 
@@ -28430,6 +29662,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.provider.OpcProvider.isTerraformElement"></a>
+
+```typescript
+import { provider } from '@cdktf/provider-opc'
+
+provider.OpcProvider.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.provider.OpcProvider.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformProvider` <a name="isTerraformProvider" id="@cdktf/provider-opc.provider.OpcProvider.isTerraformProvider"></a>
+
+```typescript
+import { provider } from '@cdktf/provider-opc'
+
+provider.OpcProvider.isTerraformProvider(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.provider.OpcProvider.isTerraformProvider.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -29101,6 +30361,8 @@ public resetWriteAcls(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.storageContainer.StorageContainer.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.storageContainer.StorageContainer.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.storageContainer.StorageContainer.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -29133,6 +30395,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.storageContainer.StorageContainer.isTerraformElement"></a>
+
+```typescript
+import { storageContainer } from '@cdktf/provider-opc'
+
+storageContainer.StorageContainer.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.storageContainer.StorageContainer.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.storageContainer.StorageContainer.isTerraformResource"></a>
+
+```typescript
+import { storageContainer } from '@cdktf/provider-opc'
+
+storageContainer.StorageContainer.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.storageContainer.StorageContainer.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -29914,6 +31204,8 @@ public resetTransferEncoding(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObject.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-opc.storageObject.StorageObject.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.storageObject.StorageObject.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -29946,6 +31238,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-opc.storageObject.StorageObject.isTerraformElement"></a>
+
+```typescript
+import { storageObject } from '@cdktf/provider-opc'
+
+storageObject.StorageObject.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.storageObject.StorageObject.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-opc.storageObject.StorageObject.isTerraformResource"></a>
+
+```typescript
+import { storageObject } from '@cdktf/provider-opc'
+
+storageObject.StorageObject.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.storageObject.StorageObject.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
