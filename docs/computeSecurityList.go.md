@@ -9,7 +9,7 @@ Represents a {@link https://www.terraform.io/docs/providers/opc/r/compute_securi
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecuritylist"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computesecuritylist"
 
 computesecuritylist.NewComputeSecurityList(scope Construct, id *string, config ComputeSecurityListConfig) ComputeSecurityList
 ```
@@ -294,7 +294,7 @@ func ResetPolicy()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecuritylist"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computesecuritylist"
 
 computesecuritylist.ComputeSecurityList_IsConstruct(x interface{}) *bool
 ```
@@ -326,7 +326,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecuritylist"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computesecuritylist"
 
 computesecuritylist.ComputeSecurityList_IsTerraformElement(x interface{}) *bool
 ```
@@ -340,7 +340,7 @@ computesecuritylist.ComputeSecurityList_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecuritylist"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computesecuritylist"
 
 computesecuritylist.ComputeSecurityList_IsTerraformResource(x interface{}) *bool
 ```
@@ -649,7 +649,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecuritylist"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computesecuritylist"
 
 &computesecuritylist.ComputeSecurityListConfig {
 	Connection: interface{},
