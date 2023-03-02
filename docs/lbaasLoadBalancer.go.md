@@ -9,7 +9,7 @@ Represents a {@link https://www.terraform.io/docs/providers/opc/r/lbaas_load_bal
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.lbaasLoadBalancer.LbaasLoadBalancer.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaasloadbalancer"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/lbaasloadbalancer"
 
 lbaasloadbalancer.NewLbaasLoadBalancer(scope Construct, id *string, config LbaasLoadBalancerConfig) LbaasLoadBalancer
 ```
@@ -336,7 +336,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.lbaasLoadBalancer.LbaasLoadBalancer.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaasloadbalancer"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/lbaasloadbalancer"
 
 lbaasloadbalancer.LbaasLoadBalancer_IsConstruct(x interface{}) *bool
 ```
@@ -368,7 +368,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.lbaasLoadBalancer.LbaasLoadBalancer.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaasloadbalancer"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/lbaasloadbalancer"
 
 lbaasloadbalancer.LbaasLoadBalancer_IsTerraformElement(x interface{}) *bool
 ```
@@ -382,7 +382,7 @@ lbaasloadbalancer.LbaasLoadBalancer_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.lbaasLoadBalancer.LbaasLoadBalancer.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaasloadbalancer"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/lbaasloadbalancer"
 
 lbaasloadbalancer.LbaasLoadBalancer_IsTerraformResource(x interface{}) *bool
 ```
@@ -911,7 +911,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.lbaasLoadBalancer.LbaasLoadBalancerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaasloadbalancer"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/lbaasloadbalancer"
 
 &lbaasloadbalancer.LbaasLoadBalancerConfig {
 	Connection: interface{},

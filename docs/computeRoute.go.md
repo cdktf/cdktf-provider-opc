@@ -9,7 +9,7 @@ Represents a {@link https://www.terraform.io/docs/providers/opc/r/compute_route 
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeRoute.ComputeRoute.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeroute"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computeroute"
 
 computeroute.NewComputeRoute(scope Construct, id *string, config ComputeRouteConfig) ComputeRoute
 ```
@@ -294,7 +294,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.computeRoute.ComputeRoute.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeroute"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computeroute"
 
 computeroute.ComputeRoute_IsConstruct(x interface{}) *bool
 ```
@@ -326,7 +326,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.computeRoute.ComputeRoute.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeroute"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computeroute"
 
 computeroute.ComputeRoute_IsTerraformElement(x interface{}) *bool
 ```
@@ -340,7 +340,7 @@ computeroute.ComputeRoute_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.computeRoute.ComputeRoute.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeroute"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computeroute"
 
 computeroute.ComputeRoute_IsTerraformResource(x interface{}) *bool
 ```
@@ -693,7 +693,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeRoute.ComputeRouteConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeroute"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computeroute"
 
 &computeroute.ComputeRouteConfig {
 	Connection: interface{},

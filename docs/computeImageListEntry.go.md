@@ -9,7 +9,7 @@ Represents a {@link https://www.terraform.io/docs/providers/opc/r/compute_image_
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeimagelistentry"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computeimagelistentry"
 
 computeimagelistentry.NewComputeImageListEntry(scope Construct, id *string, config ComputeImageListEntryConfig) ComputeImageListEntry
 ```
@@ -280,7 +280,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeimagelistentry"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computeimagelistentry"
 
 computeimagelistentry.ComputeImageListEntry_IsConstruct(x interface{}) *bool
 ```
@@ -312,7 +312,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeimagelistentry"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computeimagelistentry"
 
 computeimagelistentry.ComputeImageListEntry_IsTerraformElement(x interface{}) *bool
 ```
@@ -326,7 +326,7 @@ computeimagelistentry.ComputeImageListEntry_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeimagelistentry"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computeimagelistentry"
 
 computeimagelistentry.ComputeImageListEntry_IsTerraformResource(x interface{}) *bool
 ```
@@ -646,7 +646,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeimagelistentry"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computeimagelistentry"
 
 &computeimagelistentry.ComputeImageListEntryConfig {
 	Connection: interface{},
