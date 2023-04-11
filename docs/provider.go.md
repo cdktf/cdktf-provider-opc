@@ -9,7 +9,7 @@ Represents a {@link https://www.terraform.io/docs/providers/opc opc}.
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.provider.OpcProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/provider"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/provider"
 
 provider.NewOpcProvider(scope Construct, id *string, config OpcProviderConfig) OpcProvider
 ```
@@ -185,7 +185,7 @@ func ResetStorageServiceId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.provider.OpcProvider.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/provider"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/provider"
 
 provider.OpcProvider_IsConstruct(x interface{}) *bool
 ```
@@ -217,7 +217,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.provider.OpcProvider.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/provider"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/provider"
 
 provider.OpcProvider_IsTerraformElement(x interface{}) *bool
 ```
@@ -231,7 +231,7 @@ provider.OpcProvider_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformProvider` <a name="IsTerraformProvider" id="@cdktf/provider-opc.provider.OpcProvider.isTerraformProvider"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/provider"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/provider"
 
 provider.OpcProvider_IsTerraformProvider(x interface{}) *bool
 ```
@@ -584,7 +584,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.provider.OpcProviderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/provider"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/provider"
 
 &provider.OpcProviderConfig {
 	IdentityDomain: *string,

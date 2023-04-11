@@ -9,7 +9,7 @@ Represents a {@link https://www.terraform.io/docs/providers/opc/r/compute_instan
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeInstance.ComputeInstance.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeinstance"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computeinstance"
 
 computeinstance.NewComputeInstance(scope Construct, id *string, config ComputeInstanceConfig) ComputeInstance
 ```
@@ -396,7 +396,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.computeInstance.ComputeInstance.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeinstance"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computeinstance"
 
 computeinstance.ComputeInstance_IsConstruct(x interface{}) *bool
 ```
@@ -428,7 +428,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.computeInstance.ComputeInstance.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeinstance"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computeinstance"
 
 computeinstance.ComputeInstance_IsTerraformElement(x interface{}) *bool
 ```
@@ -442,7 +442,7 @@ computeinstance.ComputeInstance_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.computeInstance.ComputeInstance.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeinstance"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computeinstance"
 
 computeinstance.ComputeInstance_IsTerraformResource(x interface{}) *bool
 ```
@@ -1191,7 +1191,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeInstance.ComputeInstanceConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeinstance"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computeinstance"
 
 &computeinstance.ComputeInstanceConfig {
 	Connection: interface{},
@@ -1215,7 +1215,7 @@ import "github.com/cdktf/cdktf-provider-opc-go/opc/computeinstance"
 	SshKeys: *[]*string,
 	Storage: interface{},
 	Tags: *[]*string,
-	Timeouts: github.com/cdktf/cdktf-provider-opc-go/opc.computeInstance.ComputeInstanceTimeouts,
+	Timeouts: github.com/cdktf/cdktf-provider-opc-go/opc/v4.computeInstance.ComputeInstanceTimeouts,
 }
 ```
 
@@ -1512,7 +1512,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeInstance.ComputeInstanceNetworkingInfo.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeinstance"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computeinstance"
 
 &computeinstance.ComputeInstanceNetworkingInfo {
 	Index: *f64,
@@ -1712,7 +1712,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeInstance.ComputeInstanceStorage.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeinstance"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computeinstance"
 
 &computeinstance.ComputeInstanceStorage {
 	Index: *f64,
@@ -1758,7 +1758,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeInstance.ComputeInstanceTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeinstance"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computeinstance"
 
 &computeinstance.ComputeInstanceTimeouts {
 	Create: *string,
@@ -1820,7 +1820,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeInstance.ComputeInstanceNetworkingInfoList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeinstance"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computeinstance"
 
 computeinstance.NewComputeInstanceNetworkingInfoList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ComputeInstanceNetworkingInfoList
 ```
@@ -1963,7 +1963,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeInstance.ComputeInstanceNetworkingInfoOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeinstance"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computeinstance"
 
 computeinstance.NewComputeInstanceNetworkingInfoOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ComputeInstanceNetworkingInfoOutputReference
 ```
@@ -2600,7 +2600,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeInstance.ComputeInstanceStorageList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeinstance"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computeinstance"
 
 computeinstance.NewComputeInstanceStorageList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ComputeInstanceStorageList
 ```
@@ -2743,7 +2743,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeInstance.ComputeInstanceStorageOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeinstance"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computeinstance"
 
 computeinstance.NewComputeInstanceStorageOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) ComputeInstanceStorageOutputReference
 ```
@@ -3065,7 +3065,7 @@ func InternalValue() interface{}
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeInstance.ComputeInstanceTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeinstance"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computeinstance"
 
 computeinstance.NewComputeInstanceTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ComputeInstanceTimeoutsOutputReference
 ```
