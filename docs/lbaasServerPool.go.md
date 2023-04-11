@@ -9,7 +9,7 @@ Represents a {@link https://www.terraform.io/docs/providers/opc/r/lbaas_server_p
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.lbaasServerPool.LbaasServerPool.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/lbaasserverpool"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaasserverpool"
 
 lbaasserverpool.NewLbaasServerPool(scope Construct, id *string, config LbaasServerPoolConfig) LbaasServerPool
 ```
@@ -314,7 +314,7 @@ func ResetVnicSet()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.lbaasServerPool.LbaasServerPool.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/lbaasserverpool"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaasserverpool"
 
 lbaasserverpool.LbaasServerPool_IsConstruct(x interface{}) *bool
 ```
@@ -346,7 +346,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.lbaasServerPool.LbaasServerPool.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/lbaasserverpool"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaasserverpool"
 
 lbaasserverpool.LbaasServerPool_IsTerraformElement(x interface{}) *bool
 ```
@@ -360,7 +360,7 @@ lbaasserverpool.LbaasServerPool_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.lbaasServerPool.LbaasServerPool.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/lbaasserverpool"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaasserverpool"
 
 lbaasserverpool.LbaasServerPool_IsTerraformResource(x interface{}) *bool
 ```
@@ -790,7 +790,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.lbaasServerPool.LbaasServerPoolConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/lbaasserverpool"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaasserverpool"
 
 &lbaasserverpool.LbaasServerPoolConfig {
 	Connection: interface{},
@@ -804,7 +804,7 @@ import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/lbaasserverpool"
 	Name: *string,
 	Servers: *[]*string,
 	Enabled: interface{},
-	HealthCheck: github.com/cdktf/cdktf-provider-opc-go/opc/v3.lbaasServerPool.LbaasServerPoolHealthCheck,
+	HealthCheck: github.com/cdktf/cdktf-provider-opc-go/opc.lbaasServerPool.LbaasServerPoolHealthCheck,
 	Id: *string,
 	Tags: *[]*string,
 	VnicSet: *string,
@@ -1009,7 +1009,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.lbaasServerPool.LbaasServerPoolHealthCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/lbaasserverpool"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaasserverpool"
 
 &lbaasserverpool.LbaasServerPoolHealthCheck {
 	AcceptedReturnCodes: *[]*string,
@@ -1141,7 +1141,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.lbaasServerPool.LbaasServerPoolHealthCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/lbaasserverpool"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaasserverpool"
 
 lbaasserverpool.NewLbaasServerPoolHealthCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LbaasServerPoolHealthCheckOutputReference
 ```
