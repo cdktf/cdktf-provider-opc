@@ -9,7 +9,7 @@ Represents a {@link https://www.terraform.io/docs/providers/opc/r/compute_storag
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeStorageVolume.ComputeStorageVolume.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computestoragevolume"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computestoragevolume"
 
 computestoragevolume.NewComputeStorageVolume(scope Construct, id *string, config ComputeStorageVolumeConfig) ComputeStorageVolume
 ```
@@ -412,7 +412,7 @@ func ResetUri()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.computeStorageVolume.ComputeStorageVolume.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computestoragevolume"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computestoragevolume"
 
 computestoragevolume.ComputeStorageVolume_IsConstruct(x interface{}) *bool
 ```
@@ -444,7 +444,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.computeStorageVolume.ComputeStorageVolume.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computestoragevolume"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computestoragevolume"
 
 computestoragevolume.ComputeStorageVolume_IsTerraformElement(x interface{}) *bool
 ```
@@ -458,7 +458,7 @@ computestoragevolume.ComputeStorageVolume_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.computeStorageVolume.ComputeStorageVolume.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computestoragevolume"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computestoragevolume"
 
 computestoragevolume.ComputeStorageVolume_IsTerraformResource(x interface{}) *bool
 ```
@@ -1119,7 +1119,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeStorageVolume.ComputeStorageVolumeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computestoragevolume"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computestoragevolume"
 
 &computestoragevolume.ComputeStorageVolumeConfig {
 	Connection: interface{},
@@ -1148,7 +1148,7 @@ import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computestoragevolume"
 	StoragePool: *string,
 	StorageType: *string,
 	Tags: *[]*string,
-	Timeouts: github.com/cdktf/cdktf-provider-opc-go/opc/v3.computeStorageVolume.ComputeStorageVolumeTimeouts,
+	Timeouts: github.com/cdktf/cdktf-provider-opc-go/opc/v4.computeStorageVolume.ComputeStorageVolumeTimeouts,
 	Uri: *string,
 }
 ```
@@ -1520,7 +1520,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeStorageVolume.ComputeStorageVolumeTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computestoragevolume"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computestoragevolume"
 
 &computestoragevolume.ComputeStorageVolumeTimeouts {
 	Create: *string,
@@ -1582,7 +1582,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeStorageVolume.ComputeStorageVolumeTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computestoragevolume"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computestoragevolume"
 
 computestoragevolume.NewComputeStorageVolumeTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ComputeStorageVolumeTimeoutsOutputReference
 ```

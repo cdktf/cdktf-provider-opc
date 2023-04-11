@@ -9,7 +9,7 @@ Represents a {@link https://www.terraform.io/docs/providers/opc/r/compute_acl op
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeAcl.ComputeAcl.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computeacl"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computeacl"
 
 computeacl.NewComputeAcl(scope Construct, id *string, config ComputeAclConfig) ComputeAcl
 ```
@@ -294,7 +294,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.computeAcl.ComputeAcl.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computeacl"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computeacl"
 
 computeacl.ComputeAcl_IsConstruct(x interface{}) *bool
 ```
@@ -326,7 +326,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.computeAcl.ComputeAcl.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computeacl"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computeacl"
 
 computeacl.ComputeAcl_IsTerraformElement(x interface{}) *bool
 ```
@@ -340,7 +340,7 @@ computeacl.ComputeAcl_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.computeAcl.ComputeAcl.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computeacl"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computeacl"
 
 computeacl.ComputeAcl_IsTerraformResource(x interface{}) *bool
 ```
@@ -660,7 +660,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeAcl.ComputeAclConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computeacl"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computeacl"
 
 &computeacl.ComputeAclConfig {
 	Connection: interface{},

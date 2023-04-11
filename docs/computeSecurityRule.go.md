@@ -9,7 +9,7 @@ Represents a {@link https://www.terraform.io/docs/providers/opc/r/compute_securi
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeSecurityRule.ComputeSecurityRule.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computesecurityrule"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computesecurityrule"
 
 computesecurityrule.NewComputeSecurityRule(scope Construct, id *string, config ComputeSecurityRuleConfig) ComputeSecurityRule
 ```
@@ -336,7 +336,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.computeSecurityRule.ComputeSecurityRule.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computesecurityrule"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computesecurityrule"
 
 computesecurityrule.ComputeSecurityRule_IsConstruct(x interface{}) *bool
 ```
@@ -368,7 +368,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.computeSecurityRule.ComputeSecurityRule.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computesecurityrule"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computesecurityrule"
 
 computesecurityrule.ComputeSecurityRule_IsTerraformElement(x interface{}) *bool
 ```
@@ -382,7 +382,7 @@ computesecurityrule.ComputeSecurityRule_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.computeSecurityRule.ComputeSecurityRule.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computesecurityrule"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computesecurityrule"
 
 computesecurityrule.ComputeSecurityRule_IsTerraformResource(x interface{}) *bool
 ```
@@ -856,7 +856,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeSecurityRule.ComputeSecurityRuleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v3/computesecurityrule"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computesecurityrule"
 
 &computesecurityrule.ComputeSecurityRuleConfig {
 	Connection: interface{},
