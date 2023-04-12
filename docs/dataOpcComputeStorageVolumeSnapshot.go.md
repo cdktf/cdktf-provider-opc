@@ -9,7 +9,7 @@ Represents a {@link https://www.terraform.io/docs/providers/opc/d/compute_storag
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.dataOpcComputeStorageVolumeSnapshot.DataOpcComputeStorageVolumeSnapshot.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/dataopccomputestoragevolumesnapshot"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputestoragevolumesnapshot"
 
 dataopccomputestoragevolumesnapshot.NewDataOpcComputeStorageVolumeSnapshot(scope Construct, id *string, config DataOpcComputeStorageVolumeSnapshotConfig) DataOpcComputeStorageVolumeSnapshot
 ```
@@ -273,7 +273,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.dataOpcComputeStorageVolumeSnapshot.DataOpcComputeStorageVolumeSnapshot.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/dataopccomputestoragevolumesnapshot"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputestoragevolumesnapshot"
 
 dataopccomputestoragevolumesnapshot.DataOpcComputeStorageVolumeSnapshot_IsConstruct(x interface{}) *bool
 ```
@@ -305,7 +305,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.dataOpcComputeStorageVolumeSnapshot.DataOpcComputeStorageVolumeSnapshot.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/dataopccomputestoragevolumesnapshot"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputestoragevolumesnapshot"
 
 dataopccomputestoragevolumesnapshot.DataOpcComputeStorageVolumeSnapshot_IsTerraformElement(x interface{}) *bool
 ```
@@ -319,7 +319,7 @@ dataopccomputestoragevolumesnapshot.DataOpcComputeStorageVolumeSnapshot_IsTerraf
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktf/provider-opc.dataOpcComputeStorageVolumeSnapshot.DataOpcComputeStorageVolumeSnapshot.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/dataopccomputestoragevolumesnapshot"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputestoragevolumesnapshot"
 
 dataopccomputestoragevolumesnapshot.DataOpcComputeStorageVolumeSnapshot_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -727,7 +727,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.dataOpcComputeStorageVolumeSnapshot.DataOpcComputeStorageVolumeSnapshotConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/dataopccomputestoragevolumesnapshot"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputestoragevolumesnapshot"
 
 &dataopccomputestoragevolumesnapshot.DataOpcComputeStorageVolumeSnapshotConfig {
 	Connection: interface{},
