@@ -1,4 +1,4 @@
-// https://www.terraform.io/docs/providers/opc/d/compute_image_list_entry
+// https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_image_list_entry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataOpcComputeImageListEntryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/d/compute_image_list_entry#entry DataOpcComputeImageListEntry#entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_image_list_entry#entry DataOpcComputeImageListEntry#entry}
   */
   readonly entry?: number;
   /**
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/d/compute_image_list_entry#id DataOpcComputeImageListEntry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_image_list_entry#id DataOpcComputeImageListEntry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/d/compute_image_list_entry#image_list DataOpcComputeImageListEntry#image_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_image_list_entry#image_list DataOpcComputeImageListEntry#image_list}
   */
   readonly imageList: string;
   /**
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/d/compute_image_list_entry#version DataOpcComputeImageListEntry#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_image_list_entry#version DataOpcComputeImageListEntry#version}
   */
   readonly version: number;
 }
 
 /**
-* Represents a {@link https://www.terraform.io/docs/providers/opc/d/compute_image_list_entry opc_compute_image_list_entry}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_image_list_entry opc_compute_image_list_entry}
 */
 export class DataOpcComputeImageListEntry extends cdktf.TerraformDataSource {
 
@@ -43,7 +43,7 @@ export class DataOpcComputeImageListEntry extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://www.terraform.io/docs/providers/opc/d/compute_image_list_entry opc_compute_image_list_entry} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_image_list_entry opc_compute_image_list_entry} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope

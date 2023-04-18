@@ -1,4 +1,4 @@
-// https://www.terraform.io/docs/providers/opc/r/storage_object
+// https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,57 +10,57 @@ export interface StorageObjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the storage container
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#container StorageObject#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#container StorageObject#container}
   */
   readonly container: string;
   /**
   * Raw content in string-form of the data
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#content StorageObject#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#content StorageObject#content}
   */
   readonly content?: string;
   /**
   * Overrides the behavior of the browser
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#content_disposition StorageObject#content_disposition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#content_disposition StorageObject#content_disposition}
   */
   readonly contentDisposition?: string;
   /**
   * Set the content-encoding metadata
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#content_encoding StorageObject#content_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#content_encoding StorageObject#content_encoding}
   */
   readonly contentEncoding?: string;
   /**
   * Set the MIME type for the object
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#content_type StorageObject#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#content_type StorageObject#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#copy_from StorageObject#copy_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#copy_from StorageObject#copy_from}
   */
   readonly copyFrom?: string;
   /**
   * The date and time in UNIX Epoch time stamp format when the system removes the object
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#delete_at StorageObject#delete_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#delete_at StorageObject#delete_at}
   */
   readonly deleteAt?: number;
   /**
   * MD5 checksum value of the request body. Unquoted. Strongly Recommended
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#etag StorageObject#etag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#etag StorageObject#etag}
   */
   readonly etag?: string;
   /**
   * File path for the content to use for data
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#file StorageObject#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#file StorageObject#file}
   */
   readonly file?: string;
   /**
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#id StorageObject#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#id StorageObject#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,25 +69,25 @@ export interface StorageObjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * The object metadata
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#metadata StorageObject#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#metadata StorageObject#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * Name of the storage object
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#name StorageObject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#name StorageObject#name}
   */
   readonly name: string;
   /**
   * Sets the transfer encoding. Can only be 'chunked' or Nil, requires Content-Length to be 0 if set
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#transfer_encoding StorageObject#transfer_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#transfer_encoding StorageObject#transfer_encoding}
   */
   readonly transferEncoding?: string;
 }
 
 /**
-* Represents a {@link https://www.terraform.io/docs/providers/opc/r/storage_object opc_storage_object}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object opc_storage_object}
 */
 export class StorageObject extends cdktf.TerraformResource {
 
@@ -101,7 +101,7 @@ export class StorageObject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://www.terraform.io/docs/providers/opc/r/storage_object opc_storage_object} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object opc_storage_object} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope

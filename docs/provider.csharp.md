@@ -1,6 +1,6 @@
 # `provider`
 
-Refer to the Terraform Registory for docs: [`opc`](https://www.terraform.io/docs/providers/opc).
+Refer to the Terraform Registory for docs: [`opc`](https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs).
 
 # `provider` Submodule <a name="`provider` Submodule" id="@cdktf/provider-opc.provider"></a>
 
@@ -8,7 +8,7 @@ Refer to the Terraform Registory for docs: [`opc`](https://www.terraform.io/docs
 
 ### OpcProvider <a name="OpcProvider" id="@cdktf/provider-opc.provider.OpcProvider"></a>
 
-Represents a {@link https://www.terraform.io/docs/providers/opc opc}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs opc}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.provider.OpcProvider.Initializer"></a>
 
@@ -631,7 +631,7 @@ public string IdentityDomain { get; set; }
 
 The OPC identity domain for API operations.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc#identity_domain OpcProvider#identity_domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs#identity_domain OpcProvider#identity_domain}
 
 ---
 
@@ -645,7 +645,7 @@ public string Password { get; set; }
 
 The user password for OPC API operations.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc#password OpcProvider#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs#password OpcProvider#password}
 
 ---
 
@@ -659,7 +659,7 @@ public string User { get; set; }
 
 The user name for OPC API operations.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc#user OpcProvider#user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs#user OpcProvider#user}
 
 ---
 
@@ -673,7 +673,7 @@ public string Alias { get; set; }
 
 Alias name.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc#alias OpcProvider#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs#alias OpcProvider#alias}
 
 ---
 
@@ -687,7 +687,7 @@ public string Endpoint { get; set; }
 
 The HTTP endpoint for OPC API operations.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc#endpoint OpcProvider#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs#endpoint OpcProvider#endpoint}
 
 ---
 
@@ -701,7 +701,7 @@ public object Insecure { get; set; }
 
 Skip TLS Verification for self-signed certificates. Should only be used if absolutely required.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc#insecure OpcProvider#insecure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs#insecure OpcProvider#insecure}
 
 ---
 
@@ -715,7 +715,7 @@ public string LbaasEndpoint { get; set; }
 
 The HTTP endpoint for the Load Balancer Classic service.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc#lbaas_endpoint OpcProvider#lbaas_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs#lbaas_endpoint OpcProvider#lbaas_endpoint}
 
 ---
 
@@ -729,7 +729,7 @@ public double MaxRetries { get; set; }
 
 Maximum number retries to wait for a successful response when operating on resources within OPC (defaults to 1).
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc#max_retries OpcProvider#max_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs#max_retries OpcProvider#max_retries}
 
 ---
 
@@ -743,7 +743,7 @@ public string StorageEndpoint { get; set; }
 
 The HTTP endpoint for Oracle Storage operations.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc#storage_endpoint OpcProvider#storage_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs#storage_endpoint OpcProvider#storage_endpoint}
 
 ---
 
@@ -757,7 +757,7 @@ public string StorageServiceId { get; set; }
 
 The Storage Service ID.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc#storage_service_id OpcProvider#storage_service_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs#storage_service_id OpcProvider#storage_service_id}
 
 ---
 

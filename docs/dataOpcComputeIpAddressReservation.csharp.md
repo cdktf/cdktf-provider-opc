@@ -1,6 +1,6 @@
 # `data_opc_compute_ip_address_reservation`
 
-Refer to the Terraform Registory for docs: [`data_opc_compute_ip_address_reservation`](https://www.terraform.io/docs/providers/opc/d/compute_ip_address_reservation).
+Refer to the Terraform Registory for docs: [`data_opc_compute_ip_address_reservation`](https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_ip_address_reservation).
 
 # `dataOpcComputeIpAddressReservation` Submodule <a name="`dataOpcComputeIpAddressReservation` Submodule" id="@cdktf/provider-opc.dataOpcComputeIpAddressReservation"></a>
 
@@ -8,7 +8,7 @@ Refer to the Terraform Registory for docs: [`data_opc_compute_ip_address_reserva
 
 ### DataOpcComputeIpAddressReservation <a name="DataOpcComputeIpAddressReservation" id="@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservation"></a>
 
-Represents a {@link https://www.terraform.io/docs/providers/opc/d/compute_ip_address_reservation opc_compute_ip_address_reservation}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_ip_address_reservation opc_compute_ip_address_reservation}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservation.Initializer"></a>
 
@@ -345,7 +345,7 @@ DataOpcComputeIpAddressReservation.IsTerraformDataSource(object X);
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservation.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>System.Collections.Generic.IDictionary<string, object></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservation.property.terraformResourceType">TerraformResourceType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservation.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>HashiCorp.Cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservation.property.count">Count</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservation.property.count">Count</a></code> | <code>object</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservation.property.dependsOn">DependsOn</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservation.property.forEach">ForEach</a></code> | <code>HashiCorp.Cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservation.property.lifecycle">Lifecycle</a></code> | <code>HashiCorp.Cdktf.TerraformResourceLifecycle</code> | *No description.* |
@@ -437,10 +437,10 @@ public TerraformProviderGeneratorMetadata TerraformGeneratorMetadata { get; }
 ##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservation.property.count"></a>
 
 ```csharp
-public double Count { get; }
+public object Count { get; }
 ```
 
-- *Type:* double
+- *Type:* object
 
 ---
 
@@ -603,7 +603,7 @@ using HashiCorp.Cdktf.Providers.Opc;
 
 new DataOpcComputeIpAddressReservationConfig {
     object Connection = null,
-    double Count = null,
+    object Count = null,
     ITerraformDependable[] DependsOn = null,
     ITerraformIterator ForEach = null,
     TerraformResourceLifecycle Lifecycle = null,
@@ -619,14 +619,14 @@ new DataOpcComputeIpAddressReservationConfig {
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservationConfig.property.connection">Connection</a></code> | <code>object</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservationConfig.property.count">Count</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservationConfig.property.count">Count</a></code> | <code>object</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservationConfig.property.dependsOn">DependsOn</a></code> | <code>HashiCorp.Cdktf.ITerraformDependable[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservationConfig.property.forEach">ForEach</a></code> | <code>HashiCorp.Cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservationConfig.property.lifecycle">Lifecycle</a></code> | <code>HashiCorp.Cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservationConfig.property.provider">Provider</a></code> | <code>HashiCorp.Cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservationConfig.property.provisioners">Provisioners</a></code> | <code>object[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservationConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/d/compute_ip_address_reservation#name DataOpcComputeIpAddressReservation#name}. |
-| <code><a href="#@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservationConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/d/compute_ip_address_reservation#id DataOpcComputeIpAddressReservation#id}. |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservationConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_ip_address_reservation#name DataOpcComputeIpAddressReservation#name}. |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservationConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_ip_address_reservation#id DataOpcComputeIpAddressReservation#id}. |
 
 ---
 
@@ -643,10 +643,10 @@ public object Connection { get; set; }
 ##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservationConfig.property.count"></a>
 
 ```csharp
-public double Count { get; set; }
+public object Count { get; set; }
 ```
 
-- *Type:* double
+- *Type:* object
 
 ---
 
@@ -708,7 +708,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/d/compute_ip_address_reservation#name DataOpcComputeIpAddressReservation#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_ip_address_reservation#name DataOpcComputeIpAddressReservation#name}.
 
 ---
 
@@ -720,7 +720,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/d/compute_ip_address_reservation#id DataOpcComputeIpAddressReservation#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_ip_address_reservation#id DataOpcComputeIpAddressReservation#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

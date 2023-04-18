@@ -1,6 +1,6 @@
 # `opc_compute_ip_address_reservation`
 
-Refer to the Terraform Registory for docs: [`opc_compute_ip_address_reservation`](https://www.terraform.io/docs/providers/opc/r/compute_ip_address_reservation).
+Refer to the Terraform Registory for docs: [`opc_compute_ip_address_reservation`](https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_reservation).
 
 # `computeIpAddressReservation` Submodule <a name="`computeIpAddressReservation` Submodule" id="@cdktf/provider-opc.computeIpAddressReservation"></a>
 
@@ -8,7 +8,7 @@ Refer to the Terraform Registory for docs: [`opc_compute_ip_address_reservation`
 
 ### ComputeIpAddressReservation <a name="ComputeIpAddressReservation" id="@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservation"></a>
 
-Represents a {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_reservation opc_compute_ip_address_reservation}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_reservation opc_compute_ip_address_reservation}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservation.Initializer"></a>
 
@@ -360,7 +360,7 @@ computeIpAddressReservation.ComputeIpAddressReservation.isTerraformResource(x: a
 | <code><a href="#@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservation.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservation.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservation.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservation.property.count">count</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservation.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservation.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservation.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservation.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
@@ -466,10 +466,10 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservation.property.count"></a>
 
 ```typescript
-public readonly count: number;
+public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number
+- *Type:* number | cdktf.TerraformCount
 
 ---
 
@@ -678,17 +678,17 @@ const computeIpAddressReservationConfig: computeIpAddressReservation.ComputeIpAd
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservationConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservationConfig.property.count">count</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservationConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservationConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservationConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservationConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservationConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservationConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservationConfig.property.ipAddressPool">ipAddressPool</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_reservation#ip_address_pool ComputeIpAddressReservation#ip_address_pool}. |
-| <code><a href="#@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservationConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_reservation#name ComputeIpAddressReservation#name}. |
-| <code><a href="#@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservationConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_reservation#description ComputeIpAddressReservation#description}. |
-| <code><a href="#@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservationConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_reservation#id ComputeIpAddressReservation#id}. |
-| <code><a href="#@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservationConfig.property.tags">tags</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_reservation#tags ComputeIpAddressReservation#tags}. |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservationConfig.property.ipAddressPool">ipAddressPool</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_reservation#ip_address_pool ComputeIpAddressReservation#ip_address_pool}. |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservationConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_reservation#name ComputeIpAddressReservation#name}. |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservationConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_reservation#description ComputeIpAddressReservation#description}. |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservationConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_reservation#id ComputeIpAddressReservation#id}. |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservationConfig.property.tags">tags</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_reservation#tags ComputeIpAddressReservation#tags}. |
 
 ---
 
@@ -705,10 +705,10 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservationConfig.property.count"></a>
 
 ```typescript
-public readonly count: number;
+public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number
+- *Type:* number | cdktf.TerraformCount
 
 ---
 
@@ -770,7 +770,7 @@ public readonly ipAddressPool: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_reservation#ip_address_pool ComputeIpAddressReservation#ip_address_pool}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_reservation#ip_address_pool ComputeIpAddressReservation#ip_address_pool}.
 
 ---
 
@@ -782,7 +782,7 @@ public readonly name: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_reservation#name ComputeIpAddressReservation#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_reservation#name ComputeIpAddressReservation#name}.
 
 ---
 
@@ -794,7 +794,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_reservation#description ComputeIpAddressReservation#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_reservation#description ComputeIpAddressReservation#description}.
 
 ---
 
@@ -806,7 +806,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_reservation#id ComputeIpAddressReservation#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_reservation#id ComputeIpAddressReservation#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -821,7 +821,7 @@ public readonly tags: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_reservation#tags ComputeIpAddressReservation#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_reservation#tags ComputeIpAddressReservation#tags}.
 
 ---
 

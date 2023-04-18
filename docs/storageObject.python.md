@@ -1,6 +1,6 @@
 # `opc_storage_object`
 
-Refer to the Terraform Registory for docs: [`opc_storage_object`](https://www.terraform.io/docs/providers/opc/r/storage_object).
+Refer to the Terraform Registory for docs: [`opc_storage_object`](https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object).
 
 # `storageObject` Submodule <a name="`storageObject` Submodule" id="@cdktf/provider-opc.storageObject"></a>
 
@@ -8,7 +8,7 @@ Refer to the Terraform Registory for docs: [`opc_storage_object`](https://www.te
 
 ### StorageObject <a name="StorageObject" id="@cdktf/provider-opc.storageObject.StorageObject"></a>
 
-Represents a {@link https://www.terraform.io/docs/providers/opc/r/storage_object opc_storage_object}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object opc_storage_object}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.storageObject.StorageObject.Initializer"></a>
 
@@ -19,7 +19,7 @@ storageObject.StorageObject(
   scope: Construct,
   id: str,
   connection: typing.Union[SSHProvisionerConnection, WinrmProvisionerConnection] = None,
-  count: typing.Union[int, float] = None,
+  count: typing.Union[typing.Union[int, float], TerraformCount] = None,
   depends_on: typing.List[ITerraformDependable] = None,
   for_each: ITerraformIterator = None,
   lifecycle: TerraformResourceLifecycle = None,
@@ -46,7 +46,7 @@ storageObject.StorageObject(
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObject.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObject.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObject.Initializer.parameter.connection">connection</a></code> | <code>typing.Union[cdktf.SSHProvisionerConnection, cdktf.WinrmProvisionerConnection]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.storageObject.StorageObject.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.storageObject.StorageObject.Initializer.parameter.count">count</a></code> | <code>typing.Union[typing.Union[int, float], cdktf.TerraformCount]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObject.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObject.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObject.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
@@ -58,11 +58,11 @@ storageObject.StorageObject(
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObject.Initializer.parameter.contentDisposition">content_disposition</a></code> | <code>str</code> | Overrides the behavior of the browser. |
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObject.Initializer.parameter.contentEncoding">content_encoding</a></code> | <code>str</code> | Set the content-encoding metadata. |
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObject.Initializer.parameter.contentType">content_type</a></code> | <code>str</code> | Set the MIME type for the object. |
-| <code><a href="#@cdktf/provider-opc.storageObject.StorageObject.Initializer.parameter.copyFrom">copy_from</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#copy_from StorageObject#copy_from}. |
+| <code><a href="#@cdktf/provider-opc.storageObject.StorageObject.Initializer.parameter.copyFrom">copy_from</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#copy_from StorageObject#copy_from}. |
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObject.Initializer.parameter.deleteAt">delete_at</a></code> | <code>typing.Union[int, float]</code> | The date and time in UNIX Epoch time stamp format when the system removes the object. |
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObject.Initializer.parameter.etag">etag</a></code> | <code>str</code> | MD5 checksum value of the request body. Unquoted. Strongly Recommended. |
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObject.Initializer.parameter.file">file</a></code> | <code>str</code> | File path for the content to use for data. |
-| <code><a href="#@cdktf/provider-opc.storageObject.StorageObject.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#id StorageObject#id}. |
+| <code><a href="#@cdktf/provider-opc.storageObject.StorageObject.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#id StorageObject#id}. |
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObject.Initializer.parameter.metadata">metadata</a></code> | <code>typing.Mapping[str]</code> | The object metadata. |
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObject.Initializer.parameter.transferEncoding">transfer_encoding</a></code> | <code>str</code> | Sets the transfer encoding. Can only be 'chunked' or Nil, requires Content-Length to be 0 if set. |
 
@@ -94,7 +94,7 @@ Must be unique amongst siblings in the same scope
 
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-opc.storageObject.StorageObject.Initializer.parameter.count"></a>
 
-- *Type:* typing.Union[int, float]
+- *Type:* typing.Union[typing.Union[int, float], cdktf.TerraformCount]
 
 ---
 
@@ -134,7 +134,7 @@ Must be unique amongst siblings in the same scope
 
 Name of the storage container.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#container StorageObject#container}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#container StorageObject#container}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r
 
 Name of the storage object.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#name StorageObject#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#name StorageObject#name}
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r
 
 Raw content in string-form of the data.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#content StorageObject#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#content StorageObject#content}
 
 ---
 
@@ -164,7 +164,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r
 
 Overrides the behavior of the browser.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#content_disposition StorageObject#content_disposition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#content_disposition StorageObject#content_disposition}
 
 ---
 
@@ -174,7 +174,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r
 
 Set the content-encoding metadata.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#content_encoding StorageObject#content_encoding}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#content_encoding StorageObject#content_encoding}
 
 ---
 
@@ -184,7 +184,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r
 
 Set the MIME type for the object.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#content_type StorageObject#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#content_type StorageObject#content_type}
 
 ---
 
@@ -192,7 +192,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#copy_from StorageObject#copy_from}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#copy_from StorageObject#copy_from}.
 
 ---
 
@@ -202,7 +202,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r
 
 The date and time in UNIX Epoch time stamp format when the system removes the object.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#delete_at StorageObject#delete_at}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#delete_at StorageObject#delete_at}
 
 ---
 
@@ -212,7 +212,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r
 
 MD5 checksum value of the request body. Unquoted. Strongly Recommended.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#etag StorageObject#etag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#etag StorageObject#etag}
 
 ---
 
@@ -222,7 +222,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r
 
 File path for the content to use for data.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#file StorageObject#file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#file StorageObject#file}
 
 ---
 
@@ -230,7 +230,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#id StorageObject#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#id StorageObject#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -243,7 +243,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 The object metadata.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#metadata StorageObject#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#metadata StorageObject#metadata}
 
 ---
 
@@ -253,7 +253,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r
 
 Sets the transfer encoding. Can only be 'chunked' or Nil, requires Content-Length to be 0 if set.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#transfer_encoding StorageObject#transfer_encoding}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#transfer_encoding StorageObject#transfer_encoding}
 
 ---
 
@@ -654,7 +654,7 @@ storageObject.StorageObject.is_terraform_resource(
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObject.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObject.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObject.property.connection">connection</a></code> | <code>typing.Union[cdktf.SSHProvisionerConnection, cdktf.WinrmProvisionerConnection]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.storageObject.StorageObject.property.count">count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.storageObject.StorageObject.property.count">count</a></code> | <code>typing.Union[typing.Union[int, float], cdktf.TerraformCount]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObject.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObject.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObject.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
@@ -780,10 +780,10 @@ connection: typing.Union[SSHProvisionerConnection, WinrmProvisionerConnection]
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-opc.storageObject.StorageObject.property.count"></a>
 
 ```python
-count: typing.Union[int, float]
+count: typing.Union[typing.Union[int, float], TerraformCount]
 ```
 
-- *Type:* typing.Union[int, float]
+- *Type:* typing.Union[typing.Union[int, float], cdktf.TerraformCount]
 
 ---
 
@@ -1186,7 +1186,7 @@ from cdktf_cdktf_provider_opc import storage_object
 
 storageObject.StorageObjectConfig(
   connection: typing.Union[SSHProvisionerConnection, WinrmProvisionerConnection] = None,
-  count: typing.Union[int, float] = None,
+  count: typing.Union[typing.Union[int, float], TerraformCount] = None,
   depends_on: typing.List[ITerraformDependable] = None,
   for_each: ITerraformIterator = None,
   lifecycle: TerraformResourceLifecycle = None,
@@ -1213,7 +1213,7 @@ storageObject.StorageObjectConfig(
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObjectConfig.property.connection">connection</a></code> | <code>typing.Union[cdktf.SSHProvisionerConnection, cdktf.WinrmProvisionerConnection]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.storageObject.StorageObjectConfig.property.count">count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.storageObject.StorageObjectConfig.property.count">count</a></code> | <code>typing.Union[typing.Union[int, float], cdktf.TerraformCount]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObjectConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObjectConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObjectConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
@@ -1225,11 +1225,11 @@ storageObject.StorageObjectConfig(
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObjectConfig.property.contentDisposition">content_disposition</a></code> | <code>str</code> | Overrides the behavior of the browser. |
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObjectConfig.property.contentEncoding">content_encoding</a></code> | <code>str</code> | Set the content-encoding metadata. |
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObjectConfig.property.contentType">content_type</a></code> | <code>str</code> | Set the MIME type for the object. |
-| <code><a href="#@cdktf/provider-opc.storageObject.StorageObjectConfig.property.copyFrom">copy_from</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#copy_from StorageObject#copy_from}. |
+| <code><a href="#@cdktf/provider-opc.storageObject.StorageObjectConfig.property.copyFrom">copy_from</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#copy_from StorageObject#copy_from}. |
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObjectConfig.property.deleteAt">delete_at</a></code> | <code>typing.Union[int, float]</code> | The date and time in UNIX Epoch time stamp format when the system removes the object. |
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObjectConfig.property.etag">etag</a></code> | <code>str</code> | MD5 checksum value of the request body. Unquoted. Strongly Recommended. |
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObjectConfig.property.file">file</a></code> | <code>str</code> | File path for the content to use for data. |
-| <code><a href="#@cdktf/provider-opc.storageObject.StorageObjectConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#id StorageObject#id}. |
+| <code><a href="#@cdktf/provider-opc.storageObject.StorageObjectConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#id StorageObject#id}. |
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObjectConfig.property.metadata">metadata</a></code> | <code>typing.Mapping[str]</code> | The object metadata. |
 | <code><a href="#@cdktf/provider-opc.storageObject.StorageObjectConfig.property.transferEncoding">transfer_encoding</a></code> | <code>str</code> | Sets the transfer encoding. Can only be 'chunked' or Nil, requires Content-Length to be 0 if set. |
 
@@ -1248,10 +1248,10 @@ connection: typing.Union[SSHProvisionerConnection, WinrmProvisionerConnection]
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-opc.storageObject.StorageObjectConfig.property.count"></a>
 
 ```python
-count: typing.Union[int, float]
+count: typing.Union[typing.Union[int, float], TerraformCount]
 ```
 
-- *Type:* typing.Union[int, float]
+- *Type:* typing.Union[typing.Union[int, float], cdktf.TerraformCount]
 
 ---
 
@@ -1315,7 +1315,7 @@ container: str
 
 Name of the storage container.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#container StorageObject#container}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#container StorageObject#container}
 
 ---
 
@@ -1329,7 +1329,7 @@ name: str
 
 Name of the storage object.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#name StorageObject#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#name StorageObject#name}
 
 ---
 
@@ -1343,7 +1343,7 @@ content: str
 
 Raw content in string-form of the data.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#content StorageObject#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#content StorageObject#content}
 
 ---
 
@@ -1357,7 +1357,7 @@ content_disposition: str
 
 Overrides the behavior of the browser.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#content_disposition StorageObject#content_disposition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#content_disposition StorageObject#content_disposition}
 
 ---
 
@@ -1371,7 +1371,7 @@ content_encoding: str
 
 Set the content-encoding metadata.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#content_encoding StorageObject#content_encoding}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#content_encoding StorageObject#content_encoding}
 
 ---
 
@@ -1385,7 +1385,7 @@ content_type: str
 
 Set the MIME type for the object.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#content_type StorageObject#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#content_type StorageObject#content_type}
 
 ---
 
@@ -1397,7 +1397,7 @@ copy_from: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#copy_from StorageObject#copy_from}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#copy_from StorageObject#copy_from}.
 
 ---
 
@@ -1411,7 +1411,7 @@ delete_at: typing.Union[int, float]
 
 The date and time in UNIX Epoch time stamp format when the system removes the object.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#delete_at StorageObject#delete_at}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#delete_at StorageObject#delete_at}
 
 ---
 
@@ -1425,7 +1425,7 @@ etag: str
 
 MD5 checksum value of the request body. Unquoted. Strongly Recommended.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#etag StorageObject#etag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#etag StorageObject#etag}
 
 ---
 
@@ -1439,7 +1439,7 @@ file: str
 
 File path for the content to use for data.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#file StorageObject#file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#file StorageObject#file}
 
 ---
 
@@ -1451,7 +1451,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#id StorageObject#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#id StorageObject#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1468,7 +1468,7 @@ metadata: typing.Mapping[str]
 
 The object metadata.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#metadata StorageObject#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#metadata StorageObject#metadata}
 
 ---
 
@@ -1482,7 +1482,7 @@ transfer_encoding: str
 
 Sets the transfer encoding. Can only be 'chunked' or Nil, requires Content-Length to be 0 if set.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/storage_object#transfer_encoding StorageObject#transfer_encoding}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#transfer_encoding StorageObject#transfer_encoding}
 
 ---
 
