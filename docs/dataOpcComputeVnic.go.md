@@ -1,6 +1,6 @@
 # `data_opc_compute_vnic`
 
-Refer to the Terraform Registory for docs: [`data_opc_compute_vnic`](https://www.terraform.io/docs/providers/opc/d/compute_vnic).
+Refer to the Terraform Registory for docs: [`data_opc_compute_vnic`](https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_vnic).
 
 # `dataOpcComputeVnic` Submodule <a name="`dataOpcComputeVnic` Submodule" id="@cdktf/provider-opc.dataOpcComputeVnic"></a>
 
@@ -8,12 +8,12 @@ Refer to the Terraform Registory for docs: [`data_opc_compute_vnic`](https://www
 
 ### DataOpcComputeVnic <a name="DataOpcComputeVnic" id="@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic"></a>
 
-Represents a {@link https://www.terraform.io/docs/providers/opc/d/compute_vnic opc_compute_vnic}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_vnic opc_compute_vnic}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/dataopccomputevnic"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputevnic"
 
 dataopccomputevnic.NewDataOpcComputeVnic(scope Construct, id *string, config DataOpcComputeVnicConfig) DataOpcComputeVnic
 ```
@@ -277,7 +277,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/dataopccomputevnic"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputevnic"
 
 dataopccomputevnic.DataOpcComputeVnic_IsConstruct(x interface{}) *bool
 ```
@@ -309,7 +309,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/dataopccomputevnic"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputevnic"
 
 dataopccomputevnic.DataOpcComputeVnic_IsTerraformElement(x interface{}) *bool
 ```
@@ -323,7 +323,7 @@ dataopccomputevnic.DataOpcComputeVnic_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/dataopccomputevnic"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputevnic"
 
 dataopccomputevnic.DataOpcComputeVnic_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -345,7 +345,7 @@ dataopccomputevnic.DataOpcComputeVnic_IsTerraformDataSource(x interface{}) *bool
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>*map[string]interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.property.count">Count</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
@@ -437,10 +437,10 @@ func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
 ##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.property.count"></a>
 
 ```go
-func Count() *f64
+func Count() interface{}
 ```
 
-- *Type:* *f64
+- *Type:* interface{}
 
 ---
 
@@ -599,11 +599,11 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnicConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/dataopccomputevnic"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputevnic"
 
 &dataopccomputevnic.DataOpcComputeVnicConfig {
 	Connection: interface{},
-	Count: *f64,
+	Count: interface{},
 	DependsOn: *[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable,
 	ForEach: github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator,
 	Lifecycle: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle,
@@ -619,14 +619,14 @@ import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/dataopccomputevnic"
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnicConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnicConfig.property.count">Count</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnicConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnicConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnicConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnicConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnicConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnicConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnicConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/d/compute_vnic#name DataOpcComputeVnic#name}. |
-| <code><a href="#@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnicConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/d/compute_vnic#id DataOpcComputeVnic#id}. |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnicConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_vnic#name DataOpcComputeVnic#name}. |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnicConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_vnic#id DataOpcComputeVnic#id}. |
 
 ---
 
@@ -643,10 +643,10 @@ Connection interface{}
 ##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnicConfig.property.count"></a>
 
 ```go
-Count *f64
+Count interface{}
 ```
 
-- *Type:* *f64
+- *Type:* interface{}
 
 ---
 
@@ -708,7 +708,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/d/compute_vnic#name DataOpcComputeVnic#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_vnic#name DataOpcComputeVnic#name}.
 
 ---
 
@@ -720,7 +720,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/d/compute_vnic#id DataOpcComputeVnic#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_vnic#id DataOpcComputeVnic#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

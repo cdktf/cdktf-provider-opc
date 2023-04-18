@@ -1,4 +1,4 @@
-// https://www.terraform.io/docs/providers/opc
+// https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface OpcProviderConfig {
   /**
   * The HTTP endpoint for OPC API operations.
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc#endpoint OpcProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs#endpoint OpcProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * The OPC identity domain for API operations
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc#identity_domain OpcProvider#identity_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs#identity_domain OpcProvider#identity_domain}
   */
   readonly identityDomain: string;
   /**
   * Skip TLS Verification for self-signed certificates. Should only be used if absolutely required.
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc#insecure OpcProvider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs#insecure OpcProvider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * The HTTP endpoint for the Load Balancer Classic service.
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc#lbaas_endpoint OpcProvider#lbaas_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs#lbaas_endpoint OpcProvider#lbaas_endpoint}
   */
   readonly lbaasEndpoint?: string;
   /**
   * Maximum number retries to wait for a successful response when operating on resources within OPC (defaults to 1)
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc#max_retries OpcProvider#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs#max_retries OpcProvider#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * The user password for OPC API operations.
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc#password OpcProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs#password OpcProvider#password}
   */
   readonly password: string;
   /**
   * The HTTP endpoint for Oracle Storage operations.
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc#storage_endpoint OpcProvider#storage_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs#storage_endpoint OpcProvider#storage_endpoint}
   */
   readonly storageEndpoint?: string;
   /**
   * The Storage Service ID. 
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc#storage_service_id OpcProvider#storage_service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs#storage_service_id OpcProvider#storage_service_id}
   */
   readonly storageServiceId?: string;
   /**
   * The user name for OPC API operations.
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc#user OpcProvider#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs#user OpcProvider#user}
   */
   readonly user: string;
   /**
   * Alias name
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc#alias OpcProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs#alias OpcProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://www.terraform.io/docs/providers/opc opc}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs opc}
 */
 export class OpcProvider extends cdktf.TerraformProvider {
 
@@ -84,7 +84,7 @@ export class OpcProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://www.terraform.io/docs/providers/opc opc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs opc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope

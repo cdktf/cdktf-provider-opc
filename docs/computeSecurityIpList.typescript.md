@@ -1,6 +1,6 @@
 # `opc_compute_security_ip_list`
 
-Refer to the Terraform Registory for docs: [`opc_compute_security_ip_list`](https://www.terraform.io/docs/providers/opc/r/compute_security_ip_list).
+Refer to the Terraform Registory for docs: [`opc_compute_security_ip_list`](https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_ip_list).
 
 # `computeSecurityIpList` Submodule <a name="`computeSecurityIpList` Submodule" id="@cdktf/provider-opc.computeSecurityIpList"></a>
 
@@ -8,7 +8,7 @@ Refer to the Terraform Registory for docs: [`opc_compute_security_ip_list`](http
 
 ### ComputeSecurityIpList <a name="ComputeSecurityIpList" id="@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpList"></a>
 
-Represents a {@link https://www.terraform.io/docs/providers/opc/r/compute_security_ip_list opc_compute_security_ip_list}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_ip_list opc_compute_security_ip_list}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpList.Initializer"></a>
 
@@ -353,7 +353,7 @@ computeSecurityIpList.ComputeSecurityIpList.isTerraformResource(x: any)
 | <code><a href="#@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpList.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpList.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpList.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpList.property.count">count</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpList.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpList.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpList.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpList.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
@@ -455,10 +455,10 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpList.property.count"></a>
 
 ```typescript
-public readonly count: number;
+public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number
+- *Type:* number | cdktf.TerraformCount
 
 ---
 
@@ -627,16 +627,16 @@ const computeSecurityIpListConfig: computeSecurityIpList.ComputeSecurityIpListCo
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpListConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpListConfig.property.count">count</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpListConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpListConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpListConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpListConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpListConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpListConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpListConfig.property.ipEntries">ipEntries</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_ip_list#ip_entries ComputeSecurityIpList#ip_entries}. |
-| <code><a href="#@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpListConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_ip_list#name ComputeSecurityIpList#name}. |
-| <code><a href="#@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpListConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_ip_list#description ComputeSecurityIpList#description}. |
-| <code><a href="#@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpListConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_ip_list#id ComputeSecurityIpList#id}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpListConfig.property.ipEntries">ipEntries</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_ip_list#ip_entries ComputeSecurityIpList#ip_entries}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpListConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_ip_list#name ComputeSecurityIpList#name}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpListConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_ip_list#description ComputeSecurityIpList#description}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpListConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_ip_list#id ComputeSecurityIpList#id}. |
 
 ---
 
@@ -653,10 +653,10 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpListConfig.property.count"></a>
 
 ```typescript
-public readonly count: number;
+public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number
+- *Type:* number | cdktf.TerraformCount
 
 ---
 
@@ -718,7 +718,7 @@ public readonly ipEntries: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_ip_list#ip_entries ComputeSecurityIpList#ip_entries}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_ip_list#ip_entries ComputeSecurityIpList#ip_entries}.
 
 ---
 
@@ -730,7 +730,7 @@ public readonly name: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_ip_list#name ComputeSecurityIpList#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_ip_list#name ComputeSecurityIpList#name}.
 
 ---
 
@@ -742,7 +742,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_ip_list#description ComputeSecurityIpList#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_ip_list#description ComputeSecurityIpList#description}.
 
 ---
 
@@ -754,7 +754,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_ip_list#id ComputeSecurityIpList#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_ip_list#id ComputeSecurityIpList#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

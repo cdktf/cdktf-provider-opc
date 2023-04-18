@@ -1,4 +1,4 @@
-// https://www.terraform.io/docs/providers/opc/r/compute_snapshot
+// https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktf from 'cdktf';
 
 export interface ComputeSnapshotConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_snapshot#account ComputeSnapshot#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_snapshot#account ComputeSnapshot#account}
   */
   readonly account?: string;
   /**
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_snapshot#id ComputeSnapshot#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_snapshot#id ComputeSnapshot#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_snapshot#instance ComputeSnapshot#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_snapshot#instance ComputeSnapshot#instance}
   */
   readonly instance: string;
   /**
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_snapshot#machine_image ComputeSnapshot#machine_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_snapshot#machine_image ComputeSnapshot#machine_image}
   */
   readonly machineImage?: string;
   /**
   * timeouts block
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_snapshot#timeouts ComputeSnapshot#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_snapshot#timeouts ComputeSnapshot#timeouts}
   */
   readonly timeouts?: ComputeSnapshotTimeouts;
 }
 export interface ComputeSnapshotTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_snapshot#create ComputeSnapshot#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_snapshot#create ComputeSnapshot#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_snapshot#delete ComputeSnapshot#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_snapshot#delete ComputeSnapshot#delete}
   */
   readonly delete?: string;
 }
 
-export function computeSnapshotTimeoutsToTerraform(struct?: ComputeSnapshotTimeoutsOutputReference | ComputeSnapshotTimeouts | cdktf.IResolvable): any {
+export function computeSnapshotTimeoutsToTerraform(struct?: ComputeSnapshotTimeouts | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -64,7 +64,7 @@ export class ComputeSnapshotTimeoutsOutputReference extends cdktf.ComplexObject 
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
   public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
+    super(terraformResource, terraformAttribute, false);
   }
 
   public get internalValue(): ComputeSnapshotTimeouts | cdktf.IResolvable | undefined {
@@ -137,7 +137,7 @@ export class ComputeSnapshotTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://www.terraform.io/docs/providers/opc/r/compute_snapshot opc_compute_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_snapshot opc_compute_snapshot}
 */
 export class ComputeSnapshot extends cdktf.TerraformResource {
 
@@ -151,7 +151,7 @@ export class ComputeSnapshot extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://www.terraform.io/docs/providers/opc/r/compute_snapshot opc_compute_snapshot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_snapshot opc_compute_snapshot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope

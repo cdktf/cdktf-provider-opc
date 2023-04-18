@@ -1,6 +1,6 @@
 # `opc_compute_image_list_entry`
 
-Refer to the Terraform Registory for docs: [`opc_compute_image_list_entry`](https://www.terraform.io/docs/providers/opc/r/compute_image_list_entry).
+Refer to the Terraform Registory for docs: [`opc_compute_image_list_entry`](https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_image_list_entry).
 
 # `computeImageListEntry` Submodule <a name="`computeImageListEntry` Submodule" id="@cdktf/provider-opc.computeImageListEntry"></a>
 
@@ -8,12 +8,12 @@ Refer to the Terraform Registory for docs: [`opc_compute_image_list_entry`](http
 
 ### ComputeImageListEntry <a name="ComputeImageListEntry" id="@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry"></a>
 
-Represents a {@link https://www.terraform.io/docs/providers/opc/r/compute_image_list_entry opc_compute_image_list_entry}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_image_list_entry opc_compute_image_list_entry}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computeimagelistentry"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computeimagelistentry"
 
 computeimagelistentry.NewComputeImageListEntry(scope Construct, id *string, config ComputeImageListEntryConfig) ComputeImageListEntry
 ```
@@ -284,7 +284,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computeimagelistentry"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computeimagelistentry"
 
 computeimagelistentry.ComputeImageListEntry_IsConstruct(x interface{}) *bool
 ```
@@ -316,7 +316,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computeimagelistentry"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computeimagelistentry"
 
 computeimagelistentry.ComputeImageListEntry_IsTerraformElement(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ computeimagelistentry.ComputeImageListEntry_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computeimagelistentry"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computeimagelistentry"
 
 computeimagelistentry.ComputeImageListEntry_IsTerraformResource(x interface{}) *bool
 ```
@@ -353,7 +353,7 @@ computeimagelistentry.ComputeImageListEntry_IsTerraformResource(x interface{}) *
 | <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.property.count">Count</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
@@ -458,10 +458,10 @@ func Connection() interface{}
 ##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.property.count"></a>
 
 ```go
-func Count() *f64
+func Count() interface{}
 ```
 
-- *Type:* *f64
+- *Type:* interface{}
 
 ---
 
@@ -650,11 +650,11 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computeimagelistentry"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computeimagelistentry"
 
 &computeimagelistentry.ComputeImageListEntryConfig {
 	Connection: interface{},
-	Count: *f64,
+	Count: interface{},
 	DependsOn: *[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable,
 	ForEach: github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator,
 	Lifecycle: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle,
@@ -673,17 +673,17 @@ import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computeimagelistentry"
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.count">Count</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.machineImages">MachineImages</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_image_list_entry#machine_images ComputeImageListEntry#machine_images}. |
-| <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_image_list_entry#name ComputeImageListEntry#name}. |
-| <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.version">Version</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_image_list_entry#version ComputeImageListEntry#version}. |
-| <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.attributes">Attributes</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_image_list_entry#attributes ComputeImageListEntry#attributes}. |
-| <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_image_list_entry#id ComputeImageListEntry#id}. |
+| <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.machineImages">MachineImages</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_image_list_entry#machine_images ComputeImageListEntry#machine_images}. |
+| <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_image_list_entry#name ComputeImageListEntry#name}. |
+| <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.version">Version</a></code> | <code>*f64</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_image_list_entry#version ComputeImageListEntry#version}. |
+| <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.attributes">Attributes</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_image_list_entry#attributes ComputeImageListEntry#attributes}. |
+| <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_image_list_entry#id ComputeImageListEntry#id}. |
 
 ---
 
@@ -700,10 +700,10 @@ Connection interface{}
 ##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.count"></a>
 
 ```go
-Count *f64
+Count interface{}
 ```
 
-- *Type:* *f64
+- *Type:* interface{}
 
 ---
 
@@ -765,7 +765,7 @@ MachineImages *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_image_list_entry#machine_images ComputeImageListEntry#machine_images}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_image_list_entry#machine_images ComputeImageListEntry#machine_images}.
 
 ---
 
@@ -777,7 +777,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_image_list_entry#name ComputeImageListEntry#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_image_list_entry#name ComputeImageListEntry#name}.
 
 ---
 
@@ -789,7 +789,7 @@ Version *f64
 
 - *Type:* *f64
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_image_list_entry#version ComputeImageListEntry#version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_image_list_entry#version ComputeImageListEntry#version}.
 
 ---
 
@@ -801,7 +801,7 @@ Attributes *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_image_list_entry#attributes ComputeImageListEntry#attributes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_image_list_entry#attributes ComputeImageListEntry#attributes}.
 
 ---
 
@@ -813,7 +813,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_image_list_entry#id ComputeImageListEntry#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_image_list_entry#id ComputeImageListEntry#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

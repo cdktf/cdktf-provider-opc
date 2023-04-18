@@ -1,6 +1,6 @@
 # `opc_compute_acl`
 
-Refer to the Terraform Registory for docs: [`opc_compute_acl`](https://www.terraform.io/docs/providers/opc/r/compute_acl).
+Refer to the Terraform Registory for docs: [`opc_compute_acl`](https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_acl).
 
 # `computeAcl` Submodule <a name="`computeAcl` Submodule" id="@cdktf/provider-opc.computeAcl"></a>
 
@@ -8,12 +8,12 @@ Refer to the Terraform Registory for docs: [`opc_compute_acl`](https://www.terra
 
 ### ComputeAcl <a name="ComputeAcl" id="@cdktf/provider-opc.computeAcl.ComputeAcl"></a>
 
-Represents a {@link https://www.terraform.io/docs/providers/opc/r/compute_acl opc_compute_acl}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_acl opc_compute_acl}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeAcl.ComputeAcl.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computeacl"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computeacl"
 
 computeacl.NewComputeAcl(scope Construct, id *string, config ComputeAclConfig) ComputeAcl
 ```
@@ -298,7 +298,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.computeAcl.ComputeAcl.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computeacl"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computeacl"
 
 computeacl.ComputeAcl_IsConstruct(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.computeAcl.ComputeAcl.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computeacl"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computeacl"
 
 computeacl.ComputeAcl_IsTerraformElement(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ computeacl.ComputeAcl_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.computeAcl.ComputeAcl.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computeacl"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computeacl"
 
 computeacl.ComputeAcl_IsTerraformResource(x interface{}) *bool
 ```
@@ -367,7 +367,7 @@ computeacl.ComputeAcl_IsTerraformResource(x interface{}) *bool
 | <code><a href="#@cdktf/provider-opc.computeAcl.ComputeAcl.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeAcl.ComputeAcl.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeAcl.ComputeAcl.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeAcl.ComputeAcl.property.count">Count</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeAcl.ComputeAcl.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeAcl.ComputeAcl.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeAcl.ComputeAcl.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeAcl.ComputeAcl.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
@@ -472,10 +472,10 @@ func Connection() interface{}
 ##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-opc.computeAcl.ComputeAcl.property.count"></a>
 
 ```go
-func Count() *f64
+func Count() interface{}
 ```
 
-- *Type:* *f64
+- *Type:* interface{}
 
 ---
 
@@ -664,11 +664,11 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeAcl.ComputeAclConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computeacl"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computeacl"
 
 &computeacl.ComputeAclConfig {
 	Connection: interface{},
-	Count: *f64,
+	Count: interface{},
 	DependsOn: *[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable,
 	ForEach: github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator,
 	Lifecycle: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle,
@@ -687,17 +687,17 @@ import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computeacl"
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeAcl.ComputeAclConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeAcl.ComputeAclConfig.property.count">Count</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeAcl.ComputeAclConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeAcl.ComputeAclConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeAcl.ComputeAclConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeAcl.ComputeAclConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeAcl.ComputeAclConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeAcl.ComputeAclConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeAcl.ComputeAclConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_acl#name ComputeAcl#name}. |
-| <code><a href="#@cdktf/provider-opc.computeAcl.ComputeAclConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_acl#description ComputeAcl#description}. |
-| <code><a href="#@cdktf/provider-opc.computeAcl.ComputeAclConfig.property.enabled">Enabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_acl#enabled ComputeAcl#enabled}. |
-| <code><a href="#@cdktf/provider-opc.computeAcl.ComputeAclConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_acl#id ComputeAcl#id}. |
-| <code><a href="#@cdktf/provider-opc.computeAcl.ComputeAclConfig.property.tags">Tags</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_acl#tags ComputeAcl#tags}. |
+| <code><a href="#@cdktf/provider-opc.computeAcl.ComputeAclConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_acl#name ComputeAcl#name}. |
+| <code><a href="#@cdktf/provider-opc.computeAcl.ComputeAclConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_acl#description ComputeAcl#description}. |
+| <code><a href="#@cdktf/provider-opc.computeAcl.ComputeAclConfig.property.enabled">Enabled</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_acl#enabled ComputeAcl#enabled}. |
+| <code><a href="#@cdktf/provider-opc.computeAcl.ComputeAclConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_acl#id ComputeAcl#id}. |
+| <code><a href="#@cdktf/provider-opc.computeAcl.ComputeAclConfig.property.tags">Tags</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_acl#tags ComputeAcl#tags}. |
 
 ---
 
@@ -714,10 +714,10 @@ Connection interface{}
 ##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-opc.computeAcl.ComputeAclConfig.property.count"></a>
 
 ```go
-Count *f64
+Count interface{}
 ```
 
-- *Type:* *f64
+- *Type:* interface{}
 
 ---
 
@@ -779,7 +779,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_acl#name ComputeAcl#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_acl#name ComputeAcl#name}.
 
 ---
 
@@ -791,7 +791,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_acl#description ComputeAcl#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_acl#description ComputeAcl#description}.
 
 ---
 
@@ -803,7 +803,7 @@ Enabled interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_acl#enabled ComputeAcl#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_acl#enabled ComputeAcl#enabled}.
 
 ---
 
@@ -815,7 +815,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_acl#id ComputeAcl#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_acl#id ComputeAcl#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -830,7 +830,7 @@ Tags *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_acl#tags ComputeAcl#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_acl#tags ComputeAcl#tags}.
 
 ---
 

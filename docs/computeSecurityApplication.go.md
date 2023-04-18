@@ -1,6 +1,6 @@
 # `opc_compute_security_application`
 
-Refer to the Terraform Registory for docs: [`opc_compute_security_application`](https://www.terraform.io/docs/providers/opc/r/compute_security_application).
+Refer to the Terraform Registory for docs: [`opc_compute_security_application`](https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_application).
 
 # `computeSecurityApplication` Submodule <a name="`computeSecurityApplication` Submodule" id="@cdktf/provider-opc.computeSecurityApplication"></a>
 
@@ -8,12 +8,12 @@ Refer to the Terraform Registory for docs: [`opc_compute_security_application`](
 
 ### ComputeSecurityApplication <a name="ComputeSecurityApplication" id="@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication"></a>
 
-Represents a {@link https://www.terraform.io/docs/providers/opc/r/compute_security_application opc_compute_security_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_application opc_compute_security_application}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computesecurityapplication"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityapplication"
 
 computesecurityapplication.NewComputeSecurityApplication(scope Construct, id *string, config ComputeSecurityApplicationConfig) ComputeSecurityApplication
 ```
@@ -305,7 +305,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computesecurityapplication"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityapplication"
 
 computesecurityapplication.ComputeSecurityApplication_IsConstruct(x interface{}) *bool
 ```
@@ -337,7 +337,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computesecurityapplication"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityapplication"
 
 computesecurityapplication.ComputeSecurityApplication_IsTerraformElement(x interface{}) *bool
 ```
@@ -351,7 +351,7 @@ computesecurityapplication.ComputeSecurityApplication_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computesecurityapplication"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityapplication"
 
 computesecurityapplication.ComputeSecurityApplication_IsTerraformResource(x interface{}) *bool
 ```
@@ -374,7 +374,7 @@ computesecurityapplication.ComputeSecurityApplication_IsTerraformResource(x inte
 | <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.property.count">Count</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
@@ -482,10 +482,10 @@ func Connection() interface{}
 ##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.property.count"></a>
 
 ```go
-func Count() *f64
+func Count() interface{}
 ```
 
-- *Type:* *f64
+- *Type:* interface{}
 
 ---
 
@@ -704,11 +704,11 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplicationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computesecurityapplication"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityapplication"
 
 &computesecurityapplication.ComputeSecurityApplicationConfig {
 	Connection: interface{},
-	Count: *f64,
+	Count: interface{},
 	DependsOn: *[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable,
 	ForEach: github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator,
 	Lifecycle: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle,
@@ -729,19 +729,19 @@ import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/computesecurityapplication
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplicationConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplicationConfig.property.count">Count</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplicationConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplicationConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplicationConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplicationConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplicationConfig.property.provider">Provider</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplicationConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplicationConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_application#name ComputeSecurityApplication#name}. |
-| <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplicationConfig.property.protocol">Protocol</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_application#protocol ComputeSecurityApplication#protocol}. |
-| <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplicationConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_application#description ComputeSecurityApplication#description}. |
-| <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplicationConfig.property.dport">Dport</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_application#dport ComputeSecurityApplication#dport}. |
-| <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplicationConfig.property.icmpcode">Icmpcode</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_application#icmpcode ComputeSecurityApplication#icmpcode}. |
-| <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplicationConfig.property.icmptype">Icmptype</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_application#icmptype ComputeSecurityApplication#icmptype}. |
-| <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplicationConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_application#id ComputeSecurityApplication#id}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplicationConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_application#name ComputeSecurityApplication#name}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplicationConfig.property.protocol">Protocol</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_application#protocol ComputeSecurityApplication#protocol}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplicationConfig.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_application#description ComputeSecurityApplication#description}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplicationConfig.property.dport">Dport</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_application#dport ComputeSecurityApplication#dport}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplicationConfig.property.icmpcode">Icmpcode</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_application#icmpcode ComputeSecurityApplication#icmpcode}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplicationConfig.property.icmptype">Icmptype</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_application#icmptype ComputeSecurityApplication#icmptype}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplicationConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_application#id ComputeSecurityApplication#id}. |
 
 ---
 
@@ -758,10 +758,10 @@ Connection interface{}
 ##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplicationConfig.property.count"></a>
 
 ```go
-Count *f64
+Count interface{}
 ```
 
-- *Type:* *f64
+- *Type:* interface{}
 
 ---
 
@@ -823,7 +823,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_application#name ComputeSecurityApplication#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_application#name ComputeSecurityApplication#name}.
 
 ---
 
@@ -835,7 +835,7 @@ Protocol *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_application#protocol ComputeSecurityApplication#protocol}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_application#protocol ComputeSecurityApplication#protocol}.
 
 ---
 
@@ -847,7 +847,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_application#description ComputeSecurityApplication#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_application#description ComputeSecurityApplication#description}.
 
 ---
 
@@ -859,7 +859,7 @@ Dport *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_application#dport ComputeSecurityApplication#dport}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_application#dport ComputeSecurityApplication#dport}.
 
 ---
 
@@ -871,7 +871,7 @@ Icmpcode *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_application#icmpcode ComputeSecurityApplication#icmpcode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_application#icmpcode ComputeSecurityApplication#icmpcode}.
 
 ---
 
@@ -883,7 +883,7 @@ Icmptype *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_application#icmptype ComputeSecurityApplication#icmptype}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_application#icmptype ComputeSecurityApplication#icmptype}.
 
 ---
 
@@ -895,7 +895,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_application#id ComputeSecurityApplication#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_application#id ComputeSecurityApplication#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

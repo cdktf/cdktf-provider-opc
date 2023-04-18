@@ -1,6 +1,6 @@
 # `opc_compute_security_protocol`
 
-Refer to the Terraform Registory for docs: [`opc_compute_security_protocol`](https://www.terraform.io/docs/providers/opc/r/compute_security_protocol).
+Refer to the Terraform Registory for docs: [`opc_compute_security_protocol`](https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_protocol).
 
 # `computeSecurityProtocol` Submodule <a name="`computeSecurityProtocol` Submodule" id="@cdktf/provider-opc.computeSecurityProtocol"></a>
 
@@ -8,7 +8,7 @@ Refer to the Terraform Registory for docs: [`opc_compute_security_protocol`](htt
 
 ### ComputeSecurityProtocol <a name="ComputeSecurityProtocol" id="@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocol"></a>
 
-Represents a {@link https://www.terraform.io/docs/providers/opc/r/compute_security_protocol opc_compute_security_protocol}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_protocol opc_compute_security_protocol}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocol.Initializer"></a>
 
@@ -381,7 +381,7 @@ computeSecurityProtocol.ComputeSecurityProtocol.isTerraformResource(x: any)
 | <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocol.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocol.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocol.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocol.property.count">count</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocol.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocol.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocol.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocol.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
@@ -490,10 +490,10 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocol.property.count"></a>
 
 ```typescript
-public readonly count: number;
+public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number
+- *Type:* number | cdktf.TerraformCount
 
 ---
 
@@ -732,19 +732,19 @@ const computeSecurityProtocolConfig: computeSecurityProtocol.ComputeSecurityProt
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocolConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocolConfig.property.count">count</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocolConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocolConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocolConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocolConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocolConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocolConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocolConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_protocol#name ComputeSecurityProtocol#name}. |
-| <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocolConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_protocol#description ComputeSecurityProtocol#description}. |
-| <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocolConfig.property.dstPorts">dstPorts</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_protocol#dst_ports ComputeSecurityProtocol#dst_ports}. |
-| <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocolConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_protocol#id ComputeSecurityProtocol#id}. |
-| <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocolConfig.property.ipProtocol">ipProtocol</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_protocol#ip_protocol ComputeSecurityProtocol#ip_protocol}. |
-| <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocolConfig.property.srcPorts">srcPorts</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_protocol#src_ports ComputeSecurityProtocol#src_ports}. |
-| <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocolConfig.property.tags">tags</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_protocol#tags ComputeSecurityProtocol#tags}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocolConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_protocol#name ComputeSecurityProtocol#name}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocolConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_protocol#description ComputeSecurityProtocol#description}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocolConfig.property.dstPorts">dstPorts</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_protocol#dst_ports ComputeSecurityProtocol#dst_ports}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocolConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_protocol#id ComputeSecurityProtocol#id}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocolConfig.property.ipProtocol">ipProtocol</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_protocol#ip_protocol ComputeSecurityProtocol#ip_protocol}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocolConfig.property.srcPorts">srcPorts</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_protocol#src_ports ComputeSecurityProtocol#src_ports}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocolConfig.property.tags">tags</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_protocol#tags ComputeSecurityProtocol#tags}. |
 
 ---
 
@@ -761,10 +761,10 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocolConfig.property.count"></a>
 
 ```typescript
-public readonly count: number;
+public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number
+- *Type:* number | cdktf.TerraformCount
 
 ---
 
@@ -826,7 +826,7 @@ public readonly name: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_protocol#name ComputeSecurityProtocol#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_protocol#name ComputeSecurityProtocol#name}.
 
 ---
 
@@ -838,7 +838,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_protocol#description ComputeSecurityProtocol#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_protocol#description ComputeSecurityProtocol#description}.
 
 ---
 
@@ -850,7 +850,7 @@ public readonly dstPorts: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_protocol#dst_ports ComputeSecurityProtocol#dst_ports}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_protocol#dst_ports ComputeSecurityProtocol#dst_ports}.
 
 ---
 
@@ -862,7 +862,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_protocol#id ComputeSecurityProtocol#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_protocol#id ComputeSecurityProtocol#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -877,7 +877,7 @@ public readonly ipProtocol: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_protocol#ip_protocol ComputeSecurityProtocol#ip_protocol}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_protocol#ip_protocol ComputeSecurityProtocol#ip_protocol}.
 
 ---
 
@@ -889,7 +889,7 @@ public readonly srcPorts: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_protocol#src_ports ComputeSecurityProtocol#src_ports}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_protocol#src_ports ComputeSecurityProtocol#src_ports}.
 
 ---
 
@@ -901,7 +901,7 @@ public readonly tags: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_protocol#tags ComputeSecurityProtocol#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_protocol#tags ComputeSecurityProtocol#tags}.
 
 ---
 

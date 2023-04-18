@@ -1,4 +1,4 @@
-// https://www.terraform.io/docs/providers/opc/r/compute_storage_attachment
+// https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_storage_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,43 +8,43 @@ import * as cdktf from 'cdktf';
 
 export interface ComputeStorageAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_storage_attachment#id ComputeStorageAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_storage_attachment#id ComputeStorageAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_storage_attachment#index ComputeStorageAttachment#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_storage_attachment#index ComputeStorageAttachment#index}
   */
   readonly index: number;
   /**
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_storage_attachment#instance ComputeStorageAttachment#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_storage_attachment#instance ComputeStorageAttachment#instance}
   */
   readonly instance: string;
   /**
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_storage_attachment#storage_volume ComputeStorageAttachment#storage_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_storage_attachment#storage_volume ComputeStorageAttachment#storage_volume}
   */
   readonly storageVolume: string;
   /**
   * timeouts block
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_storage_attachment#timeouts ComputeStorageAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_storage_attachment#timeouts ComputeStorageAttachment#timeouts}
   */
   readonly timeouts?: ComputeStorageAttachmentTimeouts;
 }
 export interface ComputeStorageAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_storage_attachment#create ComputeStorageAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_storage_attachment#create ComputeStorageAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_storage_attachment#delete ComputeStorageAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_storage_attachment#delete ComputeStorageAttachment#delete}
   */
   readonly delete?: string;
 }
 
-export function computeStorageAttachmentTimeoutsToTerraform(struct?: ComputeStorageAttachmentTimeoutsOutputReference | ComputeStorageAttachmentTimeouts | cdktf.IResolvable): any {
+export function computeStorageAttachmentTimeoutsToTerraform(struct?: ComputeStorageAttachmentTimeouts | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -64,7 +64,7 @@ export class ComputeStorageAttachmentTimeoutsOutputReference extends cdktf.Compl
   * @param terraformAttribute The attribute on the parent resource this class is referencing
   */
   public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
+    super(terraformResource, terraformAttribute, false);
   }
 
   public get internalValue(): ComputeStorageAttachmentTimeouts | cdktf.IResolvable | undefined {
@@ -137,7 +137,7 @@ export class ComputeStorageAttachmentTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://www.terraform.io/docs/providers/opc/r/compute_storage_attachment opc_compute_storage_attachment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_storage_attachment opc_compute_storage_attachment}
 */
 export class ComputeStorageAttachment extends cdktf.TerraformResource {
 
@@ -151,7 +151,7 @@ export class ComputeStorageAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://www.terraform.io/docs/providers/opc/r/compute_storage_attachment opc_compute_storage_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_storage_attachment opc_compute_storage_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope

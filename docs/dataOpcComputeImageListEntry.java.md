@@ -1,6 +1,6 @@
 # `data_opc_compute_image_list_entry`
 
-Refer to the Terraform Registory for docs: [`data_opc_compute_image_list_entry`](https://www.terraform.io/docs/providers/opc/d/compute_image_list_entry).
+Refer to the Terraform Registory for docs: [`data_opc_compute_image_list_entry`](https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_image_list_entry).
 
 # `dataOpcComputeImageListEntry` Submodule <a name="`dataOpcComputeImageListEntry` Submodule" id="@cdktf/provider-opc.dataOpcComputeImageListEntry"></a>
 
@@ -8,7 +8,7 @@ Refer to the Terraform Registory for docs: [`data_opc_compute_image_list_entry`]
 
 ### DataOpcComputeImageListEntry <a name="DataOpcComputeImageListEntry" id="@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry"></a>
 
-Represents a {@link https://www.terraform.io/docs/providers/opc/d/compute_image_list_entry opc_compute_image_list_entry}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_image_list_entry opc_compute_image_list_entry}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.Initializer"></a>
 
@@ -19,6 +19,7 @@ DataOpcComputeImageListEntry.Builder.create(Construct scope, java.lang.String id
 //  .connection(SSHProvisionerConnection)
 //  .connection(WinrmProvisionerConnection)
 //  .count(java.lang.Number)
+//  .count(TerraformCount)
 //  .dependsOn(java.util.List<ITerraformDependable>)
 //  .forEach(ITerraformIterator)
 //  .lifecycle(TerraformResourceLifecycle)
@@ -38,16 +39,16 @@ DataOpcComputeImageListEntry.Builder.create(Construct scope, java.lang.String id
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.Initializer.parameter.scope">scope</a></code> | <code>software.constructs.Construct</code> | The scope in which to define this construct. |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | The scoped construct ID. |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.Initializer.parameter.connection">connection</a></code> | <code>com.hashicorp.cdktf.SSHProvisionerConnection OR com.hashicorp.cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.Initializer.parameter.count">count</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.Initializer.parameter.count">count</a></code> | <code>java.lang.Number OR com.hashicorp.cdktf.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.Initializer.parameter.dependsOn">dependsOn</a></code> | <code>java.util.List<com.hashicorp.cdktf.ITerraformDependable></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.Initializer.parameter.forEach">forEach</a></code> | <code>com.hashicorp.cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>com.hashicorp.cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.Initializer.parameter.provider">provider</a></code> | <code>com.hashicorp.cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<com.hashicorp.cdktf.FileProvisioner OR com.hashicorp.cdktf.LocalExecProvisioner OR com.hashicorp.cdktf.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.Initializer.parameter.imageList">imageList</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/d/compute_image_list_entry#image_list DataOpcComputeImageListEntry#image_list}. |
-| <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.Initializer.parameter.version">version</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/d/compute_image_list_entry#version DataOpcComputeImageListEntry#version}. |
-| <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.Initializer.parameter.entry">entry</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/d/compute_image_list_entry#entry DataOpcComputeImageListEntry#entry}. |
-| <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/d/compute_image_list_entry#id DataOpcComputeImageListEntry#id}. |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.Initializer.parameter.imageList">imageList</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_image_list_entry#image_list DataOpcComputeImageListEntry#image_list}. |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.Initializer.parameter.version">version</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_image_list_entry#version DataOpcComputeImageListEntry#version}. |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.Initializer.parameter.entry">entry</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_image_list_entry#entry DataOpcComputeImageListEntry#entry}. |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_image_list_entry#id DataOpcComputeImageListEntry#id}. |
 
 ---
 
@@ -77,7 +78,7 @@ Must be unique amongst siblings in the same scope
 
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.Initializer.parameter.count"></a>
 
-- *Type:* java.lang.Number
+- *Type:* java.lang.Number OR com.hashicorp.cdktf.TerraformCount
 
 ---
 
@@ -115,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/d/compute_image_list_entry#image_list DataOpcComputeImageListEntry#image_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_image_list_entry#image_list DataOpcComputeImageListEntry#image_list}.
 
 ---
 
@@ -123,7 +124,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/d
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/d/compute_image_list_entry#version DataOpcComputeImageListEntry#version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_image_list_entry#version DataOpcComputeImageListEntry#version}.
 
 ---
 
@@ -131,7 +132,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/d
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/d/compute_image_list_entry#entry DataOpcComputeImageListEntry#entry}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_image_list_entry#entry DataOpcComputeImageListEntry#entry}.
 
 ---
 
@@ -139,7 +140,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/d
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/d/compute_image_list_entry#id DataOpcComputeImageListEntry#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_image_list_entry#id DataOpcComputeImageListEntry#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -448,7 +449,7 @@ DataOpcComputeImageListEntry.isTerraformDataSource(java.lang.Object x)
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>java.util.Map<java.lang.String, java.lang.Object></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.property.terraformResourceType">terraformResourceType</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>com.hashicorp.cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.property.count">count</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.property.count">count</a></code> | <code>java.lang.Number OR com.hashicorp.cdktf.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.property.dependsOn">dependsOn</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.property.forEach">forEach</a></code> | <code>com.hashicorp.cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.property.lifecycle">lifecycle</a></code> | <code>com.hashicorp.cdktf.TerraformResourceLifecycle</code> | *No description.* |
@@ -542,10 +543,10 @@ public TerraformProviderGeneratorMetadata getTerraformGeneratorMetadata();
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.property.count"></a>
 
 ```java
-public java.lang.Number getCount();
+public java.lang.Object getCount();
 ```
 
-- *Type:* java.lang.Number
+- *Type:* java.lang.Number OR com.hashicorp.cdktf.TerraformCount
 
 ---
 
@@ -730,6 +731,7 @@ DataOpcComputeImageListEntryConfig.builder()
 //  .connection(SSHProvisionerConnection)
 //  .connection(WinrmProvisionerConnection)
 //  .count(java.lang.Number)
+//  .count(TerraformCount)
 //  .dependsOn(java.util.List<ITerraformDependable>)
 //  .forEach(ITerraformIterator)
 //  .lifecycle(TerraformResourceLifecycle)
@@ -749,16 +751,16 @@ DataOpcComputeImageListEntryConfig.builder()
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntryConfig.property.connection">connection</a></code> | <code>com.hashicorp.cdktf.SSHProvisionerConnection OR com.hashicorp.cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntryConfig.property.count">count</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntryConfig.property.count">count</a></code> | <code>java.lang.Number OR com.hashicorp.cdktf.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntryConfig.property.dependsOn">dependsOn</a></code> | <code>java.util.List<com.hashicorp.cdktf.ITerraformDependable></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntryConfig.property.forEach">forEach</a></code> | <code>com.hashicorp.cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntryConfig.property.lifecycle">lifecycle</a></code> | <code>com.hashicorp.cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntryConfig.property.provider">provider</a></code> | <code>com.hashicorp.cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntryConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<com.hashicorp.cdktf.FileProvisioner OR com.hashicorp.cdktf.LocalExecProvisioner OR com.hashicorp.cdktf.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntryConfig.property.imageList">imageList</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/d/compute_image_list_entry#image_list DataOpcComputeImageListEntry#image_list}. |
-| <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntryConfig.property.version">version</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/d/compute_image_list_entry#version DataOpcComputeImageListEntry#version}. |
-| <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntryConfig.property.entry">entry</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/d/compute_image_list_entry#entry DataOpcComputeImageListEntry#entry}. |
-| <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntryConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/d/compute_image_list_entry#id DataOpcComputeImageListEntry#id}. |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntryConfig.property.imageList">imageList</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_image_list_entry#image_list DataOpcComputeImageListEntry#image_list}. |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntryConfig.property.version">version</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_image_list_entry#version DataOpcComputeImageListEntry#version}. |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntryConfig.property.entry">entry</a></code> | <code>java.lang.Number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_image_list_entry#entry DataOpcComputeImageListEntry#entry}. |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntryConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_image_list_entry#id DataOpcComputeImageListEntry#id}. |
 
 ---
 
@@ -775,10 +777,10 @@ public java.lang.Object getConnection();
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntryConfig.property.count"></a>
 
 ```java
-public java.lang.Number getCount();
+public java.lang.Object getCount();
 ```
 
-- *Type:* java.lang.Number
+- *Type:* java.lang.Number OR com.hashicorp.cdktf.TerraformCount
 
 ---
 
@@ -840,7 +842,7 @@ public java.lang.String getImageList();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/d/compute_image_list_entry#image_list DataOpcComputeImageListEntry#image_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_image_list_entry#image_list DataOpcComputeImageListEntry#image_list}.
 
 ---
 
@@ -852,7 +854,7 @@ public java.lang.Number getVersion();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/d/compute_image_list_entry#version DataOpcComputeImageListEntry#version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_image_list_entry#version DataOpcComputeImageListEntry#version}.
 
 ---
 
@@ -864,7 +866,7 @@ public java.lang.Number getEntry();
 
 - *Type:* java.lang.Number
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/d/compute_image_list_entry#entry DataOpcComputeImageListEntry#entry}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_image_list_entry#entry DataOpcComputeImageListEntry#entry}.
 
 ---
 
@@ -876,7 +878,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/d/compute_image_list_entry#id DataOpcComputeImageListEntry#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_image_list_entry#id DataOpcComputeImageListEntry#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

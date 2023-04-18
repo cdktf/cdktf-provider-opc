@@ -1,6 +1,6 @@
 # `opc_compute_ip_address_association`
 
-Refer to the Terraform Registory for docs: [`opc_compute_ip_address_association`](https://www.terraform.io/docs/providers/opc/r/compute_ip_address_association).
+Refer to the Terraform Registory for docs: [`opc_compute_ip_address_association`](https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_association).
 
 # `computeIpAddressAssociation` Submodule <a name="`computeIpAddressAssociation` Submodule" id="@cdktf/provider-opc.computeIpAddressAssociation"></a>
 
@@ -8,7 +8,7 @@ Refer to the Terraform Registory for docs: [`opc_compute_ip_address_association`
 
 ### ComputeIpAddressAssociation <a name="ComputeIpAddressAssociation" id="@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociation"></a>
 
-Represents a {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_association opc_compute_ip_address_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_association opc_compute_ip_address_association}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociation.Initializer"></a>
 
@@ -374,7 +374,7 @@ ComputeIpAddressAssociation.IsTerraformResource(object X);
 | <code><a href="#@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociation.property.terraformResourceType">TerraformResourceType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociation.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>HashiCorp.Cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociation.property.connection">Connection</a></code> | <code>object</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociation.property.count">Count</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociation.property.count">Count</a></code> | <code>object</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociation.property.dependsOn">DependsOn</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociation.property.forEach">ForEach</a></code> | <code>HashiCorp.Cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociation.property.lifecycle">Lifecycle</a></code> | <code>HashiCorp.Cdktf.TerraformResourceLifecycle</code> | *No description.* |
@@ -481,10 +481,10 @@ public object Connection { get; }
 ##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociation.property.count"></a>
 
 ```csharp
-public double Count { get; }
+public object Count { get; }
 ```
 
-- *Type:* double
+- *Type:* object
 
 ---
 
@@ -697,7 +697,7 @@ using HashiCorp.Cdktf.Providers.Opc;
 
 new ComputeIpAddressAssociationConfig {
     object Connection = null,
-    double Count = null,
+    object Count = null,
     ITerraformDependable[] DependsOn = null,
     ITerraformIterator ForEach = null,
     TerraformResourceLifecycle Lifecycle = null,
@@ -717,18 +717,18 @@ new ComputeIpAddressAssociationConfig {
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociationConfig.property.connection">Connection</a></code> | <code>object</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociationConfig.property.count">Count</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociationConfig.property.count">Count</a></code> | <code>object</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociationConfig.property.dependsOn">DependsOn</a></code> | <code>HashiCorp.Cdktf.ITerraformDependable[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociationConfig.property.forEach">ForEach</a></code> | <code>HashiCorp.Cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociationConfig.property.lifecycle">Lifecycle</a></code> | <code>HashiCorp.Cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociationConfig.property.provider">Provider</a></code> | <code>HashiCorp.Cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociationConfig.property.provisioners">Provisioners</a></code> | <code>object[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociationConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_association#name ComputeIpAddressAssociation#name}. |
-| <code><a href="#@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociationConfig.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_association#description ComputeIpAddressAssociation#description}. |
-| <code><a href="#@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociationConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_association#id ComputeIpAddressAssociation#id}. |
-| <code><a href="#@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociationConfig.property.ipAddressReservation">IpAddressReservation</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_association#ip_address_reservation ComputeIpAddressAssociation#ip_address_reservation}. |
-| <code><a href="#@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociationConfig.property.tags">Tags</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_association#tags ComputeIpAddressAssociation#tags}. |
-| <code><a href="#@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociationConfig.property.vnic">Vnic</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_association#vnic ComputeIpAddressAssociation#vnic}. |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociationConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_association#name ComputeIpAddressAssociation#name}. |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociationConfig.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_association#description ComputeIpAddressAssociation#description}. |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociationConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_association#id ComputeIpAddressAssociation#id}. |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociationConfig.property.ipAddressReservation">IpAddressReservation</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_association#ip_address_reservation ComputeIpAddressAssociation#ip_address_reservation}. |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociationConfig.property.tags">Tags</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_association#tags ComputeIpAddressAssociation#tags}. |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociationConfig.property.vnic">Vnic</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_association#vnic ComputeIpAddressAssociation#vnic}. |
 
 ---
 
@@ -745,10 +745,10 @@ public object Connection { get; set; }
 ##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociationConfig.property.count"></a>
 
 ```csharp
-public double Count { get; set; }
+public object Count { get; set; }
 ```
 
-- *Type:* double
+- *Type:* object
 
 ---
 
@@ -810,7 +810,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_association#name ComputeIpAddressAssociation#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_association#name ComputeIpAddressAssociation#name}.
 
 ---
 
@@ -822,7 +822,7 @@ public string Description { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_association#description ComputeIpAddressAssociation#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_association#description ComputeIpAddressAssociation#description}.
 
 ---
 
@@ -834,7 +834,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_association#id ComputeIpAddressAssociation#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_association#id ComputeIpAddressAssociation#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -849,7 +849,7 @@ public string IpAddressReservation { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_association#ip_address_reservation ComputeIpAddressAssociation#ip_address_reservation}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_association#ip_address_reservation ComputeIpAddressAssociation#ip_address_reservation}.
 
 ---
 
@@ -861,7 +861,7 @@ public string[] Tags { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_association#tags ComputeIpAddressAssociation#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_association#tags ComputeIpAddressAssociation#tags}.
 
 ---
 
@@ -873,7 +873,7 @@ public string Vnic { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_association#vnic ComputeIpAddressAssociation#vnic}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_association#vnic ComputeIpAddressAssociation#vnic}.
 
 ---
 

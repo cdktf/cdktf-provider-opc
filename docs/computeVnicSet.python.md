@@ -1,6 +1,6 @@
 # `opc_compute_vnic_set`
 
-Refer to the Terraform Registory for docs: [`opc_compute_vnic_set`](https://www.terraform.io/docs/providers/opc/r/compute_vnic_set).
+Refer to the Terraform Registory for docs: [`opc_compute_vnic_set`](https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_vnic_set).
 
 # `computeVnicSet` Submodule <a name="`computeVnicSet` Submodule" id="@cdktf/provider-opc.computeVnicSet"></a>
 
@@ -8,7 +8,7 @@ Refer to the Terraform Registory for docs: [`opc_compute_vnic_set`](https://www.
 
 ### ComputeVnicSet <a name="ComputeVnicSet" id="@cdktf/provider-opc.computeVnicSet.ComputeVnicSet"></a>
 
-Represents a {@link https://www.terraform.io/docs/providers/opc/r/compute_vnic_set opc_compute_vnic_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_vnic_set opc_compute_vnic_set}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.Initializer"></a>
 
@@ -19,7 +19,7 @@ computeVnicSet.ComputeVnicSet(
   scope: Construct,
   id: str,
   connection: typing.Union[SSHProvisionerConnection, WinrmProvisionerConnection] = None,
-  count: typing.Union[int, float] = None,
+  count: typing.Union[typing.Union[int, float], TerraformCount] = None,
   depends_on: typing.List[ITerraformDependable] = None,
   for_each: ITerraformIterator = None,
   lifecycle: TerraformResourceLifecycle = None,
@@ -39,18 +39,18 @@ computeVnicSet.ComputeVnicSet(
 | <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
 | <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
 | <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.Initializer.parameter.connection">connection</a></code> | <code>typing.Union[cdktf.SSHProvisionerConnection, cdktf.WinrmProvisionerConnection]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.Initializer.parameter.count">count</a></code> | <code>typing.Union[typing.Union[int, float], cdktf.TerraformCount]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[typing.Union[cdktf.FileProvisioner, cdktf.LocalExecProvisioner, cdktf.RemoteExecProvisioner]]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_vnic_set#name ComputeVnicSet#name}. |
-| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.Initializer.parameter.appliedAcls">applied_acls</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_vnic_set#applied_acls ComputeVnicSet#applied_acls}. |
-| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.Initializer.parameter.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_vnic_set#description ComputeVnicSet#description}. |
-| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_vnic_set#id ComputeVnicSet#id}. |
-| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.Initializer.parameter.tags">tags</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_vnic_set#tags ComputeVnicSet#tags}. |
-| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.Initializer.parameter.virtualNics">virtual_nics</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_vnic_set#virtual_nics ComputeVnicSet#virtual_nics}. |
+| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_vnic_set#name ComputeVnicSet#name}. |
+| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.Initializer.parameter.appliedAcls">applied_acls</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_vnic_set#applied_acls ComputeVnicSet#applied_acls}. |
+| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.Initializer.parameter.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_vnic_set#description ComputeVnicSet#description}. |
+| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_vnic_set#id ComputeVnicSet#id}. |
+| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.Initializer.parameter.tags">tags</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_vnic_set#tags ComputeVnicSet#tags}. |
+| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.Initializer.parameter.virtualNics">virtual_nics</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_vnic_set#virtual_nics ComputeVnicSet#virtual_nics}. |
 
 ---
 
@@ -80,7 +80,7 @@ Must be unique amongst siblings in the same scope
 
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.Initializer.parameter.count"></a>
 
-- *Type:* typing.Union[int, float]
+- *Type:* typing.Union[typing.Union[int, float], cdktf.TerraformCount]
 
 ---
 
@@ -118,7 +118,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_vnic_set#name ComputeVnicSet#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_vnic_set#name ComputeVnicSet#name}.
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_vnic_set#applied_acls ComputeVnicSet#applied_acls}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_vnic_set#applied_acls ComputeVnicSet#applied_acls}.
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_vnic_set#description ComputeVnicSet#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_vnic_set#description ComputeVnicSet#description}.
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_vnic_set#id ComputeVnicSet#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_vnic_set#id ComputeVnicSet#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -153,7 +153,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_vnic_set#tags ComputeVnicSet#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_vnic_set#tags ComputeVnicSet#tags}.
 
 ---
 
@@ -161,7 +161,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_vnic_set#virtual_nics ComputeVnicSet#virtual_nics}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_vnic_set#virtual_nics ComputeVnicSet#virtual_nics}.
 
 ---
 
@@ -520,7 +520,7 @@ computeVnicSet.ComputeVnicSet.is_terraform_resource(
 | <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.property.connection">connection</a></code> | <code>typing.Union[cdktf.SSHProvisionerConnection, cdktf.WinrmProvisionerConnection]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.property.count">count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.property.count">count</a></code> | <code>typing.Union[typing.Union[int, float], cdktf.TerraformCount]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
@@ -626,10 +626,10 @@ connection: typing.Union[SSHProvisionerConnection, WinrmProvisionerConnection]
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.property.count"></a>
 
 ```python
-count: typing.Union[int, float]
+count: typing.Union[typing.Union[int, float], TerraformCount]
 ```
 
-- *Type:* typing.Union[int, float]
+- *Type:* typing.Union[typing.Union[int, float], cdktf.TerraformCount]
 
 ---
 
@@ -832,7 +832,7 @@ from cdktf_cdktf_provider_opc import compute_vnic_set
 
 computeVnicSet.ComputeVnicSetConfig(
   connection: typing.Union[SSHProvisionerConnection, WinrmProvisionerConnection] = None,
-  count: typing.Union[int, float] = None,
+  count: typing.Union[typing.Union[int, float], TerraformCount] = None,
   depends_on: typing.List[ITerraformDependable] = None,
   for_each: ITerraformIterator = None,
   lifecycle: TerraformResourceLifecycle = None,
@@ -852,18 +852,18 @@ computeVnicSet.ComputeVnicSetConfig(
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSetConfig.property.connection">connection</a></code> | <code>typing.Union[cdktf.SSHProvisionerConnection, cdktf.WinrmProvisionerConnection]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSetConfig.property.count">count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSetConfig.property.count">count</a></code> | <code>typing.Union[typing.Union[int, float], cdktf.TerraformCount]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSetConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSetConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSetConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSetConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSetConfig.property.provisioners">provisioners</a></code> | <code>typing.List[typing.Union[cdktf.FileProvisioner, cdktf.LocalExecProvisioner, cdktf.RemoteExecProvisioner]]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSetConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_vnic_set#name ComputeVnicSet#name}. |
-| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSetConfig.property.appliedAcls">applied_acls</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_vnic_set#applied_acls ComputeVnicSet#applied_acls}. |
-| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSetConfig.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_vnic_set#description ComputeVnicSet#description}. |
-| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSetConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_vnic_set#id ComputeVnicSet#id}. |
-| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSetConfig.property.tags">tags</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_vnic_set#tags ComputeVnicSet#tags}. |
-| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSetConfig.property.virtualNics">virtual_nics</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_vnic_set#virtual_nics ComputeVnicSet#virtual_nics}. |
+| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSetConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_vnic_set#name ComputeVnicSet#name}. |
+| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSetConfig.property.appliedAcls">applied_acls</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_vnic_set#applied_acls ComputeVnicSet#applied_acls}. |
+| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSetConfig.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_vnic_set#description ComputeVnicSet#description}. |
+| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSetConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_vnic_set#id ComputeVnicSet#id}. |
+| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSetConfig.property.tags">tags</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_vnic_set#tags ComputeVnicSet#tags}. |
+| <code><a href="#@cdktf/provider-opc.computeVnicSet.ComputeVnicSetConfig.property.virtualNics">virtual_nics</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_vnic_set#virtual_nics ComputeVnicSet#virtual_nics}. |
 
 ---
 
@@ -880,10 +880,10 @@ connection: typing.Union[SSHProvisionerConnection, WinrmProvisionerConnection]
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-opc.computeVnicSet.ComputeVnicSetConfig.property.count"></a>
 
 ```python
-count: typing.Union[int, float]
+count: typing.Union[typing.Union[int, float], TerraformCount]
 ```
 
-- *Type:* typing.Union[int, float]
+- *Type:* typing.Union[typing.Union[int, float], cdktf.TerraformCount]
 
 ---
 
@@ -945,7 +945,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_vnic_set#name ComputeVnicSet#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_vnic_set#name ComputeVnicSet#name}.
 
 ---
 
@@ -957,7 +957,7 @@ applied_acls: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_vnic_set#applied_acls ComputeVnicSet#applied_acls}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_vnic_set#applied_acls ComputeVnicSet#applied_acls}.
 
 ---
 
@@ -969,7 +969,7 @@ description: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_vnic_set#description ComputeVnicSet#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_vnic_set#description ComputeVnicSet#description}.
 
 ---
 
@@ -981,7 +981,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_vnic_set#id ComputeVnicSet#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_vnic_set#id ComputeVnicSet#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -996,7 +996,7 @@ tags: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_vnic_set#tags ComputeVnicSet#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_vnic_set#tags ComputeVnicSet#tags}.
 
 ---
 
@@ -1008,7 +1008,7 @@ virtual_nics: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_vnic_set#virtual_nics ComputeVnicSet#virtual_nics}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_vnic_set#virtual_nics ComputeVnicSet#virtual_nics}.
 
 ---
 

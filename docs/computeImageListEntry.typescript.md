@@ -1,6 +1,6 @@
 # `opc_compute_image_list_entry`
 
-Refer to the Terraform Registory for docs: [`opc_compute_image_list_entry`](https://www.terraform.io/docs/providers/opc/r/compute_image_list_entry).
+Refer to the Terraform Registory for docs: [`opc_compute_image_list_entry`](https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_image_list_entry).
 
 # `computeImageListEntry` Submodule <a name="`computeImageListEntry` Submodule" id="@cdktf/provider-opc.computeImageListEntry"></a>
 
@@ -8,7 +8,7 @@ Refer to the Terraform Registory for docs: [`opc_compute_image_list_entry`](http
 
 ### ComputeImageListEntry <a name="ComputeImageListEntry" id="@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry"></a>
 
-Represents a {@link https://www.terraform.io/docs/providers/opc/r/compute_image_list_entry opc_compute_image_list_entry}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_image_list_entry opc_compute_image_list_entry}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.Initializer"></a>
 
@@ -353,7 +353,7 @@ computeImageListEntry.ComputeImageListEntry.isTerraformResource(x: any)
 | <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.property.count">count</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
@@ -458,10 +458,10 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntry.property.count"></a>
 
 ```typescript
-public readonly count: number;
+public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number
+- *Type:* number | cdktf.TerraformCount
 
 ---
 
@@ -660,17 +660,17 @@ const computeImageListEntryConfig: computeImageListEntry.ComputeImageListEntryCo
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.count">count</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.machineImages">machineImages</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_image_list_entry#machine_images ComputeImageListEntry#machine_images}. |
-| <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_image_list_entry#name ComputeImageListEntry#name}. |
-| <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.version">version</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_image_list_entry#version ComputeImageListEntry#version}. |
-| <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.attributes">attributes</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_image_list_entry#attributes ComputeImageListEntry#attributes}. |
-| <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_image_list_entry#id ComputeImageListEntry#id}. |
+| <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.machineImages">machineImages</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_image_list_entry#machine_images ComputeImageListEntry#machine_images}. |
+| <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_image_list_entry#name ComputeImageListEntry#name}. |
+| <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.version">version</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_image_list_entry#version ComputeImageListEntry#version}. |
+| <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.attributes">attributes</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_image_list_entry#attributes ComputeImageListEntry#attributes}. |
+| <code><a href="#@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_image_list_entry#id ComputeImageListEntry#id}. |
 
 ---
 
@@ -687,10 +687,10 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-opc.computeImageListEntry.ComputeImageListEntryConfig.property.count"></a>
 
 ```typescript
-public readonly count: number;
+public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number
+- *Type:* number | cdktf.TerraformCount
 
 ---
 
@@ -752,7 +752,7 @@ public readonly machineImages: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_image_list_entry#machine_images ComputeImageListEntry#machine_images}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_image_list_entry#machine_images ComputeImageListEntry#machine_images}.
 
 ---
 
@@ -764,7 +764,7 @@ public readonly name: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_image_list_entry#name ComputeImageListEntry#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_image_list_entry#name ComputeImageListEntry#name}.
 
 ---
 
@@ -776,7 +776,7 @@ public readonly version: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_image_list_entry#version ComputeImageListEntry#version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_image_list_entry#version ComputeImageListEntry#version}.
 
 ---
 
@@ -788,7 +788,7 @@ public readonly attributes: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_image_list_entry#attributes ComputeImageListEntry#attributes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_image_list_entry#attributes ComputeImageListEntry#attributes}.
 
 ---
 
@@ -800,7 +800,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_image_list_entry#id ComputeImageListEntry#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_image_list_entry#id ComputeImageListEntry#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

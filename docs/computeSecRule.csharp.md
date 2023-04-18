@@ -1,6 +1,6 @@
 # `opc_compute_sec_rule`
 
-Refer to the Terraform Registory for docs: [`opc_compute_sec_rule`](https://www.terraform.io/docs/providers/opc/r/compute_sec_rule).
+Refer to the Terraform Registory for docs: [`opc_compute_sec_rule`](https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule).
 
 # `computeSecRule` Submodule <a name="`computeSecRule` Submodule" id="@cdktf/provider-opc.computeSecRule"></a>
 
@@ -8,7 +8,7 @@ Refer to the Terraform Registory for docs: [`opc_compute_sec_rule`](https://www.
 
 ### ComputeSecRule <a name="ComputeSecRule" id="@cdktf/provider-opc.computeSecRule.ComputeSecRule"></a>
 
-Represents a {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule opc_compute_sec_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule opc_compute_sec_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeSecRule.ComputeSecRule.Initializer"></a>
 
@@ -360,7 +360,7 @@ ComputeSecRule.IsTerraformResource(object X);
 | <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRule.property.terraformResourceType">TerraformResourceType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRule.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>HashiCorp.Cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRule.property.connection">Connection</a></code> | <code>object</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRule.property.count">Count</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRule.property.count">Count</a></code> | <code>object</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRule.property.dependsOn">DependsOn</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRule.property.forEach">ForEach</a></code> | <code>HashiCorp.Cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRule.property.lifecycle">Lifecycle</a></code> | <code>HashiCorp.Cdktf.TerraformResourceLifecycle</code> | *No description.* |
@@ -470,10 +470,10 @@ public object Connection { get; }
 ##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-opc.computeSecRule.ComputeSecRule.property.count"></a>
 
 ```csharp
-public double Count { get; }
+public object Count { get; }
 ```
 
-- *Type:* double
+- *Type:* object
 
 ---
 
@@ -716,7 +716,7 @@ using HashiCorp.Cdktf.Providers.Opc;
 
 new ComputeSecRuleConfig {
     object Connection = null,
-    double Count = null,
+    object Count = null,
     ITerraformDependable[] DependsOn = null,
     ITerraformIterator ForEach = null,
     TerraformResourceLifecycle Lifecycle = null,
@@ -738,20 +738,20 @@ new ComputeSecRuleConfig {
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.connection">Connection</a></code> | <code>object</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.count">Count</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.count">Count</a></code> | <code>object</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.dependsOn">DependsOn</a></code> | <code>HashiCorp.Cdktf.ITerraformDependable[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.forEach">ForEach</a></code> | <code>HashiCorp.Cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.lifecycle">Lifecycle</a></code> | <code>HashiCorp.Cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.provider">Provider</a></code> | <code>HashiCorp.Cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.provisioners">Provisioners</a></code> | <code>object[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.action">Action</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#action ComputeSecRule#action}. |
-| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.application">Application</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#application ComputeSecRule#application}. |
-| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.destinationList">DestinationList</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#destination_list ComputeSecRule#destination_list}. |
-| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#name ComputeSecRule#name}. |
-| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.sourceList">SourceList</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#source_list ComputeSecRule#source_list}. |
-| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#description ComputeSecRule#description}. |
-| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.disabled">Disabled</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#disabled ComputeSecRule#disabled}. |
-| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#id ComputeSecRule#id}. |
+| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.action">Action</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#action ComputeSecRule#action}. |
+| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.application">Application</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#application ComputeSecRule#application}. |
+| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.destinationList">DestinationList</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#destination_list ComputeSecRule#destination_list}. |
+| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#name ComputeSecRule#name}. |
+| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.sourceList">SourceList</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#source_list ComputeSecRule#source_list}. |
+| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#description ComputeSecRule#description}. |
+| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.disabled">Disabled</a></code> | <code>object</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#disabled ComputeSecRule#disabled}. |
+| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#id ComputeSecRule#id}. |
 
 ---
 
@@ -768,10 +768,10 @@ public object Connection { get; set; }
 ##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.count"></a>
 
 ```csharp
-public double Count { get; set; }
+public object Count { get; set; }
 ```
 
-- *Type:* double
+- *Type:* object
 
 ---
 
@@ -833,7 +833,7 @@ public string Action { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#action ComputeSecRule#action}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#action ComputeSecRule#action}.
 
 ---
 
@@ -845,7 +845,7 @@ public string Application { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#application ComputeSecRule#application}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#application ComputeSecRule#application}.
 
 ---
 
@@ -857,7 +857,7 @@ public string DestinationList { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#destination_list ComputeSecRule#destination_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#destination_list ComputeSecRule#destination_list}.
 
 ---
 
@@ -869,7 +869,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#name ComputeSecRule#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#name ComputeSecRule#name}.
 
 ---
 
@@ -881,7 +881,7 @@ public string SourceList { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#source_list ComputeSecRule#source_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#source_list ComputeSecRule#source_list}.
 
 ---
 
@@ -893,7 +893,7 @@ public string Description { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#description ComputeSecRule#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#description ComputeSecRule#description}.
 
 ---
 
@@ -905,7 +905,7 @@ public object Disabled { get; set; }
 
 - *Type:* object
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#disabled ComputeSecRule#disabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#disabled ComputeSecRule#disabled}.
 
 ---
 
@@ -917,7 +917,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#id ComputeSecRule#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#id ComputeSecRule#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

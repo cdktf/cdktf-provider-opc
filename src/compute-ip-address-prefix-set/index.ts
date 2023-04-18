@@ -1,4 +1,4 @@
-// https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set
+// https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface ComputeIpAddressPrefixSetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set#description ComputeIpAddressPrefixSet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set#description ComputeIpAddressPrefixSet#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set#id ComputeIpAddressPrefixSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set#id ComputeIpAddressPrefixSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set#name ComputeIpAddressPrefixSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set#name ComputeIpAddressPrefixSet#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set#prefixes ComputeIpAddressPrefixSet#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set#prefixes ComputeIpAddressPrefixSet#prefixes}
   */
   readonly prefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set#tags ComputeIpAddressPrefixSet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set#tags ComputeIpAddressPrefixSet#tags}
   */
   readonly tags?: string[];
 }
 
 /**
-* Represents a {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set opc_compute_ip_address_prefix_set}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set opc_compute_ip_address_prefix_set}
 */
 export class ComputeIpAddressPrefixSet extends cdktf.TerraformResource {
 
@@ -47,7 +47,7 @@ export class ComputeIpAddressPrefixSet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set opc_compute_ip_address_prefix_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set opc_compute_ip_address_prefix_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope

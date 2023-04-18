@@ -1,6 +1,6 @@
 # `opc_compute_security_list`
 
-Refer to the Terraform Registory for docs: [`opc_compute_security_list`](https://www.terraform.io/docs/providers/opc/r/compute_security_list).
+Refer to the Terraform Registory for docs: [`opc_compute_security_list`](https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list).
 
 # `computeSecurityList` Submodule <a name="`computeSecurityList` Submodule" id="@cdktf/provider-opc.computeSecurityList"></a>
 
@@ -8,7 +8,7 @@ Refer to the Terraform Registory for docs: [`opc_compute_security_list`](https:/
 
 ### ComputeSecurityList <a name="ComputeSecurityList" id="@cdktf/provider-opc.computeSecurityList.ComputeSecurityList"></a>
 
-Represents a {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list opc_compute_security_list}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list opc_compute_security_list}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.Initializer"></a>
 
@@ -19,7 +19,7 @@ computeSecurityList.ComputeSecurityList(
   scope: Construct,
   id: str,
   connection: typing.Union[SSHProvisionerConnection, WinrmProvisionerConnection] = None,
-  count: typing.Union[int, float] = None,
+  count: typing.Union[typing.Union[int, float], TerraformCount] = None,
   depends_on: typing.List[ITerraformDependable] = None,
   for_each: ITerraformIterator = None,
   lifecycle: TerraformResourceLifecycle = None,
@@ -38,17 +38,17 @@ computeSecurityList.ComputeSecurityList(
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.Initializer.parameter.connection">connection</a></code> | <code>typing.Union[cdktf.SSHProvisionerConnection, cdktf.WinrmProvisionerConnection]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.Initializer.parameter.count">count</a></code> | <code>typing.Union[typing.Union[int, float], cdktf.TerraformCount]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.Initializer.parameter.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.Initializer.parameter.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[typing.Union[cdktf.FileProvisioner, cdktf.LocalExecProvisioner, cdktf.RemoteExecProvisioner]]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list#name ComputeSecurityList#name}. |
-| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.Initializer.parameter.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list#description ComputeSecurityList#description}. |
-| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list#id ComputeSecurityList#id}. |
-| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.Initializer.parameter.outboundCidrPolicy">outbound_cidr_policy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list#outbound_cidr_policy ComputeSecurityList#outbound_cidr_policy}. |
-| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.Initializer.parameter.policy">policy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list#policy ComputeSecurityList#policy}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list#name ComputeSecurityList#name}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.Initializer.parameter.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list#description ComputeSecurityList#description}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list#id ComputeSecurityList#id}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.Initializer.parameter.outboundCidrPolicy">outbound_cidr_policy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list#outbound_cidr_policy ComputeSecurityList#outbound_cidr_policy}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.Initializer.parameter.policy">policy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list#policy ComputeSecurityList#policy}. |
 
 ---
 
@@ -78,7 +78,7 @@ Must be unique amongst siblings in the same scope
 
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.Initializer.parameter.count"></a>
 
-- *Type:* typing.Union[int, float]
+- *Type:* typing.Union[typing.Union[int, float], cdktf.TerraformCount]
 
 ---
 
@@ -116,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list#name ComputeSecurityList#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list#name ComputeSecurityList#name}.
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list#description ComputeSecurityList#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list#description ComputeSecurityList#description}.
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list#id ComputeSecurityList#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list#id ComputeSecurityList#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -143,7 +143,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list#outbound_cidr_policy ComputeSecurityList#outbound_cidr_policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list#outbound_cidr_policy ComputeSecurityList#outbound_cidr_policy}.
 
 ---
 
@@ -151,7 +151,7 @@ Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list#policy ComputeSecurityList#policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list#policy ComputeSecurityList#policy}.
 
 ---
 
@@ -503,7 +503,7 @@ computeSecurityList.ComputeSecurityList.is_terraform_resource(
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.property.connection">connection</a></code> | <code>typing.Union[cdktf.SSHProvisionerConnection, cdktf.WinrmProvisionerConnection]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.property.count">count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.property.count">count</a></code> | <code>typing.Union[typing.Union[int, float], cdktf.TerraformCount]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
@@ -607,10 +607,10 @@ connection: typing.Union[SSHProvisionerConnection, WinrmProvisionerConnection]
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.property.count"></a>
 
 ```python
-count: typing.Union[int, float]
+count: typing.Union[typing.Union[int, float], TerraformCount]
 ```
 
-- *Type:* typing.Union[int, float]
+- *Type:* typing.Union[typing.Union[int, float], cdktf.TerraformCount]
 
 ---
 
@@ -793,7 +793,7 @@ from cdktf_cdktf_provider_opc import compute_security_list
 
 computeSecurityList.ComputeSecurityListConfig(
   connection: typing.Union[SSHProvisionerConnection, WinrmProvisionerConnection] = None,
-  count: typing.Union[int, float] = None,
+  count: typing.Union[typing.Union[int, float], TerraformCount] = None,
   depends_on: typing.List[ITerraformDependable] = None,
   for_each: ITerraformIterator = None,
   lifecycle: TerraformResourceLifecycle = None,
@@ -812,17 +812,17 @@ computeSecurityList.ComputeSecurityListConfig(
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.connection">connection</a></code> | <code>typing.Union[cdktf.SSHProvisionerConnection, cdktf.WinrmProvisionerConnection]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.count">count</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.count">count</a></code> | <code>typing.Union[typing.Union[int, float], cdktf.TerraformCount]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktf.ITerraformDependable]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.forEach">for_each</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.provisioners">provisioners</a></code> | <code>typing.List[typing.Union[cdktf.FileProvisioner, cdktf.LocalExecProvisioner, cdktf.RemoteExecProvisioner]]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list#name ComputeSecurityList#name}. |
-| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list#description ComputeSecurityList#description}. |
-| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list#id ComputeSecurityList#id}. |
-| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.outboundCidrPolicy">outbound_cidr_policy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list#outbound_cidr_policy ComputeSecurityList#outbound_cidr_policy}. |
-| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.policy">policy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list#policy ComputeSecurityList#policy}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list#name ComputeSecurityList#name}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list#description ComputeSecurityList#description}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list#id ComputeSecurityList#id}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.outboundCidrPolicy">outbound_cidr_policy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list#outbound_cidr_policy ComputeSecurityList#outbound_cidr_policy}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.policy">policy</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list#policy ComputeSecurityList#policy}. |
 
 ---
 
@@ -839,10 +839,10 @@ connection: typing.Union[SSHProvisionerConnection, WinrmProvisionerConnection]
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.count"></a>
 
 ```python
-count: typing.Union[int, float]
+count: typing.Union[typing.Union[int, float], TerraformCount]
 ```
 
-- *Type:* typing.Union[int, float]
+- *Type:* typing.Union[typing.Union[int, float], cdktf.TerraformCount]
 
 ---
 
@@ -904,7 +904,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list#name ComputeSecurityList#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list#name ComputeSecurityList#name}.
 
 ---
 
@@ -916,7 +916,7 @@ description: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list#description ComputeSecurityList#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list#description ComputeSecurityList#description}.
 
 ---
 
@@ -928,7 +928,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list#id ComputeSecurityList#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list#id ComputeSecurityList#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -943,7 +943,7 @@ outbound_cidr_policy: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list#outbound_cidr_policy ComputeSecurityList#outbound_cidr_policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list#outbound_cidr_policy ComputeSecurityList#outbound_cidr_policy}.
 
 ---
 
@@ -955,7 +955,7 @@ policy: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list#policy ComputeSecurityList#policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list#policy ComputeSecurityList#policy}.
 
 ---
 

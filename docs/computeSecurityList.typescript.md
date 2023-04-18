@@ -1,6 +1,6 @@
 # `opc_compute_security_list`
 
-Refer to the Terraform Registory for docs: [`opc_compute_security_list`](https://www.terraform.io/docs/providers/opc/r/compute_security_list).
+Refer to the Terraform Registory for docs: [`opc_compute_security_list`](https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list).
 
 # `computeSecurityList` Submodule <a name="`computeSecurityList` Submodule" id="@cdktf/provider-opc.computeSecurityList"></a>
 
@@ -8,7 +8,7 @@ Refer to the Terraform Registory for docs: [`opc_compute_security_list`](https:/
 
 ### ComputeSecurityList <a name="ComputeSecurityList" id="@cdktf/provider-opc.computeSecurityList.ComputeSecurityList"></a>
 
-Represents a {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list opc_compute_security_list}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list opc_compute_security_list}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.Initializer"></a>
 
@@ -367,7 +367,7 @@ computeSecurityList.ComputeSecurityList.isTerraformResource(x: any)
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.property.count">count</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
@@ -471,10 +471,10 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.property.count"></a>
 
 ```typescript
-public readonly count: number;
+public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number
+- *Type:* number | cdktf.TerraformCount
 
 ---
 
@@ -663,17 +663,17 @@ const computeSecurityListConfig: computeSecurityList.ComputeSecurityListConfig =
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.count">count</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list#name ComputeSecurityList#name}. |
-| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list#description ComputeSecurityList#description}. |
-| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list#id ComputeSecurityList#id}. |
-| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.outboundCidrPolicy">outboundCidrPolicy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list#outbound_cidr_policy ComputeSecurityList#outbound_cidr_policy}. |
-| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.policy">policy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list#policy ComputeSecurityList#policy}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list#name ComputeSecurityList#name}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list#description ComputeSecurityList#description}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list#id ComputeSecurityList#id}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.outboundCidrPolicy">outboundCidrPolicy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list#outbound_cidr_policy ComputeSecurityList#outbound_cidr_policy}. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.policy">policy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list#policy ComputeSecurityList#policy}. |
 
 ---
 
@@ -690,10 +690,10 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.property.count"></a>
 
 ```typescript
-public readonly count: number;
+public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number
+- *Type:* number | cdktf.TerraformCount
 
 ---
 
@@ -755,7 +755,7 @@ public readonly name: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list#name ComputeSecurityList#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list#name ComputeSecurityList#name}.
 
 ---
 
@@ -767,7 +767,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list#description ComputeSecurityList#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list#description ComputeSecurityList#description}.
 
 ---
 
@@ -779,7 +779,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list#id ComputeSecurityList#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list#id ComputeSecurityList#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -794,7 +794,7 @@ public readonly outboundCidrPolicy: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list#outbound_cidr_policy ComputeSecurityList#outbound_cidr_policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list#outbound_cidr_policy ComputeSecurityList#outbound_cidr_policy}.
 
 ---
 
@@ -806,7 +806,7 @@ public readonly policy: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_security_list#policy ComputeSecurityList#policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_list#policy ComputeSecurityList#policy}.
 
 ---
 

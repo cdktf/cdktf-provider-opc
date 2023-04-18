@@ -1,6 +1,6 @@
 # `opc_compute_ip_address_prefix_set`
 
-Refer to the Terraform Registory for docs: [`opc_compute_ip_address_prefix_set`](https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set).
+Refer to the Terraform Registory for docs: [`opc_compute_ip_address_prefix_set`](https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set).
 
 # `computeIpAddressPrefixSet` Submodule <a name="`computeIpAddressPrefixSet` Submodule" id="@cdktf/provider-opc.computeIpAddressPrefixSet"></a>
 
@@ -8,7 +8,7 @@ Refer to the Terraform Registory for docs: [`opc_compute_ip_address_prefix_set`]
 
 ### ComputeIpAddressPrefixSet <a name="ComputeIpAddressPrefixSet" id="@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet"></a>
 
-Represents a {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set opc_compute_ip_address_prefix_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set opc_compute_ip_address_prefix_set}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.Initializer"></a>
 
@@ -367,7 +367,7 @@ ComputeIpAddressPrefixSet.IsTerraformResource(object X);
 | <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.property.terraformResourceType">TerraformResourceType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>HashiCorp.Cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.property.connection">Connection</a></code> | <code>object</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.property.count">Count</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.property.count">Count</a></code> | <code>object</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.property.dependsOn">DependsOn</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.property.forEach">ForEach</a></code> | <code>HashiCorp.Cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.property.lifecycle">Lifecycle</a></code> | <code>HashiCorp.Cdktf.TerraformResourceLifecycle</code> | *No description.* |
@@ -472,10 +472,10 @@ public object Connection { get; }
 ##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.property.count"></a>
 
 ```csharp
-public double Count { get; }
+public object Count { get; }
 ```
 
-- *Type:* double
+- *Type:* object
 
 ---
 
@@ -668,7 +668,7 @@ using HashiCorp.Cdktf.Providers.Opc;
 
 new ComputeIpAddressPrefixSetConfig {
     object Connection = null,
-    double Count = null,
+    object Count = null,
     ITerraformDependable[] DependsOn = null,
     ITerraformIterator ForEach = null,
     TerraformResourceLifecycle Lifecycle = null,
@@ -687,17 +687,17 @@ new ComputeIpAddressPrefixSetConfig {
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.connection">Connection</a></code> | <code>object</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.count">Count</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.count">Count</a></code> | <code>object</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.dependsOn">DependsOn</a></code> | <code>HashiCorp.Cdktf.ITerraformDependable[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.forEach">ForEach</a></code> | <code>HashiCorp.Cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.lifecycle">Lifecycle</a></code> | <code>HashiCorp.Cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.provider">Provider</a></code> | <code>HashiCorp.Cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.provisioners">Provisioners</a></code> | <code>object[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set#name ComputeIpAddressPrefixSet#name}. |
-| <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set#description ComputeIpAddressPrefixSet#description}. |
-| <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set#id ComputeIpAddressPrefixSet#id}. |
-| <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.prefixes">Prefixes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set#prefixes ComputeIpAddressPrefixSet#prefixes}. |
-| <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.tags">Tags</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set#tags ComputeIpAddressPrefixSet#tags}. |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set#name ComputeIpAddressPrefixSet#name}. |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set#description ComputeIpAddressPrefixSet#description}. |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set#id ComputeIpAddressPrefixSet#id}. |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.prefixes">Prefixes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set#prefixes ComputeIpAddressPrefixSet#prefixes}. |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.tags">Tags</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set#tags ComputeIpAddressPrefixSet#tags}. |
 
 ---
 
@@ -714,10 +714,10 @@ public object Connection { get; set; }
 ##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.count"></a>
 
 ```csharp
-public double Count { get; set; }
+public object Count { get; set; }
 ```
 
-- *Type:* double
+- *Type:* object
 
 ---
 
@@ -779,7 +779,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set#name ComputeIpAddressPrefixSet#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set#name ComputeIpAddressPrefixSet#name}.
 
 ---
 
@@ -791,7 +791,7 @@ public string Description { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set#description ComputeIpAddressPrefixSet#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set#description ComputeIpAddressPrefixSet#description}.
 
 ---
 
@@ -803,7 +803,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set#id ComputeIpAddressPrefixSet#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set#id ComputeIpAddressPrefixSet#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -818,7 +818,7 @@ public string[] Prefixes { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set#prefixes ComputeIpAddressPrefixSet#prefixes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set#prefixes ComputeIpAddressPrefixSet#prefixes}.
 
 ---
 
@@ -830,7 +830,7 @@ public string[] Tags { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set#tags ComputeIpAddressPrefixSet#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set#tags ComputeIpAddressPrefixSet#tags}.
 
 ---
 

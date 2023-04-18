@@ -1,6 +1,6 @@
 # `opc_compute_sec_rule`
 
-Refer to the Terraform Registory for docs: [`opc_compute_sec_rule`](https://www.terraform.io/docs/providers/opc/r/compute_sec_rule).
+Refer to the Terraform Registory for docs: [`opc_compute_sec_rule`](https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule).
 
 # `computeSecRule` Submodule <a name="`computeSecRule` Submodule" id="@cdktf/provider-opc.computeSecRule"></a>
 
@@ -8,7 +8,7 @@ Refer to the Terraform Registory for docs: [`opc_compute_sec_rule`](https://www.
 
 ### ComputeSecRule <a name="ComputeSecRule" id="@cdktf/provider-opc.computeSecRule.ComputeSecRule"></a>
 
-Represents a {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule opc_compute_sec_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule opc_compute_sec_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeSecRule.ComputeSecRule.Initializer"></a>
 
@@ -360,7 +360,7 @@ computeSecRule.ComputeSecRule.isTerraformResource(x: any)
 | <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRule.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRule.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRule.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRule.property.count">count</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRule.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRule.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRule.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRule.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
@@ -470,10 +470,10 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-opc.computeSecRule.ComputeSecRule.property.count"></a>
 
 ```typescript
-public readonly count: number;
+public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number
+- *Type:* number | cdktf.TerraformCount
 
 ---
 
@@ -722,20 +722,20 @@ const computeSecRuleConfig: computeSecRule.ComputeSecRuleConfig = { ... }
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.count">count</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.action">action</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#action ComputeSecRule#action}. |
-| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.application">application</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#application ComputeSecRule#application}. |
-| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.destinationList">destinationList</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#destination_list ComputeSecRule#destination_list}. |
-| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#name ComputeSecRule#name}. |
-| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.sourceList">sourceList</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#source_list ComputeSecRule#source_list}. |
-| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#description ComputeSecRule#description}. |
-| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.disabled">disabled</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#disabled ComputeSecRule#disabled}. |
-| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#id ComputeSecRule#id}. |
+| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.action">action</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#action ComputeSecRule#action}. |
+| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.application">application</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#application ComputeSecRule#application}. |
+| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.destinationList">destinationList</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#destination_list ComputeSecRule#destination_list}. |
+| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#name ComputeSecRule#name}. |
+| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.sourceList">sourceList</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#source_list ComputeSecRule#source_list}. |
+| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#description ComputeSecRule#description}. |
+| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.disabled">disabled</a></code> | <code>boolean \| cdktf.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#disabled ComputeSecRule#disabled}. |
+| <code><a href="#@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#id ComputeSecRule#id}. |
 
 ---
 
@@ -752,10 +752,10 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-opc.computeSecRule.ComputeSecRuleConfig.property.count"></a>
 
 ```typescript
-public readonly count: number;
+public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number
+- *Type:* number | cdktf.TerraformCount
 
 ---
 
@@ -817,7 +817,7 @@ public readonly action: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#action ComputeSecRule#action}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#action ComputeSecRule#action}.
 
 ---
 
@@ -829,7 +829,7 @@ public readonly application: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#application ComputeSecRule#application}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#application ComputeSecRule#application}.
 
 ---
 
@@ -841,7 +841,7 @@ public readonly destinationList: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#destination_list ComputeSecRule#destination_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#destination_list ComputeSecRule#destination_list}.
 
 ---
 
@@ -853,7 +853,7 @@ public readonly name: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#name ComputeSecRule#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#name ComputeSecRule#name}.
 
 ---
 
@@ -865,7 +865,7 @@ public readonly sourceList: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#source_list ComputeSecRule#source_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#source_list ComputeSecRule#source_list}.
 
 ---
 
@@ -877,7 +877,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#description ComputeSecRule#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#description ComputeSecRule#description}.
 
 ---
 
@@ -889,7 +889,7 @@ public readonly disabled: boolean | IResolvable;
 
 - *Type:* boolean | cdktf.IResolvable
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#disabled ComputeSecRule#disabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#disabled ComputeSecRule#disabled}.
 
 ---
 
@@ -901,7 +901,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_sec_rule#id ComputeSecRule#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_sec_rule#id ComputeSecRule#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

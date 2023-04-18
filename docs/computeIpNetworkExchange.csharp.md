@@ -1,6 +1,6 @@
 # `opc_compute_ip_network_exchange`
 
-Refer to the Terraform Registory for docs: [`opc_compute_ip_network_exchange`](https://www.terraform.io/docs/providers/opc/r/compute_ip_network_exchange).
+Refer to the Terraform Registory for docs: [`opc_compute_ip_network_exchange`](https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_network_exchange).
 
 # `computeIpNetworkExchange` Submodule <a name="`computeIpNetworkExchange` Submodule" id="@cdktf/provider-opc.computeIpNetworkExchange"></a>
 
@@ -8,7 +8,7 @@ Refer to the Terraform Registory for docs: [`opc_compute_ip_network_exchange`](h
 
 ### ComputeIpNetworkExchange <a name="ComputeIpNetworkExchange" id="@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange"></a>
 
-Represents a {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_network_exchange opc_compute_ip_network_exchange}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_network_exchange opc_compute_ip_network_exchange}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.Initializer"></a>
 
@@ -360,7 +360,7 @@ ComputeIpNetworkExchange.IsTerraformResource(object X);
 | <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.property.terraformResourceType">TerraformResourceType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>HashiCorp.Cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.property.connection">Connection</a></code> | <code>object</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.property.count">Count</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.property.count">Count</a></code> | <code>object</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.property.dependsOn">DependsOn</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.property.forEach">ForEach</a></code> | <code>HashiCorp.Cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.property.lifecycle">Lifecycle</a></code> | <code>HashiCorp.Cdktf.TerraformResourceLifecycle</code> | *No description.* |
@@ -463,10 +463,10 @@ public object Connection { get; }
 ##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.property.count"></a>
 
 ```csharp
-public double Count { get; }
+public object Count { get; }
 ```
 
-- *Type:* double
+- *Type:* object
 
 ---
 
@@ -639,7 +639,7 @@ using HashiCorp.Cdktf.Providers.Opc;
 
 new ComputeIpNetworkExchangeConfig {
     object Connection = null,
-    double Count = null,
+    object Count = null,
     ITerraformDependable[] DependsOn = null,
     ITerraformIterator ForEach = null,
     TerraformResourceLifecycle Lifecycle = null,
@@ -657,16 +657,16 @@ new ComputeIpNetworkExchangeConfig {
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchangeConfig.property.connection">Connection</a></code> | <code>object</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchangeConfig.property.count">Count</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchangeConfig.property.count">Count</a></code> | <code>object</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchangeConfig.property.dependsOn">DependsOn</a></code> | <code>HashiCorp.Cdktf.ITerraformDependable[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchangeConfig.property.forEach">ForEach</a></code> | <code>HashiCorp.Cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchangeConfig.property.lifecycle">Lifecycle</a></code> | <code>HashiCorp.Cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchangeConfig.property.provider">Provider</a></code> | <code>HashiCorp.Cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchangeConfig.property.provisioners">Provisioners</a></code> | <code>object[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchangeConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_network_exchange#name ComputeIpNetworkExchange#name}. |
-| <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchangeConfig.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_network_exchange#description ComputeIpNetworkExchange#description}. |
-| <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchangeConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_network_exchange#id ComputeIpNetworkExchange#id}. |
-| <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchangeConfig.property.tags">Tags</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_network_exchange#tags ComputeIpNetworkExchange#tags}. |
+| <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchangeConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_network_exchange#name ComputeIpNetworkExchange#name}. |
+| <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchangeConfig.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_network_exchange#description ComputeIpNetworkExchange#description}. |
+| <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchangeConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_network_exchange#id ComputeIpNetworkExchange#id}. |
+| <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchangeConfig.property.tags">Tags</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_network_exchange#tags ComputeIpNetworkExchange#tags}. |
 
 ---
 
@@ -683,10 +683,10 @@ public object Connection { get; set; }
 ##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchangeConfig.property.count"></a>
 
 ```csharp
-public double Count { get; set; }
+public object Count { get; set; }
 ```
 
-- *Type:* double
+- *Type:* object
 
 ---
 
@@ -748,7 +748,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_network_exchange#name ComputeIpNetworkExchange#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_network_exchange#name ComputeIpNetworkExchange#name}.
 
 ---
 
@@ -760,7 +760,7 @@ public string Description { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_network_exchange#description ComputeIpNetworkExchange#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_network_exchange#description ComputeIpNetworkExchange#description}.
 
 ---
 
@@ -772,7 +772,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_network_exchange#id ComputeIpNetworkExchange#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_network_exchange#id ComputeIpNetworkExchange#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -787,7 +787,7 @@ public string[] Tags { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_network_exchange#tags ComputeIpNetworkExchange#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_network_exchange#tags ComputeIpNetworkExchange#tags}.
 
 ---
 

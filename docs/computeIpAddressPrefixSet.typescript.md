@@ -1,6 +1,6 @@
 # `opc_compute_ip_address_prefix_set`
 
-Refer to the Terraform Registory for docs: [`opc_compute_ip_address_prefix_set`](https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set).
+Refer to the Terraform Registory for docs: [`opc_compute_ip_address_prefix_set`](https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set).
 
 # `computeIpAddressPrefixSet` Submodule <a name="`computeIpAddressPrefixSet` Submodule" id="@cdktf/provider-opc.computeIpAddressPrefixSet"></a>
 
@@ -8,7 +8,7 @@ Refer to the Terraform Registory for docs: [`opc_compute_ip_address_prefix_set`]
 
 ### ComputeIpAddressPrefixSet <a name="ComputeIpAddressPrefixSet" id="@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet"></a>
 
-Represents a {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set opc_compute_ip_address_prefix_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set opc_compute_ip_address_prefix_set}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.Initializer"></a>
 
@@ -367,7 +367,7 @@ computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.isTerraformResource(x: any)
 | <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.property.count">count</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
@@ -472,10 +472,10 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.property.count"></a>
 
 ```typescript
-public readonly count: number;
+public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number
+- *Type:* number | cdktf.TerraformCount
 
 ---
 
@@ -674,17 +674,17 @@ const computeIpAddressPrefixSetConfig: computeIpAddressPrefixSet.ComputeIpAddres
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.connection">connection</a></code> | <code>cdktf.SSHProvisionerConnection \| cdktf.WinrmProvisionerConnection</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.count">count</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.count">count</a></code> | <code>number \| cdktf.TerraformCount</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.dependsOn">dependsOn</a></code> | <code>cdktf.ITerraformDependable[]</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.forEach">forEach</a></code> | <code>cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.lifecycle">lifecycle</a></code> | <code>cdktf.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.provider">provider</a></code> | <code>cdktf.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.provisioners">provisioners</a></code> | <code>cdktf.FileProvisioner \| cdktf.LocalExecProvisioner \| cdktf.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set#name ComputeIpAddressPrefixSet#name}. |
-| <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set#description ComputeIpAddressPrefixSet#description}. |
-| <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set#id ComputeIpAddressPrefixSet#id}. |
-| <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.prefixes">prefixes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set#prefixes ComputeIpAddressPrefixSet#prefixes}. |
-| <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.tags">tags</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set#tags ComputeIpAddressPrefixSet#tags}. |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set#name ComputeIpAddressPrefixSet#name}. |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set#description ComputeIpAddressPrefixSet#description}. |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set#id ComputeIpAddressPrefixSet#id}. |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.prefixes">prefixes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set#prefixes ComputeIpAddressPrefixSet#prefixes}. |
+| <code><a href="#@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.tags">tags</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set#tags ComputeIpAddressPrefixSet#tags}. |
 
 ---
 
@@ -701,10 +701,10 @@ public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnectio
 ##### `count`<sup>Optional</sup> <a name="count" id="@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.property.count"></a>
 
 ```typescript
-public readonly count: number;
+public readonly count: number | TerraformCount;
 ```
 
-- *Type:* number
+- *Type:* number | cdktf.TerraformCount
 
 ---
 
@@ -766,7 +766,7 @@ public readonly name: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set#name ComputeIpAddressPrefixSet#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set#name ComputeIpAddressPrefixSet#name}.
 
 ---
 
@@ -778,7 +778,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set#description ComputeIpAddressPrefixSet#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set#description ComputeIpAddressPrefixSet#description}.
 
 ---
 
@@ -790,7 +790,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set#id ComputeIpAddressPrefixSet#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set#id ComputeIpAddressPrefixSet#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -805,7 +805,7 @@ public readonly prefixes: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set#prefixes ComputeIpAddressPrefixSet#prefixes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set#prefixes ComputeIpAddressPrefixSet#prefixes}.
 
 ---
 
@@ -817,7 +817,7 @@ public readonly tags: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/opc/r/compute_ip_address_prefix_set#tags ComputeIpAddressPrefixSet#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set#tags ComputeIpAddressPrefixSet#tags}.
 
 ---
 
