@@ -1,3 +1,7 @@
+# `opc_compute_orchestrated_instance`
+
+Refer to the Terraform Registory for docs: [`opc_compute_orchestrated_instance`](https://www.terraform.io/docs/providers/opc/r/compute_orchestrated_instance).
+
 # `computeOrchestratedInstance` Submodule <a name="`computeOrchestratedInstance` Submodule" id="@cdktf/provider-opc.computeOrchestratedInstance"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>

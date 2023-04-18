@@ -1,3 +1,7 @@
+# `data_opc_compute_ssh_key`
+
+Refer to the Terraform Registory for docs: [`data_opc_compute_ssh_key`](https://www.terraform.io/docs/providers/opc/d/compute_ssh_key).
+
 # `dataOpcComputeSshKey` Submodule <a name="`dataOpcComputeSshKey` Submodule" id="@cdktf/provider-opc.dataOpcComputeSshKey"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
