@@ -1,3 +1,7 @@
+# `opc_compute_ip_address_reservation`
+
+Refer to the Terraform Registory for docs: [`opc_compute_ip_address_reservation`](https://www.terraform.io/docs/providers/opc/r/compute_ip_address_reservation).
+
 # `computeIpAddressReservation` Submodule <a name="`computeIpAddressReservation` Submodule" id="@cdktf/provider-opc.computeIpAddressReservation"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>

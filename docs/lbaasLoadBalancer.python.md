@@ -1,3 +1,7 @@
+# `opc_lbaas_load_balancer`
+
+Refer to the Terraform Registory for docs: [`opc_lbaas_load_balancer`](https://www.terraform.io/docs/providers/opc/r/lbaas_load_balancer).
+
 # `lbaasLoadBalancer` Submodule <a name="`lbaasLoadBalancer` Submodule" id="@cdktf/provider-opc.lbaasLoadBalancer"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>

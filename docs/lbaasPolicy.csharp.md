@@ -1,3 +1,7 @@
+# `opc_lbaas_policy`
+
+Refer to the Terraform Registory for docs: [`opc_lbaas_policy`](https://www.terraform.io/docs/providers/opc/r/lbaas_policy).
+
 # `lbaasPolicy` Submodule <a name="`lbaasPolicy` Submodule" id="@cdktf/provider-opc.lbaasPolicy"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>

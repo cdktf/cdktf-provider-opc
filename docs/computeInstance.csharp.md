@@ -1,3 +1,7 @@
+# `opc_compute_instance`
+
+Refer to the Terraform Registory for docs: [`opc_compute_instance`](https://www.terraform.io/docs/providers/opc/r/compute_instance).
+
 # `computeInstance` Submodule <a name="`computeInstance` Submodule" id="@cdktf/provider-opc.computeInstance"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
