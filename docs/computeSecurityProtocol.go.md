@@ -13,7 +13,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocol.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityprotocol"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v5/computesecurityprotocol"
 
 computesecurityprotocol.NewComputeSecurityProtocol(scope Construct, id *string, config ComputeSecurityProtocolConfig) ComputeSecurityProtocol
 ```
@@ -312,7 +312,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocol.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityprotocol"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v5/computesecurityprotocol"
 
 computesecurityprotocol.ComputeSecurityProtocol_IsConstruct(x interface{}) *bool
 ```
@@ -344,7 +344,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocol.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityprotocol"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v5/computesecurityprotocol"
 
 computesecurityprotocol.ComputeSecurityProtocol_IsTerraformElement(x interface{}) *bool
 ```
@@ -358,7 +358,7 @@ computesecurityprotocol.ComputeSecurityProtocol_IsTerraformElement(x interface{}
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocol.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityprotocol"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v5/computesecurityprotocol"
 
 computesecurityprotocol.ComputeSecurityProtocol_IsTerraformResource(x interface{}) *bool
 ```
@@ -722,7 +722,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeSecurityProtocol.ComputeSecurityProtocolConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityprotocol"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v5/computesecurityprotocol"
 
 &computesecurityprotocol.ComputeSecurityProtocolConfig {
 	Connection: interface{},
