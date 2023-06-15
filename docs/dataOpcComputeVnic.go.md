@@ -13,7 +13,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/dataopccomputevnic"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v5/dataopccomputevnic"
 
 dataopccomputevnic.NewDataOpcComputeVnic(scope Construct, id *string, config DataOpcComputeVnicConfig) DataOpcComputeVnic
 ```
@@ -277,7 +277,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/dataopccomputevnic"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v5/dataopccomputevnic"
 
 dataopccomputevnic.DataOpcComputeVnic_IsConstruct(x interface{}) *bool
 ```
@@ -309,7 +309,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/dataopccomputevnic"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v5/dataopccomputevnic"
 
 dataopccomputevnic.DataOpcComputeVnic_IsTerraformElement(x interface{}) *bool
 ```
@@ -323,7 +323,7 @@ dataopccomputevnic.DataOpcComputeVnic_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/dataopccomputevnic"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v5/dataopccomputevnic"
 
 dataopccomputevnic.DataOpcComputeVnic_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -599,7 +599,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnicConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v4/dataopccomputevnic"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v5/dataopccomputevnic"
 
 &dataopccomputevnic.DataOpcComputeVnicConfig {
 	Connection: interface{},
