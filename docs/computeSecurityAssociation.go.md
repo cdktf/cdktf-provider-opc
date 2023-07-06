@@ -13,7 +13,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeSecurityAssociation.ComputeSecurityAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v6/computesecurityassociation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityassociation"
 
 computesecurityassociation.NewComputeSecurityAssociation(scope Construct, id *string, config ComputeSecurityAssociationConfig) ComputeSecurityAssociation
 ```
@@ -284,7 +284,7 @@ func ResetName()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.computeSecurityAssociation.ComputeSecurityAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v6/computesecurityassociation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityassociation"
 
 computesecurityassociation.ComputeSecurityAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -316,7 +316,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.computeSecurityAssociation.ComputeSecurityAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v6/computesecurityassociation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityassociation"
 
 computesecurityassociation.ComputeSecurityAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -330,7 +330,7 @@ computesecurityassociation.ComputeSecurityAssociation_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.computeSecurityAssociation.ComputeSecurityAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v6/computesecurityassociation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityassociation"
 
 computesecurityassociation.ComputeSecurityAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -617,7 +617,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeSecurityAssociation.ComputeSecurityAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v6/computesecurityassociation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityassociation"
 
 &computesecurityassociation.ComputeSecurityAssociationConfig {
 	Connection: interface{},
