@@ -1,8 +1,3 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
 // https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/lbaas_server_pool
 // generated from terraform resource schema
 
@@ -45,7 +40,7 @@ export interface LbaasServerPoolConfig extends cdktf.TerraformMetaArguments {
   readonly vnicSet?: string;
   /**
   * health_check block
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/lbaas_server_pool#health_check LbaasServerPool#health_check}
   */
   readonly healthCheck?: LbaasServerPoolHealthCheck;

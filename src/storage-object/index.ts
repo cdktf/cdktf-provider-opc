@@ -1,8 +1,3 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
 // https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object
 // generated from terraform resource schema
 
@@ -14,31 +9,31 @@ import * as cdktf from 'cdktf';
 export interface StorageObjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the storage container
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#container StorageObject#container}
   */
   readonly container: string;
   /**
   * Raw content in string-form of the data
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#content StorageObject#content}
   */
   readonly content?: string;
   /**
   * Overrides the behavior of the browser
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#content_disposition StorageObject#content_disposition}
   */
   readonly contentDisposition?: string;
   /**
   * Set the content-encoding metadata
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#content_encoding StorageObject#content_encoding}
   */
   readonly contentEncoding?: string;
   /**
   * Set the MIME type for the object
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#content_type StorageObject#content_type}
   */
   readonly contentType?: string;
@@ -48,19 +43,19 @@ export interface StorageObjectConfig extends cdktf.TerraformMetaArguments {
   readonly copyFrom?: string;
   /**
   * The date and time in UNIX Epoch time stamp format when the system removes the object
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#delete_at StorageObject#delete_at}
   */
   readonly deleteAt?: number;
   /**
   * MD5 checksum value of the request body. Unquoted. Strongly Recommended
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#etag StorageObject#etag}
   */
   readonly etag?: string;
   /**
   * File path for the content to use for data
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#file StorageObject#file}
   */
   readonly file?: string;
@@ -73,19 +68,19 @@ export interface StorageObjectConfig extends cdktf.TerraformMetaArguments {
   readonly id?: string;
   /**
   * The object metadata
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#metadata StorageObject#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * Name of the storage object
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#name StorageObject#name}
   */
   readonly name: string;
   /**
   * Sets the transfer encoding. Can only be 'chunked' or Nil, requires Content-Length to be 0 if set
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object#transfer_encoding StorageObject#transfer_encoding}
   */
   readonly transferEncoding?: string;

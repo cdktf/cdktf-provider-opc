@@ -1,8 +1,3 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
 // https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs
 // generated from terraform resource schema
 
@@ -14,61 +9,61 @@ import * as cdktf from 'cdktf';
 export interface OpcProviderConfig {
   /**
   * The HTTP endpoint for OPC API operations.
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs#endpoint OpcProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * The OPC identity domain for API operations
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs#identity_domain OpcProvider#identity_domain}
   */
   readonly identityDomain: string;
   /**
   * Skip TLS Verification for self-signed certificates. Should only be used if absolutely required.
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs#insecure OpcProvider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * The HTTP endpoint for the Load Balancer Classic service.
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs#lbaas_endpoint OpcProvider#lbaas_endpoint}
   */
   readonly lbaasEndpoint?: string;
   /**
   * Maximum number retries to wait for a successful response when operating on resources within OPC (defaults to 1)
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs#max_retries OpcProvider#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * The user password for OPC API operations.
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs#password OpcProvider#password}
   */
   readonly password: string;
   /**
   * The HTTP endpoint for Oracle Storage operations.
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs#storage_endpoint OpcProvider#storage_endpoint}
   */
   readonly storageEndpoint?: string;
   /**
   * The Storage Service ID. 
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs#storage_service_id OpcProvider#storage_service_id}
   */
   readonly storageServiceId?: string;
   /**
   * The user name for OPC API operations.
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs#user OpcProvider#user}
   */
   readonly user: string;
   /**
   * Alias name
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs#alias OpcProvider#alias}
   */
   readonly alias?: string;
