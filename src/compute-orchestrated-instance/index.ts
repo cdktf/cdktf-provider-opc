@@ -37,13 +37,13 @@ export interface ComputeOrchestratedInstanceConfig extends cdktf.TerraformMetaAr
   readonly tags?: string[];
   /**
   * instance block
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_orchestrated_instance#instance ComputeOrchestratedInstance#instance}
   */
   readonly instance: ComputeOrchestratedInstanceInstance[] | cdktf.IResolvable;
   /**
   * timeouts block
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_orchestrated_instance#timeouts ComputeOrchestratedInstance#timeouts}
   */
   readonly timeouts?: ComputeOrchestratedInstanceTimeouts;
@@ -636,13 +636,13 @@ export interface ComputeOrchestratedInstanceInstance {
   readonly tags?: string[];
   /**
   * networking_info block
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_orchestrated_instance#networking_info ComputeOrchestratedInstance#networking_info}
   */
   readonly networkingInfo?: ComputeOrchestratedInstanceInstanceNetworkingInfo[] | cdktf.IResolvable;
   /**
   * storage block
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_orchestrated_instance#storage ComputeOrchestratedInstance#storage}
   */
   readonly storage?: ComputeOrchestratedInstanceInstanceStorage[] | cdktf.IResolvable;

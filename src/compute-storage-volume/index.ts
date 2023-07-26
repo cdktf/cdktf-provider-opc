@@ -97,7 +97,7 @@ export interface ComputeStorageVolumeConfig extends cdktf.TerraformMetaArguments
   readonly uri?: string;
   /**
   * timeouts block
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_storage_volume#timeouts ComputeStorageVolume#timeouts}
   */
   readonly timeouts?: ComputeStorageVolumeTimeouts;

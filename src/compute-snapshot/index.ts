@@ -33,7 +33,7 @@ export interface ComputeSnapshotConfig extends cdktf.TerraformMetaArguments {
   readonly machineImage?: string;
   /**
   * timeouts block
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_snapshot#timeouts ComputeSnapshot#timeouts}
   */
   readonly timeouts?: ComputeSnapshotTimeouts;

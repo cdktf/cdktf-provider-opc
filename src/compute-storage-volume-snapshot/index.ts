@@ -45,7 +45,7 @@ export interface ComputeStorageVolumeSnapshotConfig extends cdktf.TerraformMetaA
   readonly volumeName: string;
   /**
   * timeouts block
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_storage_volume_snapshot#timeouts ComputeStorageVolumeSnapshot#timeouts}
   */
   readonly timeouts?: ComputeStorageVolumeSnapshotTimeouts;

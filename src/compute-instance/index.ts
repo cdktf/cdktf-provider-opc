@@ -65,19 +65,19 @@ export interface ComputeInstanceConfig extends cdktf.TerraformMetaArguments {
   readonly tags?: string[];
   /**
   * networking_info block
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_instance#networking_info ComputeInstance#networking_info}
   */
   readonly networkingInfo?: ComputeInstanceNetworkingInfo[] | cdktf.IResolvable;
   /**
   * storage block
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_instance#storage ComputeInstance#storage}
   */
   readonly storage?: ComputeInstanceStorage[] | cdktf.IResolvable;
   /**
   * timeouts block
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_instance#timeouts ComputeInstance#timeouts}
   */
   readonly timeouts?: ComputeInstanceTimeouts;

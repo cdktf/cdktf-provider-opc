@@ -65,19 +65,19 @@ export interface ComputeVpnEndpointV2Config extends cdktf.TerraformMetaArguments
   readonly vnicSets: string[];
   /**
   * phase_one_settings block
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_vpn_endpoint_v2#phase_one_settings ComputeVpnEndpointV2#phase_one_settings}
   */
   readonly phaseOneSettings?: ComputeVpnEndpointV2PhaseOneSettings;
   /**
   * phase_two_settings block
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_vpn_endpoint_v2#phase_two_settings ComputeVpnEndpointV2#phase_two_settings}
   */
   readonly phaseTwoSettings?: ComputeVpnEndpointV2PhaseTwoSettings;
   /**
   * timeouts block
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_vpn_endpoint_v2#timeouts ComputeVpnEndpointV2#timeouts}
   */
   readonly timeouts?: ComputeVpnEndpointV2Timeouts;

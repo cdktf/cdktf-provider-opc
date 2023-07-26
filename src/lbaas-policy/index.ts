@@ -29,61 +29,61 @@ export interface LbaasPolicyConfig extends cdktf.TerraformMetaArguments {
   readonly name: string;
   /**
   * application_cookie_stickiness_policy block
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/lbaas_policy#application_cookie_stickiness_policy LbaasPolicy#application_cookie_stickiness_policy}
   */
   readonly applicationCookieStickinessPolicy?: LbaasPolicyApplicationCookieStickinessPolicy;
   /**
   * cloudgate_policy block
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/lbaas_policy#cloudgate_policy LbaasPolicy#cloudgate_policy}
   */
   readonly cloudgatePolicy?: LbaasPolicyCloudgatePolicy;
   /**
   * load_balancer_cookie_stickiness_policy block
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/lbaas_policy#load_balancer_cookie_stickiness_policy LbaasPolicy#load_balancer_cookie_stickiness_policy}
   */
   readonly loadBalancerCookieStickinessPolicy?: LbaasPolicyLoadBalancerCookieStickinessPolicy;
   /**
   * load_balancing_mechanism_policy block
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/lbaas_policy#load_balancing_mechanism_policy LbaasPolicy#load_balancing_mechanism_policy}
   */
   readonly loadBalancingMechanismPolicy?: LbaasPolicyLoadBalancingMechanismPolicy;
   /**
   * rate_limiting_request_policy block
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/lbaas_policy#rate_limiting_request_policy LbaasPolicy#rate_limiting_request_policy}
   */
   readonly rateLimitingRequestPolicy?: LbaasPolicyRateLimitingRequestPolicy;
   /**
   * redirect_policy block
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/lbaas_policy#redirect_policy LbaasPolicy#redirect_policy}
   */
   readonly redirectPolicy?: LbaasPolicyRedirectPolicy;
   /**
   * resource_access_control_policy block
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/lbaas_policy#resource_access_control_policy LbaasPolicy#resource_access_control_policy}
   */
   readonly resourceAccessControlPolicy?: LbaasPolicyResourceAccessControlPolicy;
   /**
   * set_request_header_policy block
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/lbaas_policy#set_request_header_policy LbaasPolicy#set_request_header_policy}
   */
   readonly setRequestHeaderPolicy?: LbaasPolicySetRequestHeaderPolicy;
   /**
   * ssl_negotiation_policy block
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/lbaas_policy#ssl_negotiation_policy LbaasPolicy#ssl_negotiation_policy}
   */
   readonly sslNegotiationPolicy?: LbaasPolicySslNegotiationPolicy;
   /**
   * trusted_certificate_policy block
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/lbaas_policy#trusted_certificate_policy LbaasPolicy#trusted_certificate_policy}
   */
   readonly trustedCertificatePolicy?: LbaasPolicyTrustedCertificatePolicy;
