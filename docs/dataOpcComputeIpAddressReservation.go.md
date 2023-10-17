@@ -13,7 +13,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservation.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/dataopccomputeipaddressreservation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputeipaddressreservation"
 
 dataopccomputeipaddressreservation.NewDataOpcComputeIpAddressReservation(scope Construct, id *string, config DataOpcComputeIpAddressReservationConfig) DataOpcComputeIpAddressReservation
 ```
@@ -278,7 +278,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservation.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/dataopccomputeipaddressreservation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputeipaddressreservation"
 
 dataopccomputeipaddressreservation.DataOpcComputeIpAddressReservation_IsConstruct(x interface{}) *bool
 ```
@@ -310,7 +310,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/dataopccomputeipaddressreservation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputeipaddressreservation"
 
 dataopccomputeipaddressreservation.DataOpcComputeIpAddressReservation_IsTerraformElement(x interface{}) *bool
 ```
@@ -324,7 +324,7 @@ dataopccomputeipaddressreservation.DataOpcComputeIpAddressReservation_IsTerrafor
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservation.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/dataopccomputeipaddressreservation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputeipaddressreservation"
 
 dataopccomputeipaddressreservation.DataOpcComputeIpAddressReservation_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -338,7 +338,7 @@ dataopccomputeipaddressreservation.DataOpcComputeIpAddressReservation_IsTerrafor
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/dataopccomputeipaddressreservation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputeipaddressreservation"
 
 dataopccomputeipaddressreservation.DataOpcComputeIpAddressReservation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -644,7 +644,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.dataOpcComputeIpAddressReservation.DataOpcComputeIpAddressReservationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/dataopccomputeipaddressreservation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputeipaddressreservation"
 
 &dataopccomputeipaddressreservation.DataOpcComputeIpAddressReservationConfig {
 	Connection: interface{},
