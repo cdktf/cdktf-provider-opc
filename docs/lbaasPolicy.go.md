@@ -13,7 +13,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaspolicy"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaspolicy"
 
 lbaaspolicy.NewLbaasPolicy(scope Construct, id *string, config LbaasPolicyConfig) LbaasPolicy
 ```
@@ -60,6 +60,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
 | <code><a href="#@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.toMetadata">ToMetadata</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.addMoveTarget">AddMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
 | <code><a href="#@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
@@ -69,7 +70,9 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.importFrom">ImportFrom</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.putApplicationCookieStickinessPolicy">PutApplicationCookieStickinessPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.putCloudgatePolicy">PutCloudgatePolicy</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.putLoadBalancerCookieStickinessPolicy">PutLoadBalancerCookieStickinessPolicy</a></code> | *No description.* |
@@ -157,6 +160,22 @@ func ToTerraform() interface{}
 ```
 
 Adds this resource to the terraform JSON output.
+
+##### `AddMoveTarget` <a name="AddMoveTarget" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.addMoveTarget"></a>
+
+```go
+func AddMoveTarget(moveTarget *string)
+```
+
+Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
+
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.addMoveTarget.parameter.moveTarget"></a>
+
+- *Type:* *string
+
+The string move target that will correspond to this resource.
+
+---
 
 ##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.getAnyMapAttribute"></a>
 
@@ -266,6 +285,24 @@ func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 
 ---
 
+##### `ImportFrom` <a name="ImportFrom" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.importFrom"></a>
+
+```go
+func ImportFrom(id *string, provider TerraformProvider)
+```
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.importFrom.parameter.id"></a>
+
+- *Type:* *string
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.importFrom.parameter.provider"></a>
+
+- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
+
+---
+
 ##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.interpolationForAttribute"></a>
 
 ```go
@@ -275,6 +312,30 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* *string
+
+---
+
+##### `MoveTo` <a name="MoveTo" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.moveTo"></a>
+
+```go
+func MoveTo(moveTarget *string, index interface{})
+```
+
+Moves this resource to the target resource given by moveTarget.
+
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.moveTo.parameter.moveTarget"></a>
+
+- *Type:* *string
+
+The previously set user defined string set by .addMoveTarget() corresponding to the resource to move to.
+
+---
+
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.moveTo.parameter.index"></a>
+
+- *Type:* interface{}
+
+Optional The index corresponding to the key the resource is to appear in the foreach of a resource to move to.
 
 ---
 
@@ -471,13 +532,14 @@ func ResetTrustedCertificatePolicy()
 | <code><a href="#@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.isTerraformResource">IsTerraformResource</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a LbaasPolicy resource upon running "cdktf plan <stack-name>". |
 
 ---
 
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaspolicy"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaspolicy"
 
 lbaaspolicy.LbaasPolicy_IsConstruct(x interface{}) *bool
 ```
@@ -509,7 +571,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaspolicy"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaspolicy"
 
 lbaaspolicy.LbaasPolicy_IsTerraformElement(x interface{}) *bool
 ```
@@ -523,7 +585,7 @@ lbaaspolicy.LbaasPolicy_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaspolicy"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaspolicy"
 
 lbaaspolicy.LbaasPolicy_IsTerraformResource(x interface{}) *bool
 ```
@@ -531,6 +593,50 @@ lbaaspolicy.LbaasPolicy_IsTerraformResource(x interface{}) *bool
 ###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.isTerraformResource.parameter.x"></a>
 
 - *Type:* interface{}
+
+---
+
+##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.generateConfigForImport"></a>
+
+```go
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaspolicy"
+
+lbaaspolicy.LbaasPolicy_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
+```
+
+Generates CDKTF code for importing a LbaasPolicy resource upon running "cdktf plan <stack-name>".
+
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.generateConfigForImport.parameter.scope"></a>
+
+- *Type:* github.com/aws/constructs-go/constructs/v10.Construct
+
+The scope in which to define this construct.
+
+---
+
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.generateConfigForImport.parameter.importToId"></a>
+
+- *Type:* *string
+
+The construct id used in the generated config for the LbaasPolicy to import.
+
+---
+
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.generateConfigForImport.parameter.importFromId"></a>
+
+- *Type:* *string
+
+The id of the existing LbaasPolicy that should be imported.
+
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/lbaas_policy#import import section} in the documentation of this resource for the id to use
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicy.generateConfigForImport.parameter.provider"></a>
+
+- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
+
+? Optional instance of the provider where the LbaasPolicy to import is found.
 
 ---
 
@@ -1041,7 +1147,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicyApplicationCookieStickinessPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaspolicy"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaspolicy"
 
 &lbaaspolicy.LbaasPolicyApplicationCookieStickinessPolicy {
 	CookieName: *string,
@@ -1073,7 +1179,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicyCloudgatePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaspolicy"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaspolicy"
 
 &lbaaspolicy.LbaasPolicyCloudgatePolicy {
 	VirtualHostnameForPolicyAttribution: *string,
@@ -1147,7 +1253,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaspolicy"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaspolicy"
 
 &lbaaspolicy.LbaasPolicyConfig {
 	Connection: interface{},
@@ -1159,17 +1265,17 @@ import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaspolicy"
 	Provisioners: *[]interface{},
 	LoadBalancer: *string,
 	Name: *string,
-	ApplicationCookieStickinessPolicy: github.com/cdktf/cdktf-provider-opc-go/opc/v7.lbaasPolicy.LbaasPolicyApplicationCookieStickinessPolicy,
-	CloudgatePolicy: github.com/cdktf/cdktf-provider-opc-go/opc/v7.lbaasPolicy.LbaasPolicyCloudgatePolicy,
+	ApplicationCookieStickinessPolicy: github.com/cdktf/cdktf-provider-opc-go/opc.lbaasPolicy.LbaasPolicyApplicationCookieStickinessPolicy,
+	CloudgatePolicy: github.com/cdktf/cdktf-provider-opc-go/opc.lbaasPolicy.LbaasPolicyCloudgatePolicy,
 	Id: *string,
-	LoadBalancerCookieStickinessPolicy: github.com/cdktf/cdktf-provider-opc-go/opc/v7.lbaasPolicy.LbaasPolicyLoadBalancerCookieStickinessPolicy,
-	LoadBalancingMechanismPolicy: github.com/cdktf/cdktf-provider-opc-go/opc/v7.lbaasPolicy.LbaasPolicyLoadBalancingMechanismPolicy,
-	RateLimitingRequestPolicy: github.com/cdktf/cdktf-provider-opc-go/opc/v7.lbaasPolicy.LbaasPolicyRateLimitingRequestPolicy,
-	RedirectPolicy: github.com/cdktf/cdktf-provider-opc-go/opc/v7.lbaasPolicy.LbaasPolicyRedirectPolicy,
-	ResourceAccessControlPolicy: github.com/cdktf/cdktf-provider-opc-go/opc/v7.lbaasPolicy.LbaasPolicyResourceAccessControlPolicy,
-	SetRequestHeaderPolicy: github.com/cdktf/cdktf-provider-opc-go/opc/v7.lbaasPolicy.LbaasPolicySetRequestHeaderPolicy,
-	SslNegotiationPolicy: github.com/cdktf/cdktf-provider-opc-go/opc/v7.lbaasPolicy.LbaasPolicySslNegotiationPolicy,
-	TrustedCertificatePolicy: github.com/cdktf/cdktf-provider-opc-go/opc/v7.lbaasPolicy.LbaasPolicyTrustedCertificatePolicy,
+	LoadBalancerCookieStickinessPolicy: github.com/cdktf/cdktf-provider-opc-go/opc.lbaasPolicy.LbaasPolicyLoadBalancerCookieStickinessPolicy,
+	LoadBalancingMechanismPolicy: github.com/cdktf/cdktf-provider-opc-go/opc.lbaasPolicy.LbaasPolicyLoadBalancingMechanismPolicy,
+	RateLimitingRequestPolicy: github.com/cdktf/cdktf-provider-opc-go/opc.lbaasPolicy.LbaasPolicyRateLimitingRequestPolicy,
+	RedirectPolicy: github.com/cdktf/cdktf-provider-opc-go/opc.lbaasPolicy.LbaasPolicyRedirectPolicy,
+	ResourceAccessControlPolicy: github.com/cdktf/cdktf-provider-opc-go/opc.lbaasPolicy.LbaasPolicyResourceAccessControlPolicy,
+	SetRequestHeaderPolicy: github.com/cdktf/cdktf-provider-opc-go/opc.lbaasPolicy.LbaasPolicySetRequestHeaderPolicy,
+	SslNegotiationPolicy: github.com/cdktf/cdktf-provider-opc-go/opc.lbaasPolicy.LbaasPolicySslNegotiationPolicy,
+	TrustedCertificatePolicy: github.com/cdktf/cdktf-provider-opc-go/opc.lbaasPolicy.LbaasPolicyTrustedCertificatePolicy,
 }
 ```
 
@@ -1454,7 +1560,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicyLoadBalancerCookieStickinessPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaspolicy"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaspolicy"
 
 &lbaaspolicy.LbaasPolicyLoadBalancerCookieStickinessPolicy {
 	CookieExpirationPeriod: *f64,
@@ -1486,7 +1592,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicyLoadBalancingMechanismPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaspolicy"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaspolicy"
 
 &lbaaspolicy.LbaasPolicyLoadBalancingMechanismPolicy {
 	LoadBalancingMechanism: *string,
@@ -1518,7 +1624,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicyRateLimitingRequestPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaspolicy"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaspolicy"
 
 &lbaaspolicy.LbaasPolicyRateLimitingRequestPolicy {
 	BurstSize: *f64,
@@ -1648,7 +1754,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicyRedirectPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaspolicy"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaspolicy"
 
 &lbaaspolicy.LbaasPolicyRedirectPolicy {
 	RedirectUri: *string,
@@ -1694,7 +1800,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicyResourceAccessControlPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaspolicy"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaspolicy"
 
 &lbaaspolicy.LbaasPolicyResourceAccessControlPolicy {
 	Disposition: *string,
@@ -1754,7 +1860,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicySetRequestHeaderPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaspolicy"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaspolicy"
 
 &lbaaspolicy.LbaasPolicySetRequestHeaderPolicy {
 	HeaderName: *string,
@@ -1842,7 +1948,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicySslNegotiationPolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaspolicy"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaspolicy"
 
 &lbaaspolicy.LbaasPolicySslNegotiationPolicy {
 	Port: *f64,
@@ -1916,7 +2022,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicyTrustedCertificatePolicy.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaspolicy"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaspolicy"
 
 &lbaaspolicy.LbaasPolicyTrustedCertificatePolicy {
 	TrustedCertificate: *string,
@@ -1950,7 +2056,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicyApplicationCookieStickinessPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaspolicy"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaspolicy"
 
 lbaaspolicy.NewLbaasPolicyApplicationCookieStickinessPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LbaasPolicyApplicationCookieStickinessPolicyOutputReference
 ```
@@ -2221,7 +2327,7 @@ func InternalValue() LbaasPolicyApplicationCookieStickinessPolicy
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicyCloudgatePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaspolicy"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaspolicy"
 
 lbaaspolicy.NewLbaasPolicyCloudgatePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LbaasPolicyCloudgatePolicyOutputReference
 ```
@@ -2579,7 +2685,7 @@ func InternalValue() LbaasPolicyCloudgatePolicy
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicyLoadBalancerCookieStickinessPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaspolicy"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaspolicy"
 
 lbaaspolicy.NewLbaasPolicyLoadBalancerCookieStickinessPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LbaasPolicyLoadBalancerCookieStickinessPolicyOutputReference
 ```
@@ -2850,7 +2956,7 @@ func InternalValue() LbaasPolicyLoadBalancerCookieStickinessPolicy
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicyLoadBalancingMechanismPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaspolicy"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaspolicy"
 
 lbaaspolicy.NewLbaasPolicyLoadBalancingMechanismPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LbaasPolicyLoadBalancingMechanismPolicyOutputReference
 ```
@@ -3121,7 +3227,7 @@ func InternalValue() LbaasPolicyLoadBalancingMechanismPolicy
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicyRateLimitingRequestPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaspolicy"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaspolicy"
 
 lbaaspolicy.NewLbaasPolicyRateLimitingRequestPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LbaasPolicyRateLimitingRequestPolicyOutputReference
 ```
@@ -3574,7 +3680,7 @@ func InternalValue() LbaasPolicyRateLimitingRequestPolicy
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicyRedirectPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaspolicy"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaspolicy"
 
 lbaaspolicy.NewLbaasPolicyRedirectPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LbaasPolicyRedirectPolicyOutputReference
 ```
@@ -3867,7 +3973,7 @@ func InternalValue() LbaasPolicyRedirectPolicy
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicyResourceAccessControlPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaspolicy"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaspolicy"
 
 lbaaspolicy.NewLbaasPolicyResourceAccessControlPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LbaasPolicyResourceAccessControlPolicyOutputReference
 ```
@@ -4196,7 +4302,7 @@ func InternalValue() LbaasPolicyResourceAccessControlPolicy
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicySetRequestHeaderPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaspolicy"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaspolicy"
 
 lbaaspolicy.NewLbaasPolicySetRequestHeaderPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LbaasPolicySetRequestHeaderPolicyOutputReference
 ```
@@ -4583,7 +4689,7 @@ func InternalValue() LbaasPolicySetRequestHeaderPolicy
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicySslNegotiationPolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaspolicy"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaspolicy"
 
 lbaaspolicy.NewLbaasPolicySslNegotiationPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LbaasPolicySslNegotiationPolicyOutputReference
 ```
@@ -4934,7 +5040,7 @@ func InternalValue() LbaasPolicySslNegotiationPolicy
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.lbaasPolicy.LbaasPolicyTrustedCertificatePolicyOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaspolicy"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaspolicy"
 
 lbaaspolicy.NewLbaasPolicyTrustedCertificatePolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LbaasPolicyTrustedCertificatePolicyOutputReference
 ```

@@ -271,6 +271,7 @@ public resetId(): void
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservation.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservation.isTerraformElement">isTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservation.isTerraformDataSource">isTerraformDataSource</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservation.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a DataOpcComputeIpReservation resource upon running "cdktf plan <stack-name>". |
 
 ---
 
@@ -331,6 +332,50 @@ dataOpcComputeIpReservation.DataOpcComputeIpReservation.isTerraformDataSource(x:
 ###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservation.isTerraformDataSource.parameter.x"></a>
 
 - *Type:* any
+
+---
+
+##### `generateConfigForImport` <a name="generateConfigForImport" id="@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservation.generateConfigForImport"></a>
+
+```typescript
+import { dataOpcComputeIpReservation } from '@cdktf/provider-opc'
+
+dataOpcComputeIpReservation.DataOpcComputeIpReservation.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
+```
+
+Generates CDKTF code for importing a DataOpcComputeIpReservation resource upon running "cdktf plan <stack-name>".
+
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservation.generateConfigForImport.parameter.scope"></a>
+
+- *Type:* constructs.Construct
+
+The scope in which to define this construct.
+
+---
+
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservation.generateConfigForImport.parameter.importToId"></a>
+
+- *Type:* string
+
+The construct id used in the generated config for the DataOpcComputeIpReservation to import.
+
+---
+
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservation.generateConfigForImport.parameter.importFromId"></a>
+
+- *Type:* string
+
+The id of the existing DataOpcComputeIpReservation that should be imported.
+
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_ip_reservation#import import section} in the documentation of this resource for the id to use
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservation.generateConfigForImport.parameter.provider"></a>
+
+- *Type:* cdktf.TerraformProvider
+
+? Optional instance of the provider where the DataOpcComputeIpReservation to import is found.
 
 ---
 

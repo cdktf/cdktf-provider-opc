@@ -155,6 +155,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
 | <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.toMetadata">to_metadata</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.addMoveTarget">add_move_target</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
 | <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
@@ -164,7 +165,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.getStringAttribute">get_string_attribute</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.importFrom">import_from</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.resetDescription">reset_description</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.resetId">reset_id</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.resetTags">reset_tags</a></code> | *No description.* |
@@ -239,6 +242,24 @@ def to_terraform() -> typing.Any
 ```
 
 Adds this resource to the terraform JSON output.
+
+##### `add_move_target` <a name="add_move_target" id="@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.addMoveTarget"></a>
+
+```python
+def add_move_target(
+  move_target: str
+) -> None
+```
+
+Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
+
+###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.addMoveTarget.parameter.moveTarget"></a>
+
+- *Type:* str
+
+The string move target that will correspond to this resource.
+
+---
 
 ##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.getAnyMapAttribute"></a>
 
@@ -366,6 +387,27 @@ def get_string_map_attribute(
 
 ---
 
+##### `import_from` <a name="import_from" id="@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.importFrom"></a>
+
+```python
+def import_from(
+  id: str,
+  provider: TerraformProvider = None
+) -> None
+```
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.importFrom.parameter.id"></a>
+
+- *Type:* str
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.importFrom.parameter.provider"></a>
+
+- *Type:* cdktf.TerraformProvider
+
+---
+
 ##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.interpolationForAttribute"></a>
 
 ```python
@@ -377,6 +419,33 @@ def interpolation_for_attribute(
 ###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* str
+
+---
+
+##### `move_to` <a name="move_to" id="@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.moveTo"></a>
+
+```python
+def move_to(
+  move_target: str,
+  index: typing.Union[str, typing.Union[int, float]] = None
+) -> None
+```
+
+Moves this resource to the target resource given by moveTarget.
+
+###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.moveTo.parameter.moveTarget"></a>
+
+- *Type:* str
+
+The previously set user defined string set by .addMoveTarget() corresponding to the resource to move to.
+
+---
+
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.moveTo.parameter.index"></a>
+
+- *Type:* typing.Union[str, typing.Union[int, float]]
+
+Optional The index corresponding to the key the resource is to appear in the foreach of a resource to move to.
 
 ---
 
@@ -405,6 +474,7 @@ def reset_tags() -> None
 | <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.isTerraformElement">is_terraform_element</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.isTerraformResource">is_terraform_resource</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTF code for importing a ComputeIpNetworkExchange resource upon running "cdktf plan <stack-name>". |
 
 ---
 
@@ -471,6 +541,55 @@ computeIpNetworkExchange.ComputeIpNetworkExchange.is_terraform_resource(
 ###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.isTerraformResource.parameter.x"></a>
 
 - *Type:* typing.Any
+
+---
+
+##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.generateConfigForImport"></a>
+
+```python
+from cdktf_cdktf_provider_opc import compute_ip_network_exchange
+
+computeIpNetworkExchange.ComputeIpNetworkExchange.generate_config_for_import(
+  scope: Construct,
+  import_to_id: str,
+  import_from_id: str,
+  provider: TerraformProvider = None
+)
+```
+
+Generates CDKTF code for importing a ComputeIpNetworkExchange resource upon running "cdktf plan <stack-name>".
+
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.generateConfigForImport.parameter.scope"></a>
+
+- *Type:* constructs.Construct
+
+The scope in which to define this construct.
+
+---
+
+###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.generateConfigForImport.parameter.importToId"></a>
+
+- *Type:* str
+
+The construct id used in the generated config for the ComputeIpNetworkExchange to import.
+
+---
+
+###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.generateConfigForImport.parameter.importFromId"></a>
+
+- *Type:* str
+
+The id of the existing ComputeIpNetworkExchange that should be imported.
+
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_network_exchange#import import section} in the documentation of this resource for the id to use
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.generateConfigForImport.parameter.provider"></a>
+
+- *Type:* cdktf.TerraformProvider
+
+? Optional instance of the provider where the ComputeIpNetworkExchange to import is found.
 
 ---
 

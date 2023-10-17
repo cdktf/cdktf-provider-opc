@@ -60,6 +60,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
 | <code><a href="#@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.toMetadata">toMetadata</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.toTerraform">toTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.addMoveTarget">addMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
 | <code><a href="#@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
@@ -69,7 +70,9 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.getStringAttribute">getStringAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.importFrom">importFrom</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.putTimeouts">putTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.resetCollocated">resetCollocated</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.resetDescription">resetDescription</a></code> | *No description.* |
@@ -144,6 +147,22 @@ public toTerraform(): any
 ```
 
 Adds this resource to the terraform JSON output.
+
+##### `addMoveTarget` <a name="addMoveTarget" id="@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.addMoveTarget"></a>
+
+```typescript
+public addMoveTarget(moveTarget: string): void
+```
+
+Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
+
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.addMoveTarget.parameter.moveTarget"></a>
+
+- *Type:* string
+
+The string move target that will correspond to this resource.
+
+---
 
 ##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.getAnyMapAttribute"></a>
 
@@ -253,6 +272,24 @@ public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: stri
 
 ---
 
+##### `importFrom` <a name="importFrom" id="@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.importFrom"></a>
+
+```typescript
+public importFrom(id: string, provider?: TerraformProvider): void
+```
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.importFrom.parameter.id"></a>
+
+- *Type:* string
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.importFrom.parameter.provider"></a>
+
+- *Type:* cdktf.TerraformProvider
+
+---
+
 ##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.interpolationForAttribute"></a>
 
 ```typescript
@@ -262,6 +299,30 @@ public interpolationForAttribute(terraformAttribute: string): IResolvable
 ###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.interpolationForAttribute.parameter.terraformAttribute"></a>
 
 - *Type:* string
+
+---
+
+##### `moveTo` <a name="moveTo" id="@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.moveTo"></a>
+
+```typescript
+public moveTo(moveTarget: string, index?: string | number): void
+```
+
+Moves this resource to the target resource given by moveTarget.
+
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.moveTo.parameter.moveTarget"></a>
+
+- *Type:* string
+
+The previously set user defined string set by .addMoveTarget() corresponding to the resource to move to.
+
+---
+
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.moveTo.parameter.index"></a>
+
+- *Type:* string | number
+
+Optional The index corresponding to the key the resource is to appear in the foreach of a resource to move to.
 
 ---
 
@@ -326,6 +387,7 @@ public resetTimeouts(): void
 | <code><a href="#@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.isTerraformElement">isTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.isTerraformResource">isTerraformResource</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a ComputeStorageVolumeSnapshot resource upon running "cdktf plan <stack-name>". |
 
 ---
 
@@ -386,6 +448,50 @@ computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.isTerraformResource(x:
 ###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.isTerraformResource.parameter.x"></a>
 
 - *Type:* any
+
+---
+
+##### `generateConfigForImport` <a name="generateConfigForImport" id="@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.generateConfigForImport"></a>
+
+```typescript
+import { computeStorageVolumeSnapshot } from '@cdktf/provider-opc'
+
+computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
+```
+
+Generates CDKTF code for importing a ComputeStorageVolumeSnapshot resource upon running "cdktf plan <stack-name>".
+
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.generateConfigForImport.parameter.scope"></a>
+
+- *Type:* constructs.Construct
+
+The scope in which to define this construct.
+
+---
+
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.generateConfigForImport.parameter.importToId"></a>
+
+- *Type:* string
+
+The construct id used in the generated config for the ComputeStorageVolumeSnapshot to import.
+
+---
+
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.generateConfigForImport.parameter.importFromId"></a>
+
+- *Type:* string
+
+The id of the existing ComputeStorageVolumeSnapshot that should be imported.
+
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_storage_volume_snapshot#import import section} in the documentation of this resource for the id to use
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-opc.computeStorageVolumeSnapshot.ComputeStorageVolumeSnapshot.generateConfigForImport.parameter.provider"></a>
+
+- *Type:* cdktf.TerraformProvider
+
+? Optional instance of the provider where the ComputeStorageVolumeSnapshot to import is found.
 
 ---
 

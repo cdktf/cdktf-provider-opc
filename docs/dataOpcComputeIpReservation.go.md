@@ -13,7 +13,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservation.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/dataopccomputeipreservation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputeipreservation"
 
 dataopccomputeipreservation.NewDataOpcComputeIpReservation(scope Construct, id *string, config DataOpcComputeIpReservationConfig) DataOpcComputeIpReservation
 ```
@@ -271,13 +271,14 @@ func ResetId()
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservation.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservation.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservation.isTerraformDataSource">IsTerraformDataSource</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservation.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a DataOpcComputeIpReservation resource upon running "cdktf plan <stack-name>". |
 
 ---
 
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservation.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/dataopccomputeipreservation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputeipreservation"
 
 dataopccomputeipreservation.DataOpcComputeIpReservation_IsConstruct(x interface{}) *bool
 ```
@@ -309,7 +310,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/dataopccomputeipreservation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputeipreservation"
 
 dataopccomputeipreservation.DataOpcComputeIpReservation_IsTerraformElement(x interface{}) *bool
 ```
@@ -323,7 +324,7 @@ dataopccomputeipreservation.DataOpcComputeIpReservation_IsTerraformElement(x int
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservation.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/dataopccomputeipreservation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputeipreservation"
 
 dataopccomputeipreservation.DataOpcComputeIpReservation_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -331,6 +332,50 @@ dataopccomputeipreservation.DataOpcComputeIpReservation_IsTerraformDataSource(x 
 ###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservation.isTerraformDataSource.parameter.x"></a>
 
 - *Type:* interface{}
+
+---
+
+##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservation.generateConfigForImport"></a>
+
+```go
+import "github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputeipreservation"
+
+dataopccomputeipreservation.DataOpcComputeIpReservation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
+```
+
+Generates CDKTF code for importing a DataOpcComputeIpReservation resource upon running "cdktf plan <stack-name>".
+
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservation.generateConfigForImport.parameter.scope"></a>
+
+- *Type:* github.com/aws/constructs-go/constructs/v10.Construct
+
+The scope in which to define this construct.
+
+---
+
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservation.generateConfigForImport.parameter.importToId"></a>
+
+- *Type:* *string
+
+The construct id used in the generated config for the DataOpcComputeIpReservation to import.
+
+---
+
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservation.generateConfigForImport.parameter.importFromId"></a>
+
+- *Type:* *string
+
+The id of the existing DataOpcComputeIpReservation that should be imported.
+
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_ip_reservation#import import section} in the documentation of this resource for the id to use
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservation.generateConfigForImport.parameter.provider"></a>
+
+- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
+
+? Optional instance of the provider where the DataOpcComputeIpReservation to import is found.
 
 ---
 
@@ -599,7 +644,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.dataOpcComputeIpReservation.DataOpcComputeIpReservationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/dataopccomputeipreservation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputeipreservation"
 
 &dataopccomputeipreservation.DataOpcComputeIpReservationConfig {
 	Connection: interface{},

@@ -271,6 +271,7 @@ public resetId(): void
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeMachineImage.DataOpcComputeMachineImage.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeMachineImage.DataOpcComputeMachineImage.isTerraformElement">isTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeMachineImage.DataOpcComputeMachineImage.isTerraformDataSource">isTerraformDataSource</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeMachineImage.DataOpcComputeMachineImage.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a DataOpcComputeMachineImage resource upon running "cdktf plan <stack-name>". |
 
 ---
 
@@ -331,6 +332,50 @@ dataOpcComputeMachineImage.DataOpcComputeMachineImage.isTerraformDataSource(x: a
 ###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-opc.dataOpcComputeMachineImage.DataOpcComputeMachineImage.isTerraformDataSource.parameter.x"></a>
 
 - *Type:* any
+
+---
+
+##### `generateConfigForImport` <a name="generateConfigForImport" id="@cdktf/provider-opc.dataOpcComputeMachineImage.DataOpcComputeMachineImage.generateConfigForImport"></a>
+
+```typescript
+import { dataOpcComputeMachineImage } from '@cdktf/provider-opc'
+
+dataOpcComputeMachineImage.DataOpcComputeMachineImage.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
+```
+
+Generates CDKTF code for importing a DataOpcComputeMachineImage resource upon running "cdktf plan <stack-name>".
+
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-opc.dataOpcComputeMachineImage.DataOpcComputeMachineImage.generateConfigForImport.parameter.scope"></a>
+
+- *Type:* constructs.Construct
+
+The scope in which to define this construct.
+
+---
+
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktf/provider-opc.dataOpcComputeMachineImage.DataOpcComputeMachineImage.generateConfigForImport.parameter.importToId"></a>
+
+- *Type:* string
+
+The construct id used in the generated config for the DataOpcComputeMachineImage to import.
+
+---
+
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktf/provider-opc.dataOpcComputeMachineImage.DataOpcComputeMachineImage.generateConfigForImport.parameter.importFromId"></a>
+
+- *Type:* string
+
+The id of the existing DataOpcComputeMachineImage that should be imported.
+
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/data-sources/compute_machine_image#import import section} in the documentation of this resource for the id to use
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-opc.dataOpcComputeMachineImage.DataOpcComputeMachineImage.generateConfigForImport.parameter.provider"></a>
+
+- *Type:* cdktf.TerraformProvider
+
+? Optional instance of the provider where the DataOpcComputeMachineImage to import is found.
 
 ---
 
