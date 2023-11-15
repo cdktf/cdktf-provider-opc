@@ -13,7 +13,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityapplication"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesecurityapplication"
 
 computesecurityapplication.NewComputeSecurityApplication(scope Construct, id *string, config ComputeSecurityApplicationConfig) ComputeSecurityApplication
 ```
@@ -367,7 +367,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityapplication"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesecurityapplication"
 
 computesecurityapplication.ComputeSecurityApplication_IsConstruct(x interface{}) *bool
 ```
@@ -399,7 +399,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityapplication"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesecurityapplication"
 
 computesecurityapplication.ComputeSecurityApplication_IsTerraformElement(x interface{}) *bool
 ```
@@ -413,7 +413,7 @@ computesecurityapplication.ComputeSecurityApplication_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityapplication"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesecurityapplication"
 
 computesecurityapplication.ComputeSecurityApplication_IsTerraformResource(x interface{}) *bool
 ```
@@ -427,7 +427,7 @@ computesecurityapplication.ComputeSecurityApplication_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityapplication"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesecurityapplication"
 
 computesecurityapplication.ComputeSecurityApplication_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -810,7 +810,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplicationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityapplication"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesecurityapplication"
 
 &computesecurityapplication.ComputeSecurityApplicationConfig {
 	Connection: interface{},
