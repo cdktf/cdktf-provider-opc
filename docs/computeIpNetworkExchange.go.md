@@ -13,7 +13,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipnetworkexchange"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipnetworkexchange"
 
 computeipnetworkexchange.NewComputeIpNetworkExchange(scope Construct, id *string, config ComputeIpNetworkExchangeConfig) ComputeIpNetworkExchange
 ```
@@ -353,7 +353,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipnetworkexchange"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipnetworkexchange"
 
 computeipnetworkexchange.ComputeIpNetworkExchange_IsConstruct(x interface{}) *bool
 ```
@@ -385,7 +385,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipnetworkexchange"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipnetworkexchange"
 
 computeipnetworkexchange.ComputeIpNetworkExchange_IsTerraformElement(x interface{}) *bool
 ```
@@ -399,7 +399,7 @@ computeipnetworkexchange.ComputeIpNetworkExchange_IsTerraformElement(x interface
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipnetworkexchange"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipnetworkexchange"
 
 computeipnetworkexchange.ComputeIpNetworkExchange_IsTerraformResource(x interface{}) *bool
 ```
@@ -413,7 +413,7 @@ computeipnetworkexchange.ComputeIpNetworkExchange_IsTerraformResource(x interfac
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchange.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipnetworkexchange"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipnetworkexchange"
 
 computeipnetworkexchange.ComputeIpNetworkExchange_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -741,7 +741,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeIpNetworkExchange.ComputeIpNetworkExchangeConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipnetworkexchange"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipnetworkexchange"
 
 &computeipnetworkexchange.ComputeIpNetworkExchangeConfig {
 	Connection: interface{},
