@@ -1,7 +1,3 @@
-# `opc_lbaas_certificate`
-
-Refer to the Terraform Registory for docs: [`opc_lbaas_certificate`](https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/lbaas_certificate).
-
 # `lbaasCertificate` Submodule <a name="`lbaasCertificate` Submodule" id="@cdktf/provider-opc.lbaasCertificate"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
@@ -13,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.lbaasCertificate.LbaasCertificate.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaascertificate"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaascertificate"
 
 lbaascertificate.NewLbaasCertificate(scope Construct, id *string, config LbaasCertificateConfig) LbaasCertificate
 ```
@@ -353,7 +349,7 @@ func ResetPrivateKey()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.lbaasCertificate.LbaasCertificate.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaascertificate"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaascertificate"
 
 lbaascertificate.LbaasCertificate_IsConstruct(x interface{}) *bool
 ```
@@ -385,7 +381,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.lbaasCertificate.LbaasCertificate.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaascertificate"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaascertificate"
 
 lbaascertificate.LbaasCertificate_IsTerraformElement(x interface{}) *bool
 ```
@@ -399,7 +395,7 @@ lbaascertificate.LbaasCertificate_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.lbaasCertificate.LbaasCertificate.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaascertificate"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaascertificate"
 
 lbaascertificate.LbaasCertificate_IsTerraformResource(x interface{}) *bool
 ```
@@ -413,7 +409,7 @@ lbaascertificate.LbaasCertificate_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-opc.lbaasCertificate.LbaasCertificate.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaascertificate"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaascertificate"
 
 lbaascertificate.LbaasCertificate_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -796,7 +792,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.lbaasCertificate.LbaasCertificateConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaascertificate"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaascertificate"
 
 &lbaascertificate.LbaasCertificateConfig {
 	Connection: interface{},

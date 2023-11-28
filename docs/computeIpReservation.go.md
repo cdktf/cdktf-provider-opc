@@ -1,7 +1,3 @@
-# `opc_compute_ip_reservation`
-
-Refer to the Terraform Registory for docs: [`opc_compute_ip_reservation`](https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_reservation).
-
 # `computeIpReservation` Submodule <a name="`computeIpReservation` Submodule" id="@cdktf/provider-opc.computeIpReservation"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
@@ -13,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeIpReservation.ComputeIpReservation.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipreservation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipreservation"
 
 computeipreservation.NewComputeIpReservation(scope Construct, id *string, config ComputeIpReservationConfig) ComputeIpReservation
 ```
@@ -360,7 +356,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.computeIpReservation.ComputeIpReservation.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipreservation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipreservation"
 
 computeipreservation.ComputeIpReservation_IsConstruct(x interface{}) *bool
 ```
@@ -392,7 +388,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.computeIpReservation.ComputeIpReservation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipreservation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipreservation"
 
 computeipreservation.ComputeIpReservation_IsTerraformElement(x interface{}) *bool
 ```
@@ -406,7 +402,7 @@ computeipreservation.ComputeIpReservation_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.computeIpReservation.ComputeIpReservation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipreservation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipreservation"
 
 computeipreservation.ComputeIpReservation_IsTerraformResource(x interface{}) *bool
 ```
@@ -420,7 +416,7 @@ computeipreservation.ComputeIpReservation_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-opc.computeIpReservation.ComputeIpReservation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipreservation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipreservation"
 
 computeipreservation.ComputeIpReservation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -781,7 +777,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeIpReservation.ComputeIpReservationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipreservation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipreservation"
 
 &computeipreservation.ComputeIpReservationConfig {
 	Connection: interface{},

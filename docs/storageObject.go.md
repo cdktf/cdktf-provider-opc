@@ -1,7 +1,3 @@
-# `opc_storage_object`
-
-Refer to the Terraform Registory for docs: [`opc_storage_object`](https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object).
-
 # `storageObject` Submodule <a name="`storageObject` Submodule" id="@cdktf/provider-opc.storageObject"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
@@ -13,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.storageObject.StorageObject.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/storageobject"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/storageobject"
 
 storageobject.NewStorageObject(scope Construct, id *string, config StorageObjectConfig) StorageObject
 ```
@@ -409,7 +405,7 @@ func ResetTransferEncoding()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.storageObject.StorageObject.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/storageobject"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/storageobject"
 
 storageobject.StorageObject_IsConstruct(x interface{}) *bool
 ```
@@ -441,7 +437,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.storageObject.StorageObject.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/storageobject"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/storageobject"
 
 storageobject.StorageObject_IsTerraformElement(x interface{}) *bool
 ```
@@ -455,7 +451,7 @@ storageobject.StorageObject_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.storageObject.StorageObject.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/storageobject"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/storageobject"
 
 storageobject.StorageObject_IsTerraformResource(x interface{}) *bool
 ```
@@ -469,7 +465,7 @@ storageobject.StorageObject_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-opc.storageObject.StorageObject.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/storageobject"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/storageobject"
 
 storageobject.StorageObject_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1050,7 +1046,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.storageObject.StorageObjectConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/storageobject"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/storageobject"
 
 &storageobject.StorageObjectConfig {
 	Connection: interface{},

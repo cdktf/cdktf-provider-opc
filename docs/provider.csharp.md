@@ -1,7 +1,3 @@
-# `provider`
-
-Refer to the Terraform Registory for docs: [`opc`](https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs).
-
 # `provider` Submodule <a name="`provider` Submodule" id="@cdktf/provider-opc.provider"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>

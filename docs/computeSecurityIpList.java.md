@@ -1,7 +1,3 @@
-# `opc_compute_security_ip_list`
-
-Refer to the Terraform Registory for docs: [`opc_compute_security_ip_list`](https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_ip_list).
-
 # `computeSecurityIpList` Submodule <a name="`computeSecurityIpList` Submodule" id="@cdktf/provider-opc.computeSecurityIpList"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
