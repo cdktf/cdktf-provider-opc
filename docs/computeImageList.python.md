@@ -1,7 +1,3 @@
-# `opc_compute_image_list`
-
-Refer to the Terraform Registory for docs: [`opc_compute_image_list`](https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_image_list).
-
 # `computeImageList` Submodule <a name="`computeImageList` Submodule" id="@cdktf/provider-opc.computeImageList"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>

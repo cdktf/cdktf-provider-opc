@@ -1,7 +1,3 @@
-# `opc_compute_ip_network`
-
-Refer to the Terraform Registory for docs: [`opc_compute_ip_network`](https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_network).
-
 # `computeIpNetwork` Submodule <a name="`computeIpNetwork` Submodule" id="@cdktf/provider-opc.computeIpNetwork"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>

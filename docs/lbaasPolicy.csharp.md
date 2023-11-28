@@ -1,7 +1,3 @@
-# `opc_lbaas_policy`
-
-Refer to the Terraform Registory for docs: [`opc_lbaas_policy`](https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/lbaas_policy).
-
 # `lbaasPolicy` Submodule <a name="`lbaasPolicy` Submodule" id="@cdktf/provider-opc.lbaasPolicy"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>

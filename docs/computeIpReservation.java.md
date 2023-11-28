@@ -1,7 +1,3 @@
-# `opc_compute_ip_reservation`
-
-Refer to the Terraform Registory for docs: [`opc_compute_ip_reservation`](https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_reservation).
-
 # `computeIpReservation` Submodule <a name="`computeIpReservation` Submodule" id="@cdktf/provider-opc.computeIpReservation"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
