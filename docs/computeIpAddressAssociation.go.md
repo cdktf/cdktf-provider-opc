@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipaddressassociation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipaddressassociation"
 
 computeipaddressassociation.NewComputeIpAddressAssociation(scope Construct, id *string, config ComputeIpAddressAssociationConfig) ComputeIpAddressAssociation
 ```
@@ -363,7 +363,7 @@ func ResetVnic()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipaddressassociation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipaddressassociation"
 
 computeipaddressassociation.ComputeIpAddressAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -395,7 +395,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipaddressassociation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipaddressassociation"
 
 computeipaddressassociation.ComputeIpAddressAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -409,7 +409,7 @@ computeipaddressassociation.ComputeIpAddressAssociation_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipaddressassociation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipaddressassociation"
 
 computeipaddressassociation.ComputeIpAddressAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -423,7 +423,7 @@ computeipaddressassociation.ComputeIpAddressAssociation_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipaddressassociation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipaddressassociation"
 
 computeipaddressassociation.ComputeIpAddressAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -795,7 +795,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeIpAddressAssociation.ComputeIpAddressAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipaddressassociation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipaddressassociation"
 
 &computeipaddressassociation.ComputeIpAddressAssociationConfig {
 	Connection: interface{},

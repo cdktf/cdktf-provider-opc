@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeIpAssociation.ComputeIpAssociation.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipassociation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipassociation"
 
 computeipassociation.NewComputeIpAssociation(scope Construct, id *string, config ComputeIpAssociationConfig) ComputeIpAssociation
 ```
@@ -342,7 +342,7 @@ func ResetName()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.computeIpAssociation.ComputeIpAssociation.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipassociation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipassociation"
 
 computeipassociation.ComputeIpAssociation_IsConstruct(x interface{}) *bool
 ```
@@ -374,7 +374,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.computeIpAssociation.ComputeIpAssociation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipassociation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipassociation"
 
 computeipassociation.ComputeIpAssociation_IsTerraformElement(x interface{}) *bool
 ```
@@ -388,7 +388,7 @@ computeipassociation.ComputeIpAssociation_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.computeIpAssociation.ComputeIpAssociation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipassociation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipassociation"
 
 computeipassociation.ComputeIpAssociation_IsTerraformResource(x interface{}) *bool
 ```
@@ -402,7 +402,7 @@ computeipassociation.ComputeIpAssociation_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-opc.computeIpAssociation.ComputeIpAssociation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipassociation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipassociation"
 
 computeipassociation.ComputeIpAssociation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeIpAssociation.ComputeIpAssociationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipassociation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipassociation"
 
 &computeipassociation.ComputeIpAssociationConfig {
 	Connection: interface{},

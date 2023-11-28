@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipaddressprefixset"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipaddressprefixset"
 
 computeipaddressprefixset.NewComputeIpAddressPrefixSet(scope Construct, id *string, config ComputeIpAddressPrefixSetConfig) ComputeIpAddressPrefixSet
 ```
@@ -356,7 +356,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipaddressprefixset"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipaddressprefixset"
 
 computeipaddressprefixset.ComputeIpAddressPrefixSet_IsConstruct(x interface{}) *bool
 ```
@@ -388,7 +388,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipaddressprefixset"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipaddressprefixset"
 
 computeipaddressprefixset.ComputeIpAddressPrefixSet_IsTerraformElement(x interface{}) *bool
 ```
@@ -402,7 +402,7 @@ computeipaddressprefixset.ComputeIpAddressPrefixSet_IsTerraformElement(x interfa
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipaddressprefixset"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipaddressprefixset"
 
 computeipaddressprefixset.ComputeIpAddressPrefixSet_IsTerraformResource(x interface{}) *bool
 ```
@@ -416,7 +416,7 @@ computeipaddressprefixset.ComputeIpAddressPrefixSet_IsTerraformResource(x interf
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipaddressprefixset"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipaddressprefixset"
 
 computeipaddressprefixset.ComputeIpAddressPrefixSet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -766,7 +766,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeIpAddressPrefixSet.ComputeIpAddressPrefixSetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipaddressprefixset"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipaddressprefixset"
 
 &computeipaddressprefixset.ComputeIpAddressPrefixSetConfig {
 	Connection: interface{},

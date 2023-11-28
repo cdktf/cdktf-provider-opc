@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservation.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipaddressreservation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipaddressreservation"
 
 computeipaddressreservation.NewComputeIpAddressReservation(scope Construct, id *string, config ComputeIpAddressReservationConfig) ComputeIpAddressReservation
 ```
@@ -349,7 +349,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservation.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipaddressreservation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipaddressreservation"
 
 computeipaddressreservation.ComputeIpAddressReservation_IsConstruct(x interface{}) *bool
 ```
@@ -381,7 +381,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipaddressreservation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipaddressreservation"
 
 computeipaddressreservation.ComputeIpAddressReservation_IsTerraformElement(x interface{}) *bool
 ```
@@ -395,7 +395,7 @@ computeipaddressreservation.ComputeIpAddressReservation_IsTerraformElement(x int
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipaddressreservation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipaddressreservation"
 
 computeipaddressreservation.ComputeIpAddressReservation_IsTerraformResource(x interface{}) *bool
 ```
@@ -409,7 +409,7 @@ computeipaddressreservation.ComputeIpAddressReservation_IsTerraformResource(x in
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipaddressreservation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipaddressreservation"
 
 computeipaddressreservation.ComputeIpAddressReservation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -770,7 +770,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeIpAddressReservation.ComputeIpAddressReservationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeipaddressreservation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipaddressreservation"
 
 &computeipaddressreservation.ComputeIpAddressReservationConfig {
 	Connection: interface{},

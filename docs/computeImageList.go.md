@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeImageList.ComputeImageList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeimagelist"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeimagelist"
 
 computeimagelist.NewComputeImageList(scope Construct, id *string, config ComputeImageListConfig) ComputeImageList
 ```
@@ -342,7 +342,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.computeImageList.ComputeImageList.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeimagelist"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeimagelist"
 
 computeimagelist.ComputeImageList_IsConstruct(x interface{}) *bool
 ```
@@ -374,7 +374,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.computeImageList.ComputeImageList.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeimagelist"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeimagelist"
 
 computeimagelist.ComputeImageList_IsTerraformElement(x interface{}) *bool
 ```
@@ -388,7 +388,7 @@ computeimagelist.ComputeImageList_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.computeImageList.ComputeImageList.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeimagelist"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeimagelist"
 
 computeimagelist.ComputeImageList_IsTerraformResource(x interface{}) *bool
 ```
@@ -402,7 +402,7 @@ computeimagelist.ComputeImageList_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-opc.computeImageList.ComputeImageList.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeimagelist"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeimagelist"
 
 computeimagelist.ComputeImageList_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -719,7 +719,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeImageList.ComputeImageListConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computeimagelist"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeimagelist"
 
 &computeimagelist.ComputeImageListConfig {
 	Connection: interface{},
