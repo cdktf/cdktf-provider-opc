@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computevnicset"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computevnicset"
 
 computevnicset.NewComputeVnicSet(scope Construct, id *string, config ComputeVnicSetConfig) ComputeVnicSet
 ```
@@ -406,7 +406,7 @@ func ResetVirtualNics()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computevnicset"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computevnicset"
 
 computevnicset.ComputeVnicSet_IsConstruct(x interface{}) *bool
 ```
@@ -438,7 +438,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computevnicset"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computevnicset"
 
 computevnicset.ComputeVnicSet_IsTerraformElement(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ computevnicset.ComputeVnicSet_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computevnicset"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computevnicset"
 
 computevnicset.ComputeVnicSet_IsTerraformResource(x interface{}) *bool
 ```
@@ -466,7 +466,7 @@ computevnicset.ComputeVnicSet_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-opc.computeVnicSet.ComputeVnicSet.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computevnicset"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computevnicset"
 
 computevnicset.ComputeVnicSet_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -827,7 +827,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeVnicSet.ComputeVnicSetConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computevnicset"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computevnicset"
 
 &computevnicset.ComputeVnicSetConfig {
 	Connection: interface{},
