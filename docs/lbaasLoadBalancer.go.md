@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.lbaasLoadBalancer.LbaasLoadBalancer.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaasloadbalancer"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaasloadbalancer"
 
 lbaasloadbalancer.NewLbaasLoadBalancer(scope Construct, id *string, config LbaasLoadBalancerConfig) LbaasLoadBalancer
 ```
@@ -441,7 +441,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.lbaasLoadBalancer.LbaasLoadBalancer.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaasloadbalancer"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaasloadbalancer"
 
 lbaasloadbalancer.LbaasLoadBalancer_IsConstruct(x interface{}) *bool
 ```
@@ -473,7 +473,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.lbaasLoadBalancer.LbaasLoadBalancer.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaasloadbalancer"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaasloadbalancer"
 
 lbaasloadbalancer.LbaasLoadBalancer_IsTerraformElement(x interface{}) *bool
 ```
@@ -487,7 +487,7 @@ lbaasloadbalancer.LbaasLoadBalancer_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.lbaasLoadBalancer.LbaasLoadBalancer.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaasloadbalancer"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaasloadbalancer"
 
 lbaasloadbalancer.LbaasLoadBalancer_IsTerraformResource(x interface{}) *bool
 ```
@@ -501,7 +501,7 @@ lbaasloadbalancer.LbaasLoadBalancer_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-opc.lbaasLoadBalancer.LbaasLoadBalancer.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaasloadbalancer"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaasloadbalancer"
 
 lbaasloadbalancer.LbaasLoadBalancer_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1060,7 +1060,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.lbaasLoadBalancer.LbaasLoadBalancerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaasloadbalancer"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaasloadbalancer"
 
 &lbaasloadbalancer.LbaasLoadBalancerConfig {
 	Connection: interface{},
