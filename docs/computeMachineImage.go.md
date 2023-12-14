@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeMachineImage.ComputeMachineImage.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computemachineimage"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computemachineimage"
 
 computemachineimage.NewComputeMachineImage(scope Construct, id *string, config ComputeMachineImageConfig) ComputeMachineImage
 ```
@@ -392,7 +392,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.computeMachineImage.ComputeMachineImage.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computemachineimage"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computemachineimage"
 
 computemachineimage.ComputeMachineImage_IsConstruct(x interface{}) *bool
 ```
@@ -424,7 +424,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.computeMachineImage.ComputeMachineImage.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computemachineimage"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computemachineimage"
 
 computemachineimage.ComputeMachineImage_IsTerraformElement(x interface{}) *bool
 ```
@@ -438,7 +438,7 @@ computemachineimage.ComputeMachineImage_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.computeMachineImage.ComputeMachineImage.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computemachineimage"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computemachineimage"
 
 computemachineimage.ComputeMachineImage_IsTerraformResource(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ computemachineimage.ComputeMachineImage_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-opc.computeMachineImage.ComputeMachineImage.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computemachineimage"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computemachineimage"
 
 computemachineimage.ComputeMachineImage_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -890,7 +890,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeMachineImage.ComputeMachineImageConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computemachineimage"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computemachineimage"
 
 &computemachineimage.ComputeMachineImageConfig {
 	Connection: interface{},
