@@ -1,8 +1,3 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
 // https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_security_rule
 // generated from terraform resource schema
 
@@ -344,5 +339,85 @@ export class ComputeSecurityRule extends cdktf.TerraformResource {
       src_vnic_set: cdktf.stringToTerraform(this._srcVnicSet),
       tags: cdktf.listMapper(cdktf.stringToTerraform, false)(this._tags),
     };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      acl: {
+        value: cdktf.stringToHclTerraform(this._acl),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      description: {
+        value: cdktf.stringToHclTerraform(this._description),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      dst_ip_address_prefixes: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._dstIpAddressPrefixes),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
+      dst_vnic_set: {
+        value: cdktf.stringToHclTerraform(this._dstVnicSet),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      enabled: {
+        value: cdktf.booleanToHclTerraform(this._enabled),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      flow_direction: {
+        value: cdktf.stringToHclTerraform(this._flowDirection),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      security_protocols: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._securityProtocols),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
+      src_ip_address_prefixes: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._srcIpAddressPrefixes),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
+      src_vnic_set: {
+        value: cdktf.stringToHclTerraform(this._srcVnicSet),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      tags: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._tags),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
   }
 }

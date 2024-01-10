@@ -1,8 +1,3 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
 // https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_instance
 // generated from terraform resource schema
 
@@ -157,6 +152,97 @@ export function computeInstanceNetworkingInfoToTerraform(struct?: ComputeInstanc
     vnic: cdktf.stringToTerraform(struct!.vnic),
     vnic_sets: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.vnicSets),
   }
+}
+
+
+export function computeInstanceNetworkingInfoToHclTerraform(struct?: ComputeInstanceNetworkingInfo | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    dns: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.dns),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    index: {
+      value: cdktf.numberToHclTerraform(struct!.index),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    ip_address: {
+      value: cdktf.stringToHclTerraform(struct!.ipAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ip_network: {
+      value: cdktf.stringToHclTerraform(struct!.ipNetwork),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    is_default_gateway: {
+      value: cdktf.booleanToHclTerraform(struct!.isDefaultGateway),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    mac_address: {
+      value: cdktf.stringToHclTerraform(struct!.macAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    name_servers: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.nameServers),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    nat: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.nat),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    search_domains: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.searchDomains),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    sec_lists: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.secLists),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    shared_network: {
+      value: cdktf.booleanToHclTerraform(struct!.sharedNetwork),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    vnic: {
+      value: cdktf.stringToHclTerraform(struct!.vnic),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    vnic_sets: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.vnicSets),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class ComputeInstanceNetworkingInfoOutputReference extends cdktf.ComplexObject {
@@ -522,6 +608,31 @@ export function computeInstanceStorageToTerraform(struct?: ComputeInstanceStorag
   }
 }
 
+
+export function computeInstanceStorageToHclTerraform(struct?: ComputeInstanceStorage | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    index: {
+      value: cdktf.numberToHclTerraform(struct!.index),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    volume: {
+      value: cdktf.stringToHclTerraform(struct!.volume),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
 export class ComputeInstanceStorageOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
   private resolvableValue?: cdktf.IResolvable;
@@ -648,6 +759,37 @@ export function computeInstanceTimeoutsToTerraform(struct?: ComputeInstanceTimeo
     delete: cdktf.stringToTerraform(struct!.delete),
     update: cdktf.stringToTerraform(struct!.update),
   }
+}
+
+
+export function computeInstanceTimeoutsToHclTerraform(struct?: ComputeInstanceTimeouts | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    create: {
+      value: cdktf.stringToHclTerraform(struct!.create),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    delete: {
+      value: cdktf.stringToHclTerraform(struct!.delete),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    update: {
+      value: cdktf.stringToHclTerraform(struct!.update),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class ComputeInstanceTimeoutsOutputReference extends cdktf.ComplexObject {
@@ -1181,5 +1323,103 @@ export class ComputeInstance extends cdktf.TerraformResource {
       storage: cdktf.listMapper(computeInstanceStorageToTerraform, true)(this._storage.internalValue),
       timeouts: computeInstanceTimeoutsToTerraform(this._timeouts.internalValue),
     };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      boot_order: {
+        value: cdktf.listMapperHcl(cdktf.numberToHclTerraform, false)(this._bootOrder),
+        isBlock: false,
+        type: "list",
+        storageClassType: "numberList",
+      },
+      desired_state: {
+        value: cdktf.stringToHclTerraform(this._desiredState),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      hostname: {
+        value: cdktf.stringToHclTerraform(this._hostname),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      image_list: {
+        value: cdktf.stringToHclTerraform(this._imageList),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      instance_attributes: {
+        value: cdktf.stringToHclTerraform(this._instanceAttributes),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      label: {
+        value: cdktf.stringToHclTerraform(this._label),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      reverse_dns: {
+        value: cdktf.booleanToHclTerraform(this._reverseDns),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      shape: {
+        value: cdktf.stringToHclTerraform(this._shape),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      ssh_keys: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._sshKeys),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
+      tags: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._tags),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
+      networking_info: {
+        value: cdktf.listMapperHcl(computeInstanceNetworkingInfoToHclTerraform, true)(this._networkingInfo.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "ComputeInstanceNetworkingInfoList",
+      },
+      storage: {
+        value: cdktf.listMapperHcl(computeInstanceStorageToHclTerraform, true)(this._storage.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "ComputeInstanceStorageList",
+      },
+      timeouts: {
+        value: computeInstanceTimeoutsToHclTerraform(this._timeouts.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "ComputeInstanceTimeouts",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
   }
 }

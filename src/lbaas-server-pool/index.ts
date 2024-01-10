@@ -1,8 +1,3 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
 // https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/lbaas_server_pool
 // generated from terraform resource schema
 
@@ -100,6 +95,67 @@ export function lbaasServerPoolHealthCheckToTerraform(struct?: LbaasServerPoolHe
     type: cdktf.stringToTerraform(struct!.type),
     unhealthy_threshold: cdktf.numberToTerraform(struct!.unhealthyThreshold),
   }
+}
+
+
+export function lbaasServerPoolHealthCheckToHclTerraform(struct?: LbaasServerPoolHealthCheckOutputReference | LbaasServerPoolHealthCheck): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    accepted_return_codes: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.acceptedReturnCodes),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.enabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    healthy_threshold: {
+      value: cdktf.numberToHclTerraform(struct!.healthyThreshold),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    interval: {
+      value: cdktf.numberToHclTerraform(struct!.interval),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    path: {
+      value: cdktf.stringToHclTerraform(struct!.path),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    timeout: {
+      value: cdktf.numberToHclTerraform(struct!.timeout),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    unhealthy_threshold: {
+      value: cdktf.numberToHclTerraform(struct!.unhealthyThreshold),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class LbaasServerPoolHealthCheckOutputReference extends cdktf.ComplexObject {
@@ -529,5 +585,61 @@ export class LbaasServerPool extends cdktf.TerraformResource {
       vnic_set: cdktf.stringToTerraform(this._vnicSet),
       health_check: lbaasServerPoolHealthCheckToTerraform(this._healthCheck.internalValue),
     };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      enabled: {
+        value: cdktf.booleanToHclTerraform(this._enabled),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      load_balancer: {
+        value: cdktf.stringToHclTerraform(this._loadBalancer),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      servers: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._servers),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
+      tags: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._tags),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
+      vnic_set: {
+        value: cdktf.stringToHclTerraform(this._vnicSet),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      health_check: {
+        value: lbaasServerPoolHealthCheckToHclTerraform(this._healthCheck.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "LbaasServerPoolHealthCheckList",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
   }
 }

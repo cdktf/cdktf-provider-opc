@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesecurityapplication"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityapplication"
 
 computesecurityapplication.NewComputeSecurityApplication(scope Construct, id *string, config ComputeSecurityApplicationConfig) ComputeSecurityApplication
 ```
@@ -54,6 +54,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.addOverride">AddOverride</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
 | <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.toHclTerraform">ToHclTerraform</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.toMetadata">ToMetadata</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
 | <code><a href="#@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.addMoveTarget">AddMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
@@ -129,6 +130,12 @@ func ResetOverrideLogicalId()
 ```
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
+
+##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.toHclTerraform"></a>
+
+```go
+func ToHclTerraform() interface{}
+```
 
 ##### `ToMetadata` <a name="ToMetadata" id="@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.toMetadata"></a>
 
@@ -406,7 +413,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesecurityapplication"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityapplication"
 
 computesecurityapplication.ComputeSecurityApplication_IsConstruct(x interface{}) *bool
 ```
@@ -438,7 +445,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesecurityapplication"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityapplication"
 
 computesecurityapplication.ComputeSecurityApplication_IsTerraformElement(x interface{}) *bool
 ```
@@ -452,7 +459,7 @@ computesecurityapplication.ComputeSecurityApplication_IsTerraformElement(x inter
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesecurityapplication"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityapplication"
 
 computesecurityapplication.ComputeSecurityApplication_IsTerraformResource(x interface{}) *bool
 ```
@@ -466,7 +473,7 @@ computesecurityapplication.ComputeSecurityApplication_IsTerraformResource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplication.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesecurityapplication"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityapplication"
 
 computesecurityapplication.ComputeSecurityApplication_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -849,7 +856,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeSecurityApplication.ComputeSecurityApplicationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesecurityapplication"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityapplication"
 
 &computesecurityapplication.ComputeSecurityApplicationConfig {
 	Connection: interface{},

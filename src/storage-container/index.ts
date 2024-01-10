@@ -1,8 +1,3 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
 // https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_container
 // generated from terraform resource schema
 
@@ -342,5 +337,85 @@ export class StorageContainer extends cdktf.TerraformResource {
       secondary_key: cdktf.stringToTerraform(this._secondaryKey),
       write_acls: cdktf.listMapper(cdktf.stringToTerraform, false)(this._writeAcls),
     };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      allowed_origins: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._allowedOrigins),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
+      exposed_headers: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._exposedHeaders),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      max_age: {
+        value: cdktf.numberToHclTerraform(this._maxAge),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      metadata: {
+        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._metadata),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      primary_key: {
+        value: cdktf.stringToHclTerraform(this._primaryKey),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      quota_bytes: {
+        value: cdktf.numberToHclTerraform(this._quotaBytes),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      quota_count: {
+        value: cdktf.numberToHclTerraform(this._quotaCount),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      read_acls: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._readAcls),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
+      secondary_key: {
+        value: cdktf.stringToHclTerraform(this._secondaryKey),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      write_acls: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._writeAcls),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
   }
 }

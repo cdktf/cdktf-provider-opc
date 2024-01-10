@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.lbaasListener.LbaasListener.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaslistener"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaslistener"
 
 lbaaslistener.NewLbaasListener(scope Construct, id *string, config LbaasListenerConfig) LbaasListener
 ```
@@ -54,6 +54,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktf/provider-opc.lbaasListener.LbaasListener.addOverride">AddOverride</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.lbaasListener.LbaasListener.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
 | <code><a href="#@cdktf/provider-opc.lbaasListener.LbaasListener.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktf/provider-opc.lbaasListener.LbaasListener.toHclTerraform">ToHclTerraform</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.lbaasListener.LbaasListener.toMetadata">ToMetadata</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.lbaasListener.LbaasListener.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
 | <code><a href="#@cdktf/provider-opc.lbaasListener.LbaasListener.addMoveTarget">AddMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
@@ -132,6 +133,12 @@ func ResetOverrideLogicalId()
 ```
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
+
+##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktf/provider-opc.lbaasListener.LbaasListener.toHclTerraform"></a>
+
+```go
+func ToHclTerraform() interface{}
+```
 
 ##### `ToMetadata` <a name="ToMetadata" id="@cdktf/provider-opc.lbaasListener.LbaasListener.toMetadata"></a>
 
@@ -427,7 +434,7 @@ func ResetVirtualHosts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.lbaasListener.LbaasListener.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaslistener"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaslistener"
 
 lbaaslistener.LbaasListener_IsConstruct(x interface{}) *bool
 ```
@@ -459,7 +466,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.lbaasListener.LbaasListener.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaslistener"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaslistener"
 
 lbaaslistener.LbaasListener_IsTerraformElement(x interface{}) *bool
 ```
@@ -473,7 +480,7 @@ lbaaslistener.LbaasListener_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.lbaasListener.LbaasListener.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaslistener"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaslistener"
 
 lbaaslistener.LbaasListener_IsTerraformResource(x interface{}) *bool
 ```
@@ -487,7 +494,7 @@ lbaaslistener.LbaasListener_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-opc.lbaasListener.LbaasListener.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaslistener"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaslistener"
 
 lbaaslistener.LbaasListener_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1046,7 +1053,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.lbaasListener.LbaasListenerConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/lbaaslistener"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaaslistener"
 
 &lbaaslistener.LbaasListenerConfig {
 	Connection: interface{},

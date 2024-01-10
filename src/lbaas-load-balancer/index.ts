@@ -1,8 +1,3 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
 // https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/lbaas_load_balancer
 // generated from terraform resource schema
 
@@ -378,5 +373,91 @@ export class LbaasLoadBalancer extends cdktf.TerraformResource {
       server_pool: cdktf.stringToTerraform(this._serverPool),
       tags: cdktf.listMapper(cdktf.stringToTerraform, false)(this._tags),
     };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      description: {
+        value: cdktf.stringToHclTerraform(this._description),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      enabled: {
+        value: cdktf.booleanToHclTerraform(this._enabled),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      ip_network: {
+        value: cdktf.stringToHclTerraform(this._ipNetwork),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      parent_load_balancer: {
+        value: cdktf.stringToHclTerraform(this._parentLoadBalancer),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      permitted_clients: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._permittedClients),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
+      permitted_methods: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._permittedMethods),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
+      policies: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._policies),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
+      region: {
+        value: cdktf.stringToHclTerraform(this._region),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      scheme: {
+        value: cdktf.stringToHclTerraform(this._scheme),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      server_pool: {
+        value: cdktf.stringToHclTerraform(this._serverPool),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      tags: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._tags),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
   }
 }

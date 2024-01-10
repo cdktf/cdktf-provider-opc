@@ -1,8 +1,3 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
 // https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_storage_volume
 // generated from terraform resource schema
 
@@ -127,6 +122,37 @@ export function computeStorageVolumeTimeoutsToTerraform(struct?: ComputeStorageV
     delete: cdktf.stringToTerraform(struct!.delete),
     update: cdktf.stringToTerraform(struct!.update),
   }
+}
+
+
+export function computeStorageVolumeTimeoutsToHclTerraform(struct?: ComputeStorageVolumeTimeouts | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    create: {
+      value: cdktf.stringToHclTerraform(struct!.create),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    delete: {
+      value: cdktf.stringToHclTerraform(struct!.delete),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    update: {
+      value: cdktf.stringToHclTerraform(struct!.update),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class ComputeStorageVolumeTimeoutsOutputReference extends cdktf.ComplexObject {
@@ -668,5 +694,139 @@ export class ComputeStorageVolume extends cdktf.TerraformResource {
       uri: cdktf.stringToTerraform(this._uri),
       timeouts: computeStorageVolumeTimeoutsToTerraform(this._timeouts.internalValue),
     };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      bootable: {
+        value: cdktf.booleanToHclTerraform(this._bootable),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      description: {
+        value: cdktf.stringToHclTerraform(this._description),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      hypervisor: {
+        value: cdktf.stringToHclTerraform(this._hypervisor),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      image_list: {
+        value: cdktf.stringToHclTerraform(this._imageList),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      image_list_entry: {
+        value: cdktf.numberToHclTerraform(this._imageListEntry),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      machine_image: {
+        value: cdktf.stringToHclTerraform(this._machineImage),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      managed: {
+        value: cdktf.booleanToHclTerraform(this._managed),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      platform: {
+        value: cdktf.stringToHclTerraform(this._platform),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      readonly: {
+        value: cdktf.booleanToHclTerraform(this._readonly),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      size: {
+        value: cdktf.numberToHclTerraform(this._size),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      snapshot: {
+        value: cdktf.stringToHclTerraform(this._snapshot),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      snapshot_account: {
+        value: cdktf.stringToHclTerraform(this._snapshotAccount),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      snapshot_id: {
+        value: cdktf.stringToHclTerraform(this._snapshotId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      status: {
+        value: cdktf.stringToHclTerraform(this._status),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      storage_pool: {
+        value: cdktf.stringToHclTerraform(this._storagePool),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      storage_type: {
+        value: cdktf.stringToHclTerraform(this._storageType),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      tags: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._tags),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
+      },
+      uri: {
+        value: cdktf.stringToHclTerraform(this._uri),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      timeouts: {
+        value: computeStorageVolumeTimeoutsToHclTerraform(this._timeouts.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "ComputeStorageVolumeTimeouts",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
   }
 }

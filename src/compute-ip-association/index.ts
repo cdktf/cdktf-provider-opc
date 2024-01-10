@@ -1,8 +1,3 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
 // https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_association
 // generated from terraform resource schema
 
@@ -163,5 +158,37 @@ export class ComputeIpAssociation extends cdktf.TerraformResource {
       parent_pool: cdktf.stringToTerraform(this._parentPool),
       vcable: cdktf.stringToTerraform(this._vcable),
     };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      parent_pool: {
+        value: cdktf.stringToHclTerraform(this._parentPool),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      vcable: {
+        value: cdktf.stringToHclTerraform(this._vcable),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
   }
 }

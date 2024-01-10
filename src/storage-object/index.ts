@@ -1,8 +1,3 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
 // https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/storage_object
 // generated from terraform resource schema
 
@@ -413,5 +408,91 @@ export class StorageObject extends cdktf.TerraformResource {
       name: cdktf.stringToTerraform(this._name),
       transfer_encoding: cdktf.stringToTerraform(this._transferEncoding),
     };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      container: {
+        value: cdktf.stringToHclTerraform(this._container),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      content: {
+        value: cdktf.stringToHclTerraform(this._content),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      content_disposition: {
+        value: cdktf.stringToHclTerraform(this._contentDisposition),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      content_encoding: {
+        value: cdktf.stringToHclTerraform(this._contentEncoding),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      content_type: {
+        value: cdktf.stringToHclTerraform(this._contentType),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      copy_from: {
+        value: cdktf.stringToHclTerraform(this._copyFrom),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      delete_at: {
+        value: cdktf.numberToHclTerraform(this._deleteAt),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      etag: {
+        value: cdktf.stringToHclTerraform(this._etag),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      file: {
+        value: cdktf.stringToHclTerraform(this._file),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      metadata: {
+        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._metadata),
+        isBlock: false,
+        type: "map",
+        storageClassType: "stringMap",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      transfer_encoding: {
+        value: cdktf.stringToHclTerraform(this._transferEncoding),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
   }
 }
