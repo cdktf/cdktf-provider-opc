@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/dataopccomputevnic"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/dataopccomputevnic"
 
 dataopccomputevnic.NewDataOpcComputeVnic(scope Construct, id *string, config DataOpcComputeVnicConfig) DataOpcComputeVnic
 ```
@@ -54,6 +54,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.addOverride">AddOverride</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.toHclTerraform">ToHclTerraform</a></code> | Adds this resource to the terraform JSON output. |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.toMetadata">ToMetadata</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
@@ -119,6 +120,14 @@ func ResetOverrideLogicalId()
 ```
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
+
+##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.toHclTerraform"></a>
+
+```go
+func ToHclTerraform() interface{}
+```
+
+Adds this resource to the terraform JSON output.
 
 ##### `ToMetadata` <a name="ToMetadata" id="@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.toMetadata"></a>
 
@@ -274,7 +283,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/dataopccomputevnic"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/dataopccomputevnic"
 
 dataopccomputevnic.DataOpcComputeVnic_IsConstruct(x interface{}) *bool
 ```
@@ -306,7 +315,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/dataopccomputevnic"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/dataopccomputevnic"
 
 dataopccomputevnic.DataOpcComputeVnic_IsTerraformElement(x interface{}) *bool
 ```
@@ -320,7 +329,7 @@ dataopccomputevnic.DataOpcComputeVnic_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/dataopccomputevnic"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/dataopccomputevnic"
 
 dataopccomputevnic.DataOpcComputeVnic_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -334,7 +343,7 @@ dataopccomputevnic.DataOpcComputeVnic_IsTerraformDataSource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnic.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/dataopccomputevnic"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/dataopccomputevnic"
 
 dataopccomputevnic.DataOpcComputeVnic_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -640,7 +649,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.dataOpcComputeVnic.DataOpcComputeVnicConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/dataopccomputevnic"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/dataopccomputevnic"
 
 &dataopccomputevnic.DataOpcComputeVnicConfig {
 	Connection: interface{},

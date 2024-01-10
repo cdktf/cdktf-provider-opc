@@ -105,6 +105,25 @@ export function lbaasPolicyApplicationCookieStickinessPolicyToTerraform(struct?:
   }
 }
 
+
+export function lbaasPolicyApplicationCookieStickinessPolicyToHclTerraform(struct?: LbaasPolicyApplicationCookieStickinessPolicyOutputReference | LbaasPolicyApplicationCookieStickinessPolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    cookie_name: {
+      value: cdktf.stringToHclTerraform(struct!.cookieName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
 export class LbaasPolicyApplicationCookieStickinessPolicyOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
@@ -180,6 +199,43 @@ export function lbaasPolicyCloudgatePolicyToTerraform(struct?: LbaasPolicyCloudg
     identity_service_instance_guid: cdktf.stringToTerraform(struct!.identityServiceInstanceGuid),
     virtual_hostname_for_policy_attribution: cdktf.stringToTerraform(struct!.virtualHostnameForPolicyAttribution),
   }
+}
+
+
+export function lbaasPolicyCloudgatePolicyToHclTerraform(struct?: LbaasPolicyCloudgatePolicyOutputReference | LbaasPolicyCloudgatePolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    cloudgate_application: {
+      value: cdktf.stringToHclTerraform(struct!.cloudgateApplication),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    cloudgate_policy_name: {
+      value: cdktf.stringToHclTerraform(struct!.cloudgatePolicyName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    identity_service_instance_guid: {
+      value: cdktf.stringToHclTerraform(struct!.identityServiceInstanceGuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    virtual_hostname_for_policy_attribution: {
+      value: cdktf.stringToHclTerraform(struct!.virtualHostnameForPolicyAttribution),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class LbaasPolicyCloudgatePolicyOutputReference extends cdktf.ComplexObject {
@@ -310,6 +366,25 @@ export function lbaasPolicyLoadBalancerCookieStickinessPolicyToTerraform(struct?
   }
 }
 
+
+export function lbaasPolicyLoadBalancerCookieStickinessPolicyToHclTerraform(struct?: LbaasPolicyLoadBalancerCookieStickinessPolicyOutputReference | LbaasPolicyLoadBalancerCookieStickinessPolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    cookie_expiration_period: {
+      value: cdktf.numberToHclTerraform(struct!.cookieExpirationPeriod),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
 export class LbaasPolicyLoadBalancerCookieStickinessPolicyOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
@@ -370,6 +445,25 @@ export function lbaasPolicyLoadBalancingMechanismPolicyToTerraform(struct?: Lbaa
   return {
     load_balancing_mechanism: cdktf.stringToTerraform(struct!.loadBalancingMechanism),
   }
+}
+
+
+export function lbaasPolicyLoadBalancingMechanismPolicyToHclTerraform(struct?: LbaasPolicyLoadBalancingMechanismPolicyOutputReference | LbaasPolicyLoadBalancingMechanismPolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    load_balancing_mechanism: {
+      value: cdktf.stringToHclTerraform(struct!.loadBalancingMechanism),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class LbaasPolicyLoadBalancingMechanismPolicyOutputReference extends cdktf.ComplexObject {
@@ -467,6 +561,67 @@ export function lbaasPolicyRateLimitingRequestPolicyToTerraform(struct?: LbaasPo
     zone: cdktf.stringToTerraform(struct!.zone),
     zone_memory_size: cdktf.numberToTerraform(struct!.zoneMemorySize),
   }
+}
+
+
+export function lbaasPolicyRateLimitingRequestPolicyToHclTerraform(struct?: LbaasPolicyRateLimitingRequestPolicyOutputReference | LbaasPolicyRateLimitingRequestPolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    burst_size: {
+      value: cdktf.numberToHclTerraform(struct!.burstSize),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    delay_excessive_requests: {
+      value: cdktf.booleanToHclTerraform(struct!.delayExcessiveRequests),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    http_error_code: {
+      value: cdktf.numberToHclTerraform(struct!.httpErrorCode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    logging_level: {
+      value: cdktf.stringToHclTerraform(struct!.loggingLevel),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    rate_limiting_criteria: {
+      value: cdktf.stringToHclTerraform(struct!.rateLimitingCriteria),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    requests_per_second: {
+      value: cdktf.numberToHclTerraform(struct!.requestsPerSecond),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    zone: {
+      value: cdktf.stringToHclTerraform(struct!.zone),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    zone_memory_size: {
+      value: cdktf.numberToHclTerraform(struct!.zoneMemorySize),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class LbaasPolicyRateLimitingRequestPolicyOutputReference extends cdktf.ComplexObject {
@@ -681,6 +836,31 @@ export function lbaasPolicyRedirectPolicyToTerraform(struct?: LbaasPolicyRedirec
   }
 }
 
+
+export function lbaasPolicyRedirectPolicyToHclTerraform(struct?: LbaasPolicyRedirectPolicyOutputReference | LbaasPolicyRedirectPolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    redirect_uri: {
+      value: cdktf.stringToHclTerraform(struct!.redirectUri),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    response_code: {
+      value: cdktf.numberToHclTerraform(struct!.responseCode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
 export class LbaasPolicyRedirectPolicyOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
@@ -770,6 +950,37 @@ export function lbaasPolicyResourceAccessControlPolicyToTerraform(struct?: Lbaas
     disposition: cdktf.stringToTerraform(struct!.disposition),
     permitted_clients: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.permittedClients),
   }
+}
+
+
+export function lbaasPolicyResourceAccessControlPolicyToHclTerraform(struct?: LbaasPolicyResourceAccessControlPolicyOutputReference | LbaasPolicyResourceAccessControlPolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    denied_clients: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.deniedClients),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    disposition: {
+      value: cdktf.stringToHclTerraform(struct!.disposition),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    permitted_clients: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.permittedClients),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class LbaasPolicyResourceAccessControlPolicyOutputReference extends cdktf.ComplexObject {
@@ -896,6 +1107,49 @@ export function lbaasPolicySetRequestHeaderPolicyToTerraform(struct?: LbaasPolic
     header_name: cdktf.stringToTerraform(struct!.headerName),
     value: cdktf.stringToTerraform(struct!.value),
   }
+}
+
+
+export function lbaasPolicySetRequestHeaderPolicyToHclTerraform(struct?: LbaasPolicySetRequestHeaderPolicyOutputReference | LbaasPolicySetRequestHeaderPolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    action_when_header_exists: {
+      value: cdktf.stringToHclTerraform(struct!.actionWhenHeaderExists),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    action_when_header_value_is: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.actionWhenHeaderValueIs),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    action_when_header_value_is_not: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.actionWhenHeaderValueIsNot),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    header_name: {
+      value: cdktf.stringToHclTerraform(struct!.headerName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktf.stringToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class LbaasPolicySetRequestHeaderPolicyOutputReference extends cdktf.ComplexObject {
@@ -1063,6 +1317,43 @@ export function lbaasPolicySslNegotiationPolicyToTerraform(struct?: LbaasPolicyS
   }
 }
 
+
+export function lbaasPolicySslNegotiationPolicyToHclTerraform(struct?: LbaasPolicySslNegotiationPolicyOutputReference | LbaasPolicySslNegotiationPolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    port: {
+      value: cdktf.numberToHclTerraform(struct!.port),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    server_order_preference: {
+      value: cdktf.stringToHclTerraform(struct!.serverOrderPreference),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ssl_ciphers: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.sslCiphers),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    ssl_protocol: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.sslProtocol),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
 export class LbaasPolicySslNegotiationPolicyOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
@@ -1186,6 +1477,25 @@ export function lbaasPolicyTrustedCertificatePolicyToTerraform(struct?: LbaasPol
   return {
     trusted_certificate: cdktf.stringToTerraform(struct!.trustedCertificate),
   }
+}
+
+
+export function lbaasPolicyTrustedCertificatePolicyToHclTerraform(struct?: LbaasPolicyTrustedCertificatePolicyOutputReference | LbaasPolicyTrustedCertificatePolicy): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    trusted_certificate: {
+      value: cdktf.stringToHclTerraform(struct!.trustedCertificate),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
 export class LbaasPolicyTrustedCertificatePolicyOutputReference extends cdktf.ComplexObject {
@@ -1541,5 +1851,91 @@ export class LbaasPolicy extends cdktf.TerraformResource {
       ssl_negotiation_policy: lbaasPolicySslNegotiationPolicyToTerraform(this._sslNegotiationPolicy.internalValue),
       trusted_certificate_policy: lbaasPolicyTrustedCertificatePolicyToTerraform(this._trustedCertificatePolicy.internalValue),
     };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      load_balancer: {
+        value: cdktf.stringToHclTerraform(this._loadBalancer),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      application_cookie_stickiness_policy: {
+        value: lbaasPolicyApplicationCookieStickinessPolicyToHclTerraform(this._applicationCookieStickinessPolicy.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "LbaasPolicyApplicationCookieStickinessPolicyList",
+      },
+      cloudgate_policy: {
+        value: lbaasPolicyCloudgatePolicyToHclTerraform(this._cloudgatePolicy.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "LbaasPolicyCloudgatePolicyList",
+      },
+      load_balancer_cookie_stickiness_policy: {
+        value: lbaasPolicyLoadBalancerCookieStickinessPolicyToHclTerraform(this._loadBalancerCookieStickinessPolicy.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "LbaasPolicyLoadBalancerCookieStickinessPolicyList",
+      },
+      load_balancing_mechanism_policy: {
+        value: lbaasPolicyLoadBalancingMechanismPolicyToHclTerraform(this._loadBalancingMechanismPolicy.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "LbaasPolicyLoadBalancingMechanismPolicyList",
+      },
+      rate_limiting_request_policy: {
+        value: lbaasPolicyRateLimitingRequestPolicyToHclTerraform(this._rateLimitingRequestPolicy.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "LbaasPolicyRateLimitingRequestPolicyList",
+      },
+      redirect_policy: {
+        value: lbaasPolicyRedirectPolicyToHclTerraform(this._redirectPolicy.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "LbaasPolicyRedirectPolicyList",
+      },
+      resource_access_control_policy: {
+        value: lbaasPolicyResourceAccessControlPolicyToHclTerraform(this._resourceAccessControlPolicy.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "LbaasPolicyResourceAccessControlPolicyList",
+      },
+      set_request_header_policy: {
+        value: lbaasPolicySetRequestHeaderPolicyToHclTerraform(this._setRequestHeaderPolicy.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "LbaasPolicySetRequestHeaderPolicyList",
+      },
+      ssl_negotiation_policy: {
+        value: lbaasPolicySslNegotiationPolicyToHclTerraform(this._sslNegotiationPolicy.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "LbaasPolicySslNegotiationPolicyList",
+      },
+      trusted_certificate_policy: {
+        value: lbaasPolicyTrustedCertificatePolicyToHclTerraform(this._trustedCertificatePolicy.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "LbaasPolicyTrustedCertificatePolicyList",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
   }
 }

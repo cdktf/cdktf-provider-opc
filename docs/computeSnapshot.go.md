@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeSnapshot.ComputeSnapshot.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesnapshot"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computesnapshot"
 
 computesnapshot.NewComputeSnapshot(scope Construct, id *string, config ComputeSnapshotConfig) ComputeSnapshot
 ```
@@ -54,6 +54,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktf/provider-opc.computeSnapshot.ComputeSnapshot.addOverride">AddOverride</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSnapshot.ComputeSnapshot.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
 | <code><a href="#@cdktf/provider-opc.computeSnapshot.ComputeSnapshot.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktf/provider-opc.computeSnapshot.ComputeSnapshot.toHclTerraform">ToHclTerraform</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSnapshot.ComputeSnapshot.toMetadata">ToMetadata</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSnapshot.ComputeSnapshot.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
 | <code><a href="#@cdktf/provider-opc.computeSnapshot.ComputeSnapshot.addMoveTarget">AddMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
@@ -129,6 +130,12 @@ func ResetOverrideLogicalId()
 ```
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
+
+##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktf/provider-opc.computeSnapshot.ComputeSnapshot.toHclTerraform"></a>
+
+```go
+func ToHclTerraform() interface{}
+```
 
 ##### `ToMetadata` <a name="ToMetadata" id="@cdktf/provider-opc.computeSnapshot.ComputeSnapshot.toMetadata"></a>
 
@@ -412,7 +419,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.computeSnapshot.ComputeSnapshot.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesnapshot"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computesnapshot"
 
 computesnapshot.ComputeSnapshot_IsConstruct(x interface{}) *bool
 ```
@@ -444,7 +451,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.computeSnapshot.ComputeSnapshot.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesnapshot"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computesnapshot"
 
 computesnapshot.ComputeSnapshot_IsTerraformElement(x interface{}) *bool
 ```
@@ -458,7 +465,7 @@ computesnapshot.ComputeSnapshot_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.computeSnapshot.ComputeSnapshot.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesnapshot"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computesnapshot"
 
 computesnapshot.ComputeSnapshot_IsTerraformResource(x interface{}) *bool
 ```
@@ -472,7 +479,7 @@ computesnapshot.ComputeSnapshot_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-opc.computeSnapshot.ComputeSnapshot.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesnapshot"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computesnapshot"
 
 computesnapshot.ComputeSnapshot_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -844,7 +851,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeSnapshot.ComputeSnapshotConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesnapshot"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computesnapshot"
 
 &computesnapshot.ComputeSnapshotConfig {
 	Connection: interface{},
@@ -858,7 +865,7 @@ import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesnapshot"
 	Account: *string,
 	Id: *string,
 	MachineImage: *string,
-	Timeouts: github.com/cdktf/cdktf-provider-opc-go/opc/v7.computeSnapshot.ComputeSnapshotTimeouts,
+	Timeouts: github.com/cdktf/cdktf-provider-opc-go/opc/v8.computeSnapshot.ComputeSnapshotTimeouts,
 }
 ```
 
@@ -1021,7 +1028,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeSnapshot.ComputeSnapshotTimeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesnapshot"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computesnapshot"
 
 &computesnapshot.ComputeSnapshotTimeouts {
 	Create: *string,
@@ -1069,7 +1076,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeSnapshot.ComputeSnapshotTimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesnapshot"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computesnapshot"
 
 computesnapshot.NewComputeSnapshotTimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ComputeSnapshotTimeoutsOutputReference
 ```

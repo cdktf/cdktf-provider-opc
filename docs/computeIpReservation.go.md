@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeIpReservation.ComputeIpReservation.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipreservation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computeipreservation"
 
 computeipreservation.NewComputeIpReservation(scope Construct, id *string, config ComputeIpReservationConfig) ComputeIpReservation
 ```
@@ -54,6 +54,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktf/provider-opc.computeIpReservation.ComputeIpReservation.addOverride">AddOverride</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpReservation.ComputeIpReservation.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
 | <code><a href="#@cdktf/provider-opc.computeIpReservation.ComputeIpReservation.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktf/provider-opc.computeIpReservation.ComputeIpReservation.toHclTerraform">ToHclTerraform</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpReservation.ComputeIpReservation.toMetadata">ToMetadata</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeIpReservation.ComputeIpReservation.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
 | <code><a href="#@cdktf/provider-opc.computeIpReservation.ComputeIpReservation.addMoveTarget">AddMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
@@ -128,6 +129,12 @@ func ResetOverrideLogicalId()
 ```
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
+
+##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktf/provider-opc.computeIpReservation.ComputeIpReservation.toHclTerraform"></a>
+
+```go
+func ToHclTerraform() interface{}
+```
 
 ##### `ToMetadata` <a name="ToMetadata" id="@cdktf/provider-opc.computeIpReservation.ComputeIpReservation.toMetadata"></a>
 
@@ -399,7 +406,7 @@ func ResetTags()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.computeIpReservation.ComputeIpReservation.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipreservation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computeipreservation"
 
 computeipreservation.ComputeIpReservation_IsConstruct(x interface{}) *bool
 ```
@@ -431,7 +438,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.computeIpReservation.ComputeIpReservation.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipreservation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computeipreservation"
 
 computeipreservation.ComputeIpReservation_IsTerraformElement(x interface{}) *bool
 ```
@@ -445,7 +452,7 @@ computeipreservation.ComputeIpReservation_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.computeIpReservation.ComputeIpReservation.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipreservation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computeipreservation"
 
 computeipreservation.ComputeIpReservation_IsTerraformResource(x interface{}) *bool
 ```
@@ -459,7 +466,7 @@ computeipreservation.ComputeIpReservation_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-opc.computeIpReservation.ComputeIpReservation.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipreservation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computeipreservation"
 
 computeipreservation.ComputeIpReservation_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -820,7 +827,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeIpReservation.ComputeIpReservationConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computeipreservation"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computeipreservation"
 
 &computeipreservation.ComputeIpReservationConfig {
 	Connection: interface{},

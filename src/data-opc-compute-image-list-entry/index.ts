@@ -179,4 +179,36 @@ export class DataOpcComputeImageListEntry extends cdktf.TerraformDataSource {
       version: cdktf.numberToTerraform(this._version),
     };
   }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      entry: {
+        value: cdktf.numberToHclTerraform(this._entry),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      image_list: {
+        value: cdktf.stringToHclTerraform(this._imageList),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      version: {
+        value: cdktf.numberToHclTerraform(this._version),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
 }

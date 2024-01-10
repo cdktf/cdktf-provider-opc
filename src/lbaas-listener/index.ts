@@ -373,4 +373,90 @@ export class LbaasListener extends cdktf.TerraformResource {
       virtual_hosts: cdktf.listMapper(cdktf.stringToTerraform, false)(this._virtualHosts),
     };
   }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      balancer_protocol: {
+        value: cdktf.stringToHclTerraform(this._balancerProtocol),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      certificates: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._certificates),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
+      enabled: {
+        value: cdktf.booleanToHclTerraform(this._enabled),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      load_balancer: {
+        value: cdktf.stringToHclTerraform(this._loadBalancer),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      path_prefixes: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._pathPrefixes),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
+      policies: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._policies),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
+      port: {
+        value: cdktf.numberToHclTerraform(this._port),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      server_pool: {
+        value: cdktf.stringToHclTerraform(this._serverPool),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      server_protocol: {
+        value: cdktf.stringToHclTerraform(this._serverProtocol),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      tags: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._tags),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
+      virtual_hosts: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._virtualHosts),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
 }

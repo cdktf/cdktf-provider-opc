@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeSshKey.ComputeSshKey.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesshkey"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computesshkey"
 
 computesshkey.NewComputeSshKey(scope Construct, id *string, config ComputeSshKeyConfig) ComputeSshKey
 ```
@@ -54,6 +54,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktf/provider-opc.computeSshKey.ComputeSshKey.addOverride">AddOverride</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSshKey.ComputeSshKey.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
 | <code><a href="#@cdktf/provider-opc.computeSshKey.ComputeSshKey.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktf/provider-opc.computeSshKey.ComputeSshKey.toHclTerraform">ToHclTerraform</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSshKey.ComputeSshKey.toMetadata">ToMetadata</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSshKey.ComputeSshKey.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
 | <code><a href="#@cdktf/provider-opc.computeSshKey.ComputeSshKey.addMoveTarget">AddMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
@@ -126,6 +127,12 @@ func ResetOverrideLogicalId()
 ```
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
+
+##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktf/provider-opc.computeSshKey.ComputeSshKey.toHclTerraform"></a>
+
+```go
+func ToHclTerraform() interface{}
+```
 
 ##### `ToMetadata` <a name="ToMetadata" id="@cdktf/provider-opc.computeSshKey.ComputeSshKey.toMetadata"></a>
 
@@ -385,7 +392,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.computeSshKey.ComputeSshKey.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesshkey"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computesshkey"
 
 computesshkey.ComputeSshKey_IsConstruct(x interface{}) *bool
 ```
@@ -417,7 +424,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.computeSshKey.ComputeSshKey.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesshkey"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computesshkey"
 
 computesshkey.ComputeSshKey_IsTerraformElement(x interface{}) *bool
 ```
@@ -431,7 +438,7 @@ computesshkey.ComputeSshKey_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.computeSshKey.ComputeSshKey.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesshkey"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computesshkey"
 
 computesshkey.ComputeSshKey_IsTerraformResource(x interface{}) *bool
 ```
@@ -445,7 +452,7 @@ computesshkey.ComputeSshKey_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-opc.computeSshKey.ComputeSshKey.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesshkey"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computesshkey"
 
 computesshkey.ComputeSshKey_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -762,7 +769,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeSshKey.ComputeSshKeyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesshkey"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computesshkey"
 
 &computesshkey.ComputeSshKeyConfig {
 	Connection: interface{},

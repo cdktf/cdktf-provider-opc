@@ -164,4 +164,36 @@ export class ComputeIpAssociation extends cdktf.TerraformResource {
       vcable: cdktf.stringToTerraform(this._vcable),
     };
   }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      parent_pool: {
+        value: cdktf.stringToHclTerraform(this._parentPool),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      vcable: {
+        value: cdktf.stringToHclTerraform(this._vcable),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
 }

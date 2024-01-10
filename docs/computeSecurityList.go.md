@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesecuritylist"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computesecuritylist"
 
 computesecuritylist.NewComputeSecurityList(scope Construct, id *string, config ComputeSecurityListConfig) ComputeSecurityList
 ```
@@ -54,6 +54,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.addOverride">AddOverride</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.toHclTerraform">ToHclTerraform</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.toMetadata">ToMetadata</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
 | <code><a href="#@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.addMoveTarget">AddMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
@@ -128,6 +129,12 @@ func ResetOverrideLogicalId()
 ```
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
+
+##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.toHclTerraform"></a>
+
+```go
+func ToHclTerraform() interface{}
+```
 
 ##### `ToMetadata` <a name="ToMetadata" id="@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.toMetadata"></a>
 
@@ -399,7 +406,7 @@ func ResetPolicy()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesecuritylist"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computesecuritylist"
 
 computesecuritylist.ComputeSecurityList_IsConstruct(x interface{}) *bool
 ```
@@ -431,7 +438,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesecuritylist"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computesecuritylist"
 
 computesecuritylist.ComputeSecurityList_IsTerraformElement(x interface{}) *bool
 ```
@@ -445,7 +452,7 @@ computesecuritylist.ComputeSecurityList_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesecuritylist"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computesecuritylist"
 
 computesecuritylist.ComputeSecurityList_IsTerraformResource(x interface{}) *bool
 ```
@@ -459,7 +466,7 @@ computesecuritylist.ComputeSecurityList_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-opc.computeSecurityList.ComputeSecurityList.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesecuritylist"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computesecuritylist"
 
 computesecuritylist.ComputeSecurityList_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -798,7 +805,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeSecurityList.ComputeSecurityListConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computesecuritylist"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computesecuritylist"
 
 &computesecuritylist.ComputeSecurityListConfig {
 	Connection: interface{},

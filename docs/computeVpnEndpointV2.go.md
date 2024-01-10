@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeVpnEndpointV2.ComputeVpnEndpointV2.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computevpnendpointv2"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computevpnendpointv2"
 
 computevpnendpointv2.NewComputeVpnEndpointV2(scope Construct, id *string, config ComputeVpnEndpointV2Config) ComputeVpnEndpointV2
 ```
@@ -54,6 +54,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktf/provider-opc.computeVpnEndpointV2.ComputeVpnEndpointV2.addOverride">AddOverride</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeVpnEndpointV2.ComputeVpnEndpointV2.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
 | <code><a href="#@cdktf/provider-opc.computeVpnEndpointV2.ComputeVpnEndpointV2.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktf/provider-opc.computeVpnEndpointV2.ComputeVpnEndpointV2.toHclTerraform">ToHclTerraform</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeVpnEndpointV2.ComputeVpnEndpointV2.toMetadata">ToMetadata</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.computeVpnEndpointV2.ComputeVpnEndpointV2.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
 | <code><a href="#@cdktf/provider-opc.computeVpnEndpointV2.ComputeVpnEndpointV2.addMoveTarget">AddMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
@@ -136,6 +137,12 @@ func ResetOverrideLogicalId()
 ```
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
+
+##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktf/provider-opc.computeVpnEndpointV2.ComputeVpnEndpointV2.toHclTerraform"></a>
+
+```go
+func ToHclTerraform() interface{}
+```
 
 ##### `ToMetadata` <a name="ToMetadata" id="@cdktf/provider-opc.computeVpnEndpointV2.ComputeVpnEndpointV2.toMetadata"></a>
 
@@ -473,7 +480,7 @@ func ResetTimeouts()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.computeVpnEndpointV2.ComputeVpnEndpointV2.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computevpnendpointv2"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computevpnendpointv2"
 
 computevpnendpointv2.ComputeVpnEndpointV2_IsConstruct(x interface{}) *bool
 ```
@@ -505,7 +512,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.computeVpnEndpointV2.ComputeVpnEndpointV2.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computevpnendpointv2"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computevpnendpointv2"
 
 computevpnendpointv2.ComputeVpnEndpointV2_IsTerraformElement(x interface{}) *bool
 ```
@@ -519,7 +526,7 @@ computevpnendpointv2.ComputeVpnEndpointV2_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.computeVpnEndpointV2.ComputeVpnEndpointV2.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computevpnendpointv2"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computevpnendpointv2"
 
 computevpnendpointv2.ComputeVpnEndpointV2_IsTerraformResource(x interface{}) *bool
 ```
@@ -533,7 +540,7 @@ computevpnendpointv2.ComputeVpnEndpointV2_IsTerraformResource(x interface{}) *bo
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-opc.computeVpnEndpointV2.ComputeVpnEndpointV2.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computevpnendpointv2"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computevpnendpointv2"
 
 computevpnendpointv2.ComputeVpnEndpointV2_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -1136,7 +1143,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeVpnEndpointV2.ComputeVpnEndpointV2Config.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computevpnendpointv2"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computevpnendpointv2"
 
 &computevpnendpointv2.ComputeVpnEndpointV2Config {
 	Connection: interface{},
@@ -1156,11 +1163,11 @@ import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computevpnendpointv2"
 	Enabled: interface{},
 	Id: *string,
 	IkeIdentifier: *string,
-	PhaseOneSettings: github.com/cdktf/cdktf-provider-opc-go/opc/v7.computeVpnEndpointV2.ComputeVpnEndpointV2PhaseOneSettings,
-	PhaseTwoSettings: github.com/cdktf/cdktf-provider-opc-go/opc/v7.computeVpnEndpointV2.ComputeVpnEndpointV2PhaseTwoSettings,
+	PhaseOneSettings: github.com/cdktf/cdktf-provider-opc-go/opc/v8.computeVpnEndpointV2.ComputeVpnEndpointV2PhaseOneSettings,
+	PhaseTwoSettings: github.com/cdktf/cdktf-provider-opc-go/opc/v8.computeVpnEndpointV2.ComputeVpnEndpointV2PhaseTwoSettings,
 	RequirePerfectForwardSecrecy: interface{},
 	Tags: *[]*string,
-	Timeouts: github.com/cdktf/cdktf-provider-opc-go/opc/v7.computeVpnEndpointV2.ComputeVpnEndpointV2Timeouts,
+	Timeouts: github.com/cdktf/cdktf-provider-opc-go/opc/v8.computeVpnEndpointV2.ComputeVpnEndpointV2Timeouts,
 }
 ```
 
@@ -1457,7 +1464,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeVpnEndpointV2.ComputeVpnEndpointV2PhaseOneSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computevpnendpointv2"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computevpnendpointv2"
 
 &computevpnendpointv2.ComputeVpnEndpointV2PhaseOneSettings {
 	DhGroup: *string,
@@ -1531,7 +1538,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeVpnEndpointV2.ComputeVpnEndpointV2PhaseTwoSettings.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computevpnendpointv2"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computevpnendpointv2"
 
 &computevpnendpointv2.ComputeVpnEndpointV2PhaseTwoSettings {
 	Encryption: *string,
@@ -1591,7 +1598,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeVpnEndpointV2.ComputeVpnEndpointV2Timeouts.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computevpnendpointv2"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computevpnendpointv2"
 
 &computevpnendpointv2.ComputeVpnEndpointV2Timeouts {
 	Create: *string,
@@ -1653,7 +1660,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeVpnEndpointV2.ComputeVpnEndpointV2PhaseOneSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computevpnendpointv2"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computevpnendpointv2"
 
 computevpnendpointv2.NewComputeVpnEndpointV2PhaseOneSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ComputeVpnEndpointV2PhaseOneSettingsOutputReference
 ```
@@ -1997,7 +2004,7 @@ func InternalValue() ComputeVpnEndpointV2PhaseOneSettings
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeVpnEndpointV2.ComputeVpnEndpointV2PhaseTwoSettingsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computevpnendpointv2"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computevpnendpointv2"
 
 computevpnendpointv2.NewComputeVpnEndpointV2PhaseTwoSettingsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ComputeVpnEndpointV2PhaseTwoSettingsOutputReference
 ```
@@ -2319,7 +2326,7 @@ func InternalValue() ComputeVpnEndpointV2PhaseTwoSettings
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeVpnEndpointV2.ComputeVpnEndpointV2TimeoutsOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/computevpnendpointv2"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computevpnendpointv2"
 
 computevpnendpointv2.NewComputeVpnEndpointV2TimeoutsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ComputeVpnEndpointV2TimeoutsOutputReference
 ```

@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.dataOpcComputeSshKey.DataOpcComputeSshKey.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/dataopccomputesshkey"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/dataopccomputesshkey"
 
 dataopccomputesshkey.NewDataOpcComputeSshKey(scope Construct, id *string, config DataOpcComputeSshKeyConfig) DataOpcComputeSshKey
 ```
@@ -54,6 +54,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeSshKey.DataOpcComputeSshKey.addOverride">AddOverride</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeSshKey.DataOpcComputeSshKey.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeSshKey.DataOpcComputeSshKey.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktf/provider-opc.dataOpcComputeSshKey.DataOpcComputeSshKey.toHclTerraform">ToHclTerraform</a></code> | Adds this resource to the terraform JSON output. |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeSshKey.DataOpcComputeSshKey.toMetadata">ToMetadata</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeSshKey.DataOpcComputeSshKey.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
 | <code><a href="#@cdktf/provider-opc.dataOpcComputeSshKey.DataOpcComputeSshKey.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
@@ -119,6 +120,14 @@ func ResetOverrideLogicalId()
 ```
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
+
+##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktf/provider-opc.dataOpcComputeSshKey.DataOpcComputeSshKey.toHclTerraform"></a>
+
+```go
+func ToHclTerraform() interface{}
+```
+
+Adds this resource to the terraform JSON output.
 
 ##### `ToMetadata` <a name="ToMetadata" id="@cdktf/provider-opc.dataOpcComputeSshKey.DataOpcComputeSshKey.toMetadata"></a>
 
@@ -274,7 +283,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.dataOpcComputeSshKey.DataOpcComputeSshKey.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/dataopccomputesshkey"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/dataopccomputesshkey"
 
 dataopccomputesshkey.DataOpcComputeSshKey_IsConstruct(x interface{}) *bool
 ```
@@ -306,7 +315,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.dataOpcComputeSshKey.DataOpcComputeSshKey.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/dataopccomputesshkey"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/dataopccomputesshkey"
 
 dataopccomputesshkey.DataOpcComputeSshKey_IsTerraformElement(x interface{}) *bool
 ```
@@ -320,7 +329,7 @@ dataopccomputesshkey.DataOpcComputeSshKey_IsTerraformElement(x interface{}) *boo
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktf/provider-opc.dataOpcComputeSshKey.DataOpcComputeSshKey.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/dataopccomputesshkey"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/dataopccomputesshkey"
 
 dataopccomputesshkey.DataOpcComputeSshKey_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -334,7 +343,7 @@ dataopccomputesshkey.DataOpcComputeSshKey_IsTerraformDataSource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-opc.dataOpcComputeSshKey.DataOpcComputeSshKey.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/dataopccomputesshkey"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/dataopccomputesshkey"
 
 dataopccomputesshkey.DataOpcComputeSshKey_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -607,7 +616,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.dataOpcComputeSshKey.DataOpcComputeSshKeyConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v7/dataopccomputesshkey"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/dataopccomputesshkey"
 
 &dataopccomputesshkey.DataOpcComputeSshKeyConfig {
 	Connection: interface{},
