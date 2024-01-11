@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.lbaasServerPool.LbaasServerPool.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaasserverpool"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/lbaasserverpool"
 
 lbaasserverpool.NewLbaasServerPool(scope Construct, id *string, config LbaasServerPoolConfig) LbaasServerPool
 ```
@@ -426,7 +426,7 @@ func ResetVnicSet()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.lbaasServerPool.LbaasServerPool.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaasserverpool"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/lbaasserverpool"
 
 lbaasserverpool.LbaasServerPool_IsConstruct(x interface{}) *bool
 ```
@@ -458,7 +458,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.lbaasServerPool.LbaasServerPool.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaasserverpool"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/lbaasserverpool"
 
 lbaasserverpool.LbaasServerPool_IsTerraformElement(x interface{}) *bool
 ```
@@ -472,7 +472,7 @@ lbaasserverpool.LbaasServerPool_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.lbaasServerPool.LbaasServerPool.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaasserverpool"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/lbaasserverpool"
 
 lbaasserverpool.LbaasServerPool_IsTerraformResource(x interface{}) *bool
 ```
@@ -486,7 +486,7 @@ lbaasserverpool.LbaasServerPool_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-opc.lbaasServerPool.LbaasServerPool.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaasserverpool"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/lbaasserverpool"
 
 lbaasserverpool.LbaasServerPool_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -946,7 +946,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.lbaasServerPool.LbaasServerPoolConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaasserverpool"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/lbaasserverpool"
 
 &lbaasserverpool.LbaasServerPoolConfig {
 	Connection: interface{},
@@ -960,7 +960,7 @@ import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaasserverpool"
 	Name: *string,
 	Servers: *[]*string,
 	Enabled: interface{},
-	HealthCheck: github.com/cdktf/cdktf-provider-opc-go/opc.lbaasServerPool.LbaasServerPoolHealthCheck,
+	HealthCheck: github.com/cdktf/cdktf-provider-opc-go/opc/v8.lbaasServerPool.LbaasServerPoolHealthCheck,
 	Id: *string,
 	Tags: *[]*string,
 	VnicSet: *string,
@@ -1165,7 +1165,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.lbaasServerPool.LbaasServerPoolHealthCheck.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaasserverpool"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/lbaasserverpool"
 
 &lbaasserverpool.LbaasServerPoolHealthCheck {
 	AcceptedReturnCodes: *[]*string,
@@ -1297,7 +1297,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.lbaasServerPool.LbaasServerPoolHealthCheckOutputReference.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/lbaasserverpool"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/lbaasserverpool"
 
 lbaasserverpool.NewLbaasServerPoolHealthCheckOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) LbaasServerPoolHealthCheckOutputReference
 ```

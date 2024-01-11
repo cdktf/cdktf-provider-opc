@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpList.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityiplist"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computesecurityiplist"
 
 computesecurityiplist.NewComputeSecurityIpList(scope Construct, id *string, config ComputeSecurityIpListConfig) ComputeSecurityIpList
 ```
@@ -392,7 +392,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpList.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityiplist"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computesecurityiplist"
 
 computesecurityiplist.ComputeSecurityIpList_IsConstruct(x interface{}) *bool
 ```
@@ -424,7 +424,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpList.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityiplist"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computesecurityiplist"
 
 computesecurityiplist.ComputeSecurityIpList_IsTerraformElement(x interface{}) *bool
 ```
@@ -438,7 +438,7 @@ computesecurityiplist.ComputeSecurityIpList_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpList.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityiplist"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computesecurityiplist"
 
 computesecurityiplist.ComputeSecurityIpList_IsTerraformResource(x interface{}) *bool
 ```
@@ -452,7 +452,7 @@ computesecurityiplist.ComputeSecurityIpList_IsTerraformResource(x interface{}) *
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpList.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityiplist"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computesecurityiplist"
 
 computesecurityiplist.ComputeSecurityIpList_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -769,7 +769,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.computeSecurityIpList.ComputeSecurityIpListConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/computesecurityiplist"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/computesecurityiplist"
 
 &computesecurityiplist.ComputeSecurityIpListConfig {
 	Connection: interface{},
