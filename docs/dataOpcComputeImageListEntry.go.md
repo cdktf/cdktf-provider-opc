@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/dataopccomputeimagelistentry"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputeimagelistentry"
 
 dataopccomputeimagelistentry.NewDataOpcComputeImageListEntry(scope Construct, id *string, config DataOpcComputeImageListEntryConfig) DataOpcComputeImageListEntry
 ```
@@ -290,7 +290,7 @@ func ResetId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/dataopccomputeimagelistentry"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputeimagelistentry"
 
 dataopccomputeimagelistentry.DataOpcComputeImageListEntry_IsConstruct(x interface{}) *bool
 ```
@@ -322,7 +322,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/dataopccomputeimagelistentry"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputeimagelistentry"
 
 dataopccomputeimagelistentry.DataOpcComputeImageListEntry_IsTerraformElement(x interface{}) *bool
 ```
@@ -336,7 +336,7 @@ dataopccomputeimagelistentry.DataOpcComputeImageListEntry_IsTerraformElement(x i
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/dataopccomputeimagelistentry"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputeimagelistentry"
 
 dataopccomputeimagelistentry.DataOpcComputeImageListEntry_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -350,7 +350,7 @@ dataopccomputeimagelistentry.DataOpcComputeImageListEntry_IsTerraformDataSource(
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntry.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/dataopccomputeimagelistentry"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputeimagelistentry"
 
 dataopccomputeimagelistentry.DataOpcComputeImageListEntry_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -678,7 +678,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.dataOpcComputeImageListEntry.DataOpcComputeImageListEntryConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/dataopccomputeimagelistentry"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/dataopccomputeimagelistentry"
 
 &dataopccomputeimagelistentry.DataOpcComputeImageListEntryConfig {
 	Connection: interface{},
