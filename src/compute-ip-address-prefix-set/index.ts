@@ -1,3 +1,8 @@
+/**
+ * Copyright (c) HashiCorp, Inc.
+ * SPDX-License-Identifier: MPL-2.0
+ */
+
 // https://registry.terraform.io/providers/hashicorp/opc/1.4.1/docs/resources/compute_ip_address_prefix_set
 // generated from terraform resource schema
 
