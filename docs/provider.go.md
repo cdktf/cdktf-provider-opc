@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/opc/1.4.1/
 #### Initializers <a name="Initializers" id="@cdktf/provider-opc.provider.OpcProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/provider"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/provider"
 
 provider.NewOpcProvider(scope Construct, id *string, config OpcProviderConfig) OpcProvider
 ```
@@ -193,7 +193,7 @@ func ResetStorageServiceId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-opc.provider.OpcProvider.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/provider"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/provider"
 
 provider.OpcProvider_IsConstruct(x interface{}) *bool
 ```
@@ -225,7 +225,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-opc.provider.OpcProvider.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/provider"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/provider"
 
 provider.OpcProvider_IsTerraformElement(x interface{}) *bool
 ```
@@ -239,7 +239,7 @@ provider.OpcProvider_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformProvider` <a name="IsTerraformProvider" id="@cdktf/provider-opc.provider.OpcProvider.isTerraformProvider"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/provider"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/provider"
 
 provider.OpcProvider_IsTerraformProvider(x interface{}) *bool
 ```
@@ -253,7 +253,7 @@ provider.OpcProvider_IsTerraformProvider(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-opc.provider.OpcProvider.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/provider"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/provider"
 
 provider.OpcProvider_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -636,7 +636,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-opc.provider.OpcProviderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-opc-go/opc/v8/provider"
+import "github.com/cdktf/cdktf-provider-opc-go/opc/provider"
 
 &provider.OpcProviderConfig {
 	IdentityDomain: *string,
